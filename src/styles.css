@@ -1,1 +1,172 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Source+Sans+Pro');
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #F1F1F1;
+}
+.c, .a, .r, .e {
+    font-size: 160px;
+    letter-spacing: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+.c {
+    color: #E64C3C;
+}
+.a {
+    color: #48A0DC;
+}
+.r {
+    color: #60D966;
+}
+.e {
+    color: #F5D14E;
+}
+h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.header-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    padding: 60px 0px;
+}
+.container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+.header {
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.descrip {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.cards {
+    width: 70%;
+}
+.card-holder {
+    padding: 10px;
+}
+.card {
+    background-color: #ff5a49;
+    padding: 5px 20px;
+    color: #FFF;
+    border: 7px solid #E64C3C;
+    border-color: #E64C3C #b23a2e;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px 25px;
+    border-radius: 30px;
+    background-color: #F1F1F1;
+}
+.nav-item {
+    display: inline-block;
+}
+.nav-item a {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+.nav-item a:hover {
+    transform: scale(1.1);
+}
+
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+}
+/*for mobile*/
+[class*="col-"] {
+    width: 100%;
+}
+/*for desktop*/
+@media all and (min-width: 800px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+footer {
+    background-color: #FFF;
+    width: 100%;
+    padding: 40px 0px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content {
+    padding: 0 12%;
+}
+.foot-text {
+    padding: 5px 0px;
+}
+.foot-img {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+}
