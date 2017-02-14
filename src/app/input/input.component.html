@@ -14,15 +14,53 @@
             <div class="col-6 card-holder">
                 <div class="card">
                     <h3>Inclusion criteria:</h3>
-                    <p>Some stuff here</p>
+                    <input #newIn placeholder="None" type="text" (keyup.enter)="addTerm(newIn.value); newIn.value=''">
+                    <button class="button-1" (click)="addTerm(newIn.value); newIn.value=''">Add</button>
+                    <button class="button-1" (click)="removeAll()">Remove all</button>
+                    <ul class="input-list">
+                      <li *ngFor="let in of inArray; let i=index">
+                        <input class="sub-input" #currentIn value={{in}} (keyup.enter)="updateTerm(currentIn.value, i)" type="text">
+                        <button class="button-2" (click)="updateTerm(currentIn.value, i)">Update</button>
+                        <button class="button-2" (click)="removeTerm(currentIn.value)">Remove</button>
+                      </li>
+                    </ul>
                 </div>
             </div>
             <div class="col-6 card-holder">
                 <div class="card">
                     <h3>Exclusion criteria:</h3>
-                    <p>Some stuff here</p>
+                    <input #newEx placeholder="None" type="text" (keyup.enter)="addTerm2(newEx.value); newEx.value=''"> 
+                    <button class="button-1" (click)="addTerm2(newEx.value); newEx.value=''">Add</button> 
+                    <button class="button-1" (click)="removeAll2()">Remove all</button>
+                    <ul class="input-list"> 
+                      <li *ngFor="let ex of exArray; let i=index">
+                          <input class="sub-input" #currentEx value={{ex}} (keyup.enter)="updateTerm2(currentEx.value, i)"type="text">
+                          <button class="button2" (click)="updateTerm2(currentEx.value, i)">Update</button>
+                          <button class="button2" (click)="removeTerm2(currentEx.value)">Remove</button>
+                      </li>
+                    </ul>
                 </div>
             </div>
+        </div>
+        <div class="row card-2">
+          <div class="row">
+            <div class="col-10">
+              <h3>Inputted inclusion:</h3>
+              <input class="results" readonly="true" value={{inList}} placeholder="None" type="text">
+            </div>
+            <div class="col-2 button-holder">
+              <button class="button-3" (click)="onClear()">Clear all</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-10">
+              <h3>Inputted exclusion:</h3>
+              <input class="results" readonly="true" value={{exList}} placeholder="None" type="text">
+            </div>
+            <div class="col-2 button-holder">
+              <button class="button-3" (click)="onSubmit()">Submit</button>
+            </div>
+          </div>
         </div>
     </div>
 </div>
