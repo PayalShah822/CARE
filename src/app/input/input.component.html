@@ -35,8 +35,8 @@
                     <ul class="input-list"> 
                       <li *ngFor="let ex of exArray; let i=index">
                           <input class="sub-input" #currentEx value={{ex}} (keyup.enter)="updateTerm2(currentEx.value, i)"type="text">
-                          <button class="button2" (click)="updateTerm2(currentEx.value, i)">Update</button>
-                          <button class="button2" (click)="removeTerm2(currentEx.value)">Remove</button>
+                          <button class="button-2" (click)="updateTerm2(currentEx.value, i)">Update</button>
+                          <button class="button-2" (click)="removeTerm2(currentEx.value)">Remove</button>
                       </li>
                     </ul>
                 </div>

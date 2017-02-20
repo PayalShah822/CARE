@@ -9,7 +9,7 @@ import { InputComponent } from './input/input.component';
 import { AboutComponent } from './about/about.component';
 import { RecordsComponent } from './records/records.component';
 import { AppRouting } from './app.routing';
-
+import { InputManagerService } from './input-manager.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,7 @@ import { AppRouting } from './app.routing';
     HttpModule,
     AppRouting
   ],
-  providers: [],
+  providers: [InputManagerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

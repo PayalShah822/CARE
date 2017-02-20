@@ -88,13 +88,9 @@ h2 {
     border-color: #E64C3C #b23a2e;
 }
 .card-2 {
-    border: 2px solid #000;
     width: 78%;
     margin-top: 20px;
     padding: 5px 20px 20px 20px;
-    background-color: #48A0DC;
-    border: 7px solid #48A0DC;
-    border-color: #3f90c6 #3880af;
 }
 .results {
     width: 100%;
@@ -135,7 +131,7 @@ input {
     background-color: #48A0DC;
     color: #FFF;
     font-weight: bold;
-    padding: 3px 7px;
+    padding: 3px 5px;
     cursor: pointer;
     margin-left: 5px;
     -webkit-transition: all 0.2s ease-in-out;
