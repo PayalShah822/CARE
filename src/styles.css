@@ -27,6 +27,10 @@ h2 {
     font-size: 20px;
     margin-top: 0px;
 }
+h4 {
+    font-size: 30px;
+    margin: 5px 0px;
+}
 .header-container {
     display: -webkit-box;
     display: -moz-box;
@@ -180,6 +184,48 @@ input {
 }
 .input-list {
     list-style: none;
+}
+.display {
+    background-color: #ff5a49;
+    border: 7px solid #E64C3C;
+    border-color: #E64C3C #b23a2e;
+    font-size: 18px;
+    padding: 25px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: auto;
+}
+.display th {
+    text-align: left;
+    padding: 15px 20px;
+    border-bottom: 3px solid #000;
+}
+.display td {
+    padding: 15px 20px;
+}
+.records {
+    cursor: pointer;
+}
+.records:hover {
+    background-color: #F1F1F1;
+}
+tr {
+    background-color: #FFF;
+}
+.selected {
+    background-color: #d8d8d8;
+}
+.record-descrip {
+    background-color: #FFF;
+    margin-top: 50px;
+    padding: 25px;
+}
+.sub {
+    margin: 0;
+    font-size: 16px;
+    color: #999999;
 }
 * {
     box-sizing: border-box;

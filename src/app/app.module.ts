@@ -8,8 +8,8 @@ import { AppComponent } from './app.component';
 import { InputComponent } from './input/input.component';
 import { AboutComponent } from './about/about.component';
 import { RecordsComponent } from './records/records.component';
+import { ManagerService } from './manager.service';
 import { AppRouting } from './app.routing';
-import { InputManagerService } from './input-manager.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,7 @@ import { InputManagerService } from './input-manager.service';
     HttpModule,
     AppRouting
   ],
-  providers: [InputManagerService],
+  providers: [ ManagerService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

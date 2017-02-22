@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { InputManagerService } from '../input-manager.service';
 
 @Component({
   selector: 'app-input',
@@ -7,13 +6,12 @@ import { InputManagerService } from '../input-manager.service';
 })
 export class InputComponent implements OnInit {
 
-  //make this a service later and import zhttp
   inList = "";
   exList = "";
   inArray = Array<string>();
   exArray = Array<string>();
 
-  constructor(private inputManagerService: InputManagerService) { }
+  constructor() { }
 
   ngOnInit() {
   }
