@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Http } from '@angular/http';
 
 @Component({
   selector: 'app-input',
@@ -10,8 +11,9 @@ export class InputComponent implements OnInit {
   exList = "";
   inArray = Array<string>();
   exArray = Array<string>();
+  params = "";
 
-  constructor() { }
+  constructor( public http: Http ) {}
 
   ngOnInit() {
   }
@@ -154,6 +156,9 @@ export class InputComponent implements OnInit {
       this.exList = "";
   }
   onSubmit(): void {
+      this.params = "?incl=" + this.inList + "&excl=" + this.exList; 
+      window.location.href = <any>'http://localhost:3000/api/inclexcl' + this.params;
+      console.log('localhost:3000/api/inclexcl' + this.params);
       console.log('Inclusion list: ' + this.inList);
       console.log('Exclusion list: ' + this.exList);
   }
