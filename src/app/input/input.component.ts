@@ -157,10 +157,7 @@ export class InputComponent implements OnInit {
   }
   onSubmit(): void {
       this.params = "?incl=" + this.inList + "&excl=" + this.exList; 
-      window.location.href = <any>'http://localhost:3000/api/inclexcl' + this.params;
-      console.log('localhost:3000/api/inclexcl' + this.params);
-      console.log('Inclusion list: ' + this.inList);
-      console.log('Exclusion list: ' + this.exList);
+      window.location.href = <any>'http://74.208.84.27:4040/api/inclexcl' + this.params;
   }
 
 }

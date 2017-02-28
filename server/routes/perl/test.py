@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import sys, json
+import sys, json, os
 
 def read_in():
     lines = sys.stdin.readlines()
@@ -12,11 +12,13 @@ def main():
     #get our data as an array from read_in()
     lines = read_in()
     sort = lines.split(";")
-    print("Inclusion Criteria: " + sort[0])
-    print("Exclusion Criteria: " + sort[1])
+    fileOutput = open(os.path.join(os.getcwd(),"server","routes","perl","InclExcl","outputs","exclusion.txt"), "w")
+    fileInput = open(os.path.join(os.getcwd(),"server","routes","perl","InclExcl","outputs", "inclusion.txt"), "w")
+    fileOutput.write(sort[1])
+    fileInput.write(sort[0])
+    print("done")
     sys.stdout.flush()
 
 #start process
 if __name__ == '__main__':
     main()
-
