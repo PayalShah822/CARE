@@ -6,9 +6,7 @@ use warnings;
 use MetaMap::DataStructures;
 
 
-
-chdir("xml");
-chdir("outputs");
+chdir("routes/perl/xml/outputs");
 system "ls > outputFiles.txt";
 if (!-e "datastructures_outputs"){
 	system "mkdir datastructures_outputs";

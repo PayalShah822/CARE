@@ -1,0 +1,33 @@
+<div class="row container">
+  <div class="col-9">
+    <h1>Records</h1>
+    <p>The records below are ranked, with concepts based on input highlighted in yellow.
+    Ranking is based off the grade. Click on each record in the table to see more details.</p>
+    <table>
+      <tr class="table-header">
+        <th class="rank">Rank</th>
+        <th class="name">Name</th>
+        <th class="content">Content</th>
+        <th class="grade">Grade</th>
+      </tr>
+      <tr *ngFor="let record of recordsArray; let i=index; let odd=odd; let even=even;" (click)="onSelect(record)"
+      [ngClass]="{odd: odd, even: even}" class="middle" [class.active]="record === selectedRecord">
+        <td class="rank">{{i+1}}</td>
+        <td class="name">{{record.name}}</td>
+        <td class="content">{{ replaceAll(record.content) | ellipsis: 300}}</td>
+        <td class="grade">{{record.grade}}</td>
+      </tr>
+      <tr class="table-footer">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <div *ngIf="selectedRecord" class="description">
+      <h3>Details on record <span class="blue">{{selectedRecord.name}}</span></h3>
+      Grade: {{selectedRecord.grade}}
+      <p [innerHTML]="selectedRecord.content"></p>
+    </div>
+  </div>
+</div>

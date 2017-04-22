@@ -4,13 +4,17 @@
 use strict;
 use warnings;
 use XML::Twig;
+use Cwd qw();
+
 
 #system "./bin/skrmedpostctl start";
 #system "./bin/wsdserverctl start";
-chdir("InclExcl");
+chdir("routes/perl/InclExcl");
 if (!-e "outputs"){
 	system "mkdir outputs";
 }
+my $path = Cwd::abs_path();
+print "$path\n";
 
 my $output1 = "exclusion.txt";
 my $output2 = $output1;

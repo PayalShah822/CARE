@@ -1,6 +1,0 @@
-[
-    {"id":"123", "rank":"1", "grade":"100", "description":"This is an example record that is good. For now, this will just contain some gibberish and nonesense just to simulate an action record description."},
-    {"id":"234", "rank":"2", "grade":"75", "description":"This is an example record that is good. For now, this will just contain some gibberish and nonesense just to simulate an action record description."},
-    {"id":"345", "rank":"3", "grade":"50", "description":"This is an example record that is good. For now, this will just contain some gibberish and nonesense just to simulate an action record description."},
-    {"id":"456", "rank":"4", "grade":"25","description":"This is an example record that is good. For now, this will just contain some gibberish and nonesense just to simulate an action record description."}
-]

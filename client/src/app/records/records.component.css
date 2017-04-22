@@ -1,0 +1,52 @@
+.description {
+    background-color: #FFF;
+    border: 1px solid #CBCBCB;
+    padding: 10px 20px;
+    margin: 35px 0 25px 0;
+}
+table {
+    background-color: #FFF;
+    border: 1px solid #CBCBCB;
+    margin: 30px 0;
+    border-collapse: collapse;
+}
+.even {
+    background-color: #F1F1F1; 
+}
+.odd {
+    background-color: #e0e0e0;
+}
+.table-footer {
+    height: 35px;
+    border-top: 1px solid #CBCBCB;
+}
+.table-header {
+    height: 40px;
+    border-bottom: 1px solid #CBCBCB;
+}
+.middle {
+    cursor: pointer;
+    transition: 0.25s;
+}
+.middle div {
+    min-height: 50px;
+}
+.middle:hover, .active {
+    background-color: #FFF;
+}
+td, th {
+    text-align: left;
+    padding: 5px 10px;
+}
+.rank {
+    width: 5%;
+}
+.grade {
+    width: 5%;
+}
+.name {
+    width: 10%;
+}
+.content {
+    width: 80%;
+}

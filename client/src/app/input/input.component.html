@@ -1,0 +1,46 @@
+<div class="row container">
+  <div class="col-9">
+    <h1>Input</h1>
+    <p>Input (in|ex)clusion criteria to filter and grade records below. Add individual 
+    input one at a time, or input multiple items at once, separating each item with a comma. To update 
+    individual items, add changes and then click update. To remove a single item, click remove. To clear 
+    all inclusion criteria, click remove all in the appropriate column. To clear all exclusion criteria, 
+    click remove all in the appropriate column. To clear all input, click clear all.</p>
+    <form>
+      <div class="row container">
+        <div class="col-6">
+          <label class="title" for="inclusion">Inclusion criteria:</label>
+          <button class="blue-button" type="button" (click)="addTerm(newIn.value, true); newIn.value=''">Add</button>
+          <input #newIn type="text" class="field" id="inclusion" (keyup.enter)="addTerm(newIn.value, true); newIn.value=''">
+          <ul>
+            <li *ngFor="let in of inArray; let i=index">
+              <input #currentIn class="field-3" value={{in}} type="text">
+              <button class="smaller blue-button" type="button" (click)="updateTerm(currentIn.value, true, i)">Update</button>
+              <button class="smaller red-button" type="button" (click)="removeTerm(currentIn.value, true)">Remove</button>
+            </li>
+          </ul>
+          <label class="title-2" for="included">Inputted inclusion:</label>
+          <textarea class="field-2" readonly="true" value="{{inList}}" placeholder="None" type="text" id="included"></textarea>
+        </div>
+        <div class="col-6">
+          <label class="title" for="exclusion">Exclusion criteria:</label>
+          <button class="blue-button" type="button" (click)="addTerm(newEx.value, false); newEx.value=''">Add</button>
+          <input #newEx type="text" class="field" id="exclusion" (keyup.enter)="addTerm(newEx.value, false); newEx.value=''">
+          <ul>
+            <li *ngFor="let ex of exArray; let i=index">
+              <input #currentEx class="field-3" value={{ex}} type="text">
+              <button class="smaller blue-button" type="button" (click)="updateTerm(currentEx.value, false, i)">Update</button>
+              <button class="smaller red-button" type="button" (click)="removeTerm(currentEx.value, false)">Remove</button>
+            </li>
+          </ul>
+          <label class="title-2" for="excluded">Inputted exclusion:</label>
+          <textarea class="field-2" readonly="true" value="{{exList}}" placeholder="None" type="text" id="excluded"></textarea>
+        </div>
+      </div>
+      <div class="row button-container">
+        <button class="larger green-button" (click)="submit(inList, exList)">Submit</button>
+        <button class="larger red-button" type="button" (click)="clear(); newIn.value=''; newEx.value=''">Clear all</button>
+      </div>
+    </form>
+  </div>
+</div>

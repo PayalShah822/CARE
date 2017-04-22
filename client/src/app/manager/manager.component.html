@@ -1,0 +1,64 @@
+<div class="row container">
+  <div class="col-9">
+    <h1>Manage Records</h1>
+    <p>View, remove, or update records in the table below. Note that you can currently only delete one record at a time.
+    Only one record can be edited at a time as well. Note that when a record is edited, it's grade resets to zero. To add 
+    a record, keep scrolling down and fill out the appropriate form.</p>
+    <div class="fake-table">
+      <div class="row top">
+        <div class="col-1">Name</div>
+        <div class="col-8">Content</div>
+        <div class="col-1">Grade</div>
+        <div class="col-1">Delete</div>
+        <div class="col-1">Edit</div>
+      </div>
+      <div class="row middle" *ngFor="let record of recordsArray; let i=index; let odd=odd; let even=even;" [ngClass]="{odd: odd, even: even}">
+        <form [formGroup]="editForm" (ngSubmit)="update(editForm.value, record)">
+          <div class="col-1">
+            <span *ngIf="!record.editMode">{{record.name}}</span>
+            <input *ngIf="record.editMode" type="text" class="field" id="editName" 
+            [(ngModel)]="record.name" [formControl]="editForm.controls['editName']">
+          </div>
+          <div class="col-8">
+            <span *ngIf="!record.editMode">{{ replaceAll(record.content) | ellipsis: 150}}</span>
+            <textarea *ngIf="record.editMode" class="field-2" id="editContent" 
+            [(ngModel)]="record.content" [formControl]="editForm.controls['editContent']"></textarea>
+          </div>
+          <div class="col-1">
+            <span>{{record.grade}}</span>
+          </div>
+          <div class="col-1">
+            <button type="button" class="red" (click)="delete(record)">Delete</button>
+          </div>
+          <div class="col-1">
+            <button *ngIf="!record.editMode" class="blue" type="button" (click)="edit(record)">Edit</button>
+            <button *ngIf="record.editMode" class="blue" type="submit" [disabled]="!editForm.valid">Update</button>
+            <button *ngIf="record.editMode" class="red" type="button" (click)="cancel(record, i)">Cancel</button>
+          </div>
+        </form>
+      </div>
+      <div class="row bottom">
+	<div class="middle" align="center" style="padding-top: 3px" >
+	<button type="button" class="blue" (click)="updateRecords()">Import Local Records</button>
+      	</div>
+	</div>
+    </div>
+    <div class="form-container">
+      <form [formGroup]="recordForm" (ngSubmit)="submit(recordForm.value)" class="recordForm">
+        <div class="row">
+          <h2>Add record</h2>
+          <p>Add a record by filling out the form below. Input must be valid in JSON format.</p>
+        </div>
+        <div class="row">
+          <label for="name">Name:</label>
+          <input type="text" class="field" [formControl]="recordForm.controls['name']" id="name">
+        </div>
+        <div class="row">
+          <label for="content">Content:</label>
+          <textarea class="field-2" [formControl]="recordForm.controls['content']" id="content"></textarea>
+        </div>
+        <button type="submit" class="submit" [disabled]="!recordForm.valid">Add</button>
+      </form>
+    </div>
+  </div>
+</div>

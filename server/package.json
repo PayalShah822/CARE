@@ -1,0 +1,19 @@
+{
+  "name": "care_system",
+  "version": "1.0.0",
+  "description": "CARE system developed for CS312",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.3",
+    "node": "0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordan Tang",
+  "license": "ISC"
+}

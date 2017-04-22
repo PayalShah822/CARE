@@ -7,7 +7,7 @@ use XML::Twig;
 
 system "./bin/skrmedpostctl start";
 system "./bin/wsdserverctl start";
-chdir("xml");
+chdir("routes/perl/xml");
 system "ls > files.txt";
 if (!-e "outputs"){
 	system "mkdir outputs";
@@ -46,4 +46,3 @@ while (my $line = <$fh>) {
 chdir("..");
 system "./bin/skrmedpostctl stop";
 system "./bin/wsdserverctl stop";
-
