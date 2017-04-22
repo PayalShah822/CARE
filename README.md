@@ -51,7 +51,7 @@ npm install
 
 Create a collection for the records within MongoDB. By default, the system works with a collection called 'records'. See MongoDB documentation for instructions on how to do so. 
 
-Within the `/records` directory, configure the MongoClient in `parser.py` to whatever port the MongoDB server is running on (By default: 27017). Be sure to change the name of the collection as well if you chose to name your collection in MongoDB something other than 'records'.
+Within the `/perls` directory, configure the MongoClient in `parser.py` to whatever port the MongoDB server is running on (By default: 27017). Be sure to change the name of the collection as well if you chose to name your collection in MongoDB something other than 'records'.
 
 ```python
 client = MongoClient('localhost', 27017) <<< edit this if necessary
@@ -88,6 +88,8 @@ This next step is optional depending on if you changed the port above. Navigate 
 ```javascript
 private url = 'http://localhost:4000/api/records'; <<<edit the port number if necessary
 ```
+
+Next, you should navigate to the perl directory under /server. Here you need to create two new folders. The first of which will be named "InclExcl". This will be where the inclusion and exclusion criteria will be stored and read from. The second of these folders is the "xml" folder. This will be where you have to manually store your raw data directories from which the records will be read and interpreted. Once on the webpage, you can head over to the manager tab and click the "Import Local Files" button which will initiated the processing of all the local records in the "xml" directory
 
 You should now be set and ready to run the system. 
 
