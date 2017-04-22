@@ -51,7 +51,7 @@ npm install
 
 Create a collection for the records within MongoDB. By default, the system works with a collection called 'records'. See MongoDB documentation for instructions on how to do so. 
 
-Within the `/perls` directory, configure the MongoClient in `parser.py` to whatever port the MongoDB server is running on (By default: 27017). Be sure to change the name of the collection as well if you chose to name your collection in MongoDB something other than 'records'.
+Within the `/perls` directory, configure the MongoClient in `parserWeb.py` to whatever port the MongoDB server is running on (By default: 27017). Be sure to change the name of the collection as well if you chose to name your collection in MongoDB something other than 'records'.
 
 ```python
 client = MongoClient('localhost', 27017) <<< edit this if necessary
@@ -59,13 +59,13 @@ db = client.records <<< records by default, change if name of your collection is
 collection = db.records <<< see above
 ```
 
-Then alter the path directory to the folder containing the records stored within the `/records` directory (By default: the path containing the records is `/records/raw_records/`).  
+Then alter the path directory to the folder containing the records stored within the `/records` directory (By default: the path containing the records is `/perl/xml/`).  
 
 ```python
-for root, dirnames, files in os.walk('./raw_records'): <<< edit the path if necessary
+for root, dirnames, files in os.walk('./routes/perl/xml'): <<< edit the path if necessary
     for name in files:
         dbName = name.replace('.xml', '')
-        tree = ET.parse('./raw_records/' + name) <<< see above
+        tree = ET.parse('./routes/perl/xml/' + name) <<< see above
         root = tree.getroot()
 ```
 
@@ -95,13 +95,9 @@ You should now be set and ready to run the system.
 
 ## Running the System
 
-To start, make sure that MongoDB is running in the background (`mongod` in whatever path you have set already during MongoDB installation). Then navigate to the records directory and run the following command:
+To start, make sure that MongoDB is running in the background (`mongod` in whatever path you have set already during MongoDB installation). 
 
-```
-python parser.py
-```
-
-The above command will parse through the records within the directory and automatically insert them into MongoDB. After that, navigate to the server directory and run the following command:
+After that, navigate to the server directory and run the following command:
 
 ```
 node index
@@ -113,7 +109,7 @@ Then navigate to the client directory and run the following command:
 ng serve
 ```
 
-At this point, the system should be up and running and ready to use. Navigate to `http://localhost:4200` in your browser and you should see the working application.
+At this point, the system should be up and running and ready to use. Navigate to `http://localhost:4200` in your browser and you should see the working application. To import any local records, head over to the manager tab and click the import local records button.
 
 ## Using the System
 
