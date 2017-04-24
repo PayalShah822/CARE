@@ -19,8 +19,7 @@ router.get('/update', function(req, res, next) {
   var parse = path.resolve(path.join(__dirname, "perl/parserScript.pl"))
   var parseRun = exec("perl " + parse, function(err,stdout,stderr){
   });
-  parseRun.stdout.on("data", function(data) {
-        console.log(data.toString());
+  parseRun.stdout.on("end", function(data) {
         var meta = path.resolve(path.join(__dirname, "perl/MetamapDatastructures.pl"))
         var metaRun = exec("perl " + meta, function(err,stdout,stderr){
         });
@@ -39,7 +38,6 @@ router.get('/update', function(req, res, next) {
 });
 
 router.get('/inclexcl', (req, res) => {
-  var count = 0
   var inclu = req.query['incl'];
   var exclu = req.query['excl'];
   var pa = path.resolve(path.join(__dirname, "/perl/inclexcl.py"));
@@ -53,30 +51,28 @@ router.get('/inclexcl', (req, res) => {
       var pt = path.resolve(path.join(__dirname, "/perl/InclExclParser.pl"));
       var prun = exec("perl " + pt, function(err,stdout,stderr){
       });
-      prun.stdout.on('data', function(data){
-        console.log(data.toString());
-        //var score = path.resole(path.join(__dirname, "/perl/scorer.pl"));
-        //var scorerun = exev("perl" + pt, function(err,stdout,stderr){});
-        //scorerun.stdout.on("data", function(data){});
-        var update = path.resolve(path.join(__dirname, "perl/updateScore.py"));
-        var updaterun = exec("python " + update, function(err,stdout,stderr){
+      prun.stdout.on('end', function(data){
+        var score = path.resolve(path.join(__dirname, "/perl/scorer.pl"));
+        var scorerun = exec("perl " + score, function(err,stdout,stderr){});
+        scorerun.stdout.on("end", function(data){
+          var update = path.resolve(path.join(__dirname, "perl/updateScore.py"));
+          var updaterun = exec("python " + update, function(err,stdout,stderr){
+          });
+          updaterun.stdout.on('end', function(data){
+              return res.send({"work":"Success"});
+          });
+          updaterun.stderr.on('data', function(data){
+            console.log(data.toString());
+          });
+          
         });
-        updaterun.stdout.on('data', function(data){
+        scorerun.stderr.on("data", function(data){
           console.log(data.toString());
-          if(count == 0) {
-            count = 1;
-            return res.send({"work":"Success"});
-          }
         });
-        updaterun.stderr.on('data', function(data){
-          console.log(data.toString());
-        });
-
       });
       prun.stderr.on('data', function(data){
         console.log(data.toString());
       });
-
     }
     });
 });

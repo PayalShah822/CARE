@@ -21,8 +21,6 @@ if (!-e "outputs"){
 
 open(my $fh, "<", "files.txt") or die "Can't open file: $!";
 
-
-
 my $twig;
 my $output;
 my $command;
@@ -43,7 +41,9 @@ while (my $line = <$fh>) {
 		$output = $line;
 		$output =~ s/\.xml/\-output\.xml/;
 		$output = "outputs/" . $output;
-		system "metamap -q -y $line $output";
+		if(! -e $output) {
+			system "metamap -q -y $line $output";
+		}
 	}
 }
 

@@ -8,11 +8,10 @@ client = pymongo.MongoClient('localhost', 27017)
 db = client.records
 collection = db.records
 
-print(os.getcwd())
+collection.remove({})
 for root, dirnames, files in os.walk('./routes/perl/xml'):
     for name in files:
         if(name!="files.txt"):
-            print(name)
             dbName = name.replace('.xml', '')
             parser = ET.XMLParser(encoding="utf-8")
             tree = ET.parse('./routes/perl/xml/' + name, parser)
