@@ -5,8 +5,7 @@ use strict;
 use warnings;
 use XML::Twig;
 
-system "./bin/skrmedpostctl start";
-system "./bin/wsdserverctl start";
+
 chdir("routes/perl");
 if (!-e "InclExcl"){
 	system "mkdir InclExcl";
@@ -51,5 +50,4 @@ while (my $line = <$fh>) {
 
 
 chdir("..");
-system "./bin/skrmedpostctl stop";
-system "./bin/wsdserverctl stop";
+
