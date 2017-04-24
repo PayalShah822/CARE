@@ -14,7 +14,6 @@ if (!-e "outputs"){
 	system "mkdir outputs";
 }
 my $path = Cwd::abs_path();
-print "$path\n";
 
 my $output1 = "exclusion.txt";
 my $output2 = $output1;

@@ -34,7 +34,7 @@ for root, dirnames, files in os.walk('./routes/perl/xml'):
                     {
                         "name": dbName,
                         "content": elem.text,
-                        "grade": 5
+                        "grade": 0
                     }
                 )
             except pymongo.errors.DuplicateKeyError:

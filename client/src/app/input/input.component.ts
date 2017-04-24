@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router'
 import { InputService} from '../services/input.service';
+import { ManageRecordsService} from '../services/manage-records.service';
 
 @Component({
   selector: 'app-input',
-  providers: [InputService],
+  providers: [InputService,ManageRecordsService],
   templateUrl: './input.component.html',
   styleUrls: ['./input.component.css']
 })
@@ -14,7 +16,9 @@ export class InputComponent implements OnInit {
   inArray = Array<string>();
   exArray = Array<string>();
 
-  constructor(private inputService: InputService) { }
+  constructor(private inputService: InputService,private manageRecordsService: ManageRecordsService, private router: Router) {
+    //this.manageRecordsService.getUpdate().subscribe(data => {});
+  }
 
   ngOnInit() {
   }
@@ -156,7 +160,8 @@ export class InputComponent implements OnInit {
 
   submit(a: any, b: any) {
     this.inputService.getInput(a,b).subscribe(data => {
-      location.reload();
-    })
+       this.router.navigateByUrl("/records");
+    });
+   
   }
 }

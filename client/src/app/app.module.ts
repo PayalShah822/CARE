@@ -30,4 +30,8 @@ import { AppRouting } from './app.routing';
   providers: [ ManageRecordsService ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  constructor(private manageRecordsService: ManageRecordsService) {
+    this.manageRecordsService.getUpdate().subscribe(data => {});
+  }
+}

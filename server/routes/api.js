@@ -1,6 +1,7 @@
 var exec = require('child_process').exec;
 var path = require('path');
 const express = require('express');
+var sleep = require('sleep');
 const router = express.Router();
 const Record = require('../models/record');
 
@@ -38,6 +39,7 @@ router.get('/update', function(req, res, next) {
 });
 
 router.get('/inclexcl', (req, res) => {
+  var count = 0
   var inclu = req.query['incl'];
   var exclu = req.query['excl'];
   var pa = path.resolve(path.join(__dirname, "/perl/inclexcl.py"));
@@ -52,6 +54,24 @@ router.get('/inclexcl', (req, res) => {
       var prun = exec("perl " + pt, function(err,stdout,stderr){
       });
       prun.stdout.on('data', function(data){
+        console.log(data.toString());
+        //var score = path.resole(path.join(__dirname, "/perl/scorer.pl"));
+        //var scorerun = exev("perl" + pt, function(err,stdout,stderr){});
+        //scorerun.stdout.on("data", function(data){});
+        var update = path.resolve(path.join(__dirname, "perl/updateScore.py"));
+        var updaterun = exec("python " + update, function(err,stdout,stderr){
+        });
+        updaterun.stdout.on('data', function(data){
+          console.log(data.toString());
+          if(count == 0) {
+            count = 1;
+            return res.send({"work":"Success"});
+          }
+        });
+        updaterun.stderr.on('data', function(data){
+          console.log(data.toString());
+        });
+
       });
       prun.stderr.on('data', function(data){
         console.log(data.toString());
@@ -59,7 +79,6 @@ router.get('/inclexcl', (req, res) => {
 
     }
     });
-  res.send({"work":"Success"});
 });
 
 

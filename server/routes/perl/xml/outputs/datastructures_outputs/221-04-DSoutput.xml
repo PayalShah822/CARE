@@ -1,0 +1,2958 @@
+
+
+---------  Citations Results  ----------------
+
+numCitations = 1
+begin listing citations:
+---------------------------------------------------------------
+
+PMID = 00000000
+-------------Utterances-----------------------
+00000000.ti.1',"<?xml version=""1.0"" encoding=""UTF-8""?> <root>   <TEXT><![CDATA[",0/63,[]).phrase('<?xml version',[punc([inputmatch([<]),tokens([])]),punc([inputmatch([?]),tokens([])]),mod([lexmatch([xml]),inputmatch([xml]),tag(noun),tokens([xml])]),head([lexmatch([version]),inputmatch([version]),tag(noun),tokens([version])])],0/13,[]).candidates(3,0,0,3,[]).mappings([map(-888,[ev(-694,'C1707981','XML','Extensible Markup Language',[xml],[inpr],[[[1,1],[1,1],0]],no,no,['HL7V3.0','NCI'],[2/3],0,0),ev(-861,'C0333052','Version','Version',[version],[ftcn],[[[2,2],[1,1],0]],yes,no,['CHV','HL7V3.0','LNC','MTH','MTHICD9','NCI','NCI_CDISC'],[6/7],0,0)])]).phrase('="1.0"',[punc([inputmatch([=]),tokens([])]),punc([inputmatch(['"']),tokens([])]),shapes([inputmatch(['1','.','0']),features([real_number]),tokens(['1','0'])]),punc([inputmatch(['"']),tokens([])])],13/6,[]).candidates(4,0,0,4,[]).mappings([map(-888,[ev(-861,'C2981698','1+','1+ Score, WHO',['1'],[clas],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[15/1],0,0),ev(-861,'C3842591','0%','0%',['0'],[fndg],[[[2,2],[1,1],0]],yes,no,['LNC'],[17/1],0,0)])]).phrase(encoding,[verb([lexmatch([encoding]),inputmatch([encoding]),tag(verb),tokens([encoding])])],20/8,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C1547699','Encoding','MIME encoding',[encoding],[idcn],[[[1,1],[1,1],0]],yes,no,['HL7V2.5','MTH'],[20/8],0,0)])]).phrase('="UTF-8"?',[punc([inputmatch([=]),tokens([])]),punc([inputmatch(['"']),tokens([])]),mod([lexmatch([utf]),inputmatch(['UTF']),tag(noun),tokens([utf])]),punc([inputmatch([-]),tokens([])]),shapes([inputmatch(['8']),features([integer]),tokens(['8'])]),punc([inputmatch(['"']),tokens([])]),punc([inputmatch([?]),tokens([])])],28/9,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C1555005','UTF-8','UTF-8',[utf,'8'],[inpr],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['HL7V3.0'],[30/5],0,0)])]).phrase(>,[punc([inputmatch([>]),tokens([])])],37/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('<root',[punc([inputmatch([<]),tokens([])]),head([lexmatch([root]),inputmatch([root]),tag(noun),tokens([root])])],39/5,[]).candidates(4,0,0,4,[]).mappings([map(-1000,[ev(-1000,'C1318154','Root','Root body part',[root],[bpoc],[[[1,1],[1,1],0]],yes,no,['CHV','LNC','MTH'],[40/4],0,0)])]).phrase(>,[punc([inputmatch([>]),tokens([])])],44/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('<TEXT',[punc([inputmatch([<]),tokens([])]),head([lexmatch([text]),inputmatch(['TEXT']),tag(noun),tokens([text])])],48/5,[]).candidates(4,0,0,4,[]).mappings([map(-1000,[ev(-1000,'C1705606','Text','Text Line',[text],[inpr],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[49/4],0,0)])]).phrase(>,[punc([inputmatch([>]),tokens([])])],53/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('<!',[punc([inputmatch([<]),tokens([])]),punc([inputmatch([!]),tokens([])])],54/2,[]).candidates(0,0,0,0,[]).mappings([]).phrase('[CDATA',[punc([inputmatch(['[']),tokens([])]),head([inputmatch(['CDATA']),tag(noun),tokens([cdata])])],56/6,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C0640049','CDATA','3-chloro-4-dimethylaminothioangelicin',[cdata],[orch],[[[1,1],[1,1],0]],yes,no,['MSH'],[57/5],0,0)])]).phrase('[',[punc([inputmatch(['[']),tokens([])])],62/1,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Record date: 2092-03-15",0/23,[]).phrase('Record date',[mod([lexmatch([record]),inputmatch(['Record']),tag(noun),tokens([record])]),head([lexmatch([date]),inputmatch([date]),tag(noun),tokens([date])])],0/11,[]).candidates(4,0,0,4,[]).mappings([map(-888,[ev(-694,'C0034869','Record','Records',[record],[inpr],[[[1,1],[1,1],0]],no,no,['CHV','HL7V3.0','LCH','LCH_NW','MSH','MTH','NCI','NCI_FDA'],[0/6],0,0),ev(-861,'C0011008','DATE','Date in time',[date],[tmco],[[[2,2],[1,1],0]],yes,no,['CHV','LNC','MSH','MTH','NCI','NCI_CareLex','NCI_NICHD','SNOMEDCT_US'],[7/4],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],11/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('2092-03-15',[shapes([inputmatch(['2092']),features([integer]),tokens(['2092'])]),punc([inputmatch([-]),tokens([])]),shapes([inputmatch(['03']),features([integer]),tokens(['03'])]),punc([inputmatch([-]),tokens([])]),shapes([inputmatch(['15']),features([integer]),tokens(['15'])])],13/10,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Medical Walk In Unit Kelliher Care Center 81 Old Mill Lane  Devils Lake, NV 95196 Phone: 170-574-2276   Fax: 966-221-9723",0/121,[]).phrase('Medical Walk In Unit Kelliher Care Center 81 Old Mill Lane  Devils Lake,',[mod([lexmatch([medical]),inputmatch(['Medical']),tag(adj),tokens([medical])]),mod([lexmatch(['walk in']),inputmatch(['Walk','In']),tag(adj),tokens([walk,in])]),mod([lexmatch([unit]),inputmatch(['Unit']),tag(noun),tokens([unit])]),mod([inputmatch(['Kelliher']),tag(noun),tokens([kelliher])]),mod([lexmatch([care]),inputmatch(['Care']),tag(noun),tokens([care])]),mod([lexmatch([center]),inputmatch(['Center']),tag(noun),tokens([center])]),shapes([inputmatch(['81']),features([integer]),tokens(['81'])]),mod([lexmatch([old]),inputmatch(['Old']),tag(adj),tokens([old])]),mod([lexmatch([mill]),inputmatch(['Mill']),tag(noun),tokens([mill])]),mod([lexmatch([lane]),inputmatch(['Lane']),tag(noun),tokens([lane])]),mod([lexmatch([devils]),inputmatch(['Devils']),tag(noun),tokens([devils])]),head([lexmatch([lake]),inputmatch(['Lake']),tag(noun),tokens([lake])]),punc([inputmatch([',']),tokens([])])],0/72,[]).candidates(22,1,0,21,[]).mappings([map(-723,[ev(-672,'C0565990','Medical center','Medical center',[medical,center],[hcro,mnob],[[[1,1],[1,1],0],[[7,7],[2,2],0]],no,no,['AOD','CHV','LCH','MTH','NLMSubSyn','SNOMEDCT_US'],[0/7,35/6],0,0),ev(-630,'C3846681','Walk-in, not otherwise specified','Walk-in, not otherwise specified',[walk,in],[fndg],[[[2,2],[1,1],0],[[3,3],[2,2],0]],no,no,['LNC'],[8/7],0,0),ev(-620,'C0439148','Unit','Unit',[unit],[qnco],[[[4,4],[1,1],0]],no,no,['CHV','HL7V3.0','LNC','MTH','NCI','NCI_CDISC','NCI_FDA','NCI_NCPDP','SNOMEDCT_US'],[16/4],0,0),ev(-620,'C1947933','Care','care activity',[care],[acty],[[[6,6],[1,1],0]],no,no,['MTH','NCI'],[30/4],0,0),ev(-620,'C0580836','Old','Old',[old],[tmco],[[[9,9],[1,1],0]],no,no,['CHV','MTH','NCI','SNMI','SNOMEDCT_US'],[45/3],0,0),ev(-620,'C0599997','Mill','Mill',[mill],[mnob],[[[10,10],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[49/4],0,0),ev(-620,'C1708639','Lane','Lane',[lane],[spco],[[[11,11],[1,1],0]],no,no,['NCI'],[54/4],0,0),ev(-620,'C0681185',devils,'devil (idea)',[devils],[idcn],[[[12,12],[1,1],0]],no,no,['AOD','CHV','MTH'],[60/6],0,0),ev(-786,'C0337049','Lake','Lake (environment)',[lake],[geoa],[[[13,13],[1,1],0]],yes,no,['CHV','LCH_NW','MSH','MTH','SNM','SNMI','SNOMEDCT_US'],[67/4],0,0)]),map(-723,[ev(-663,'C0496675','Medical care','medical care',[medical,care],[fndg],[[[1,1],[1,1],0],[[6,6],[2,2],0]],no,no,['AOD','CHV','LCH','LCH_NW'],[0/7,30/4],0,0),ev(-630,'C3846681','Walk-in, not otherwise specified','Walk-in, not otherwise specified',[walk,in],[fndg],[[[2,2],[1,1],0],[[3,3],[2,2],0]],no,no,['LNC'],[8/7],0,0),ev(-620,'C0439148','Unit','Unit',[unit],[qnco],[[[4,4],[1,1],0]],no,no,['CHV','HL7V3.0','LNC','MTH','NCI','NCI_CDISC','NCI_FDA','NCI_NCPDP','SNOMEDCT_US'],[16/4],0,0),ev(-620,'C3810851','Center','Center of town',[center],[fndg],[[[7,7],[1,1],0]],no,no,['LNC','MTH'],[35/6],0,0),ev(-620,'C0580836','Old','Old',[old],[tmco],[[[9,9],[1,1],0]],no,no,['CHV','MTH','NCI','SNMI','SNOMEDCT_US'],[45/3],0,0),ev(-620,'C0599997','Mill','Mill',[mill],[mnob],[[[10,10],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[49/4],0,0),ev(-620,'C1708639','Lane','Lane',[lane],[spco],[[[11,11],[1,1],0]],no,no,['NCI'],[54/4],0,0),ev(-620,'C0681185',devils,'devil (idea)',[devils],[idcn],[[[12,12],[1,1],0]],no,no,['AOD','CHV','MTH'],[60/6],0,0),ev(-786,'C0337049','Lake','Lake (environment)',[lake],[geoa],[[[13,13],[1,1],0]],yes,no,['CHV','LCH_NW','MSH','MTH','SNM','SNMI','SNOMEDCT_US'],[67/4],0,0)])]).phrase('NV 95196 Phone',[mod([lexmatch([nv]),inputmatch(['NV']),tag(noun),tokens([nv])]),shapes([inputmatch(['95196']),features([integer]),tokens(['95196'])]),head([lexmatch([phone]),inputmatch(['Phone']),tag(noun),tokens([phone])])],73/14,[]).candidates(9,4,0,5,[]).mappings([map(-802,[ev(-660,'C0028422','NV','Norwalk virus',[nv],[virs],[[[1,1],[1,1],0]],no,no,['CHV','CSP','MSH','MTH','NCBI','NCI','NCI_CDISC','NLMSubSyn','SNMI','SNOMEDCT_US'],[73/2],0,0),ev(-827,'C1705541','Phone','Telephone Device Component',[phone],[mnob],[[[3,3],[1,1],0]],yes,no,['MTH','NCI','NCI_FDA'],[82/5],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],87/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('170-574-2276   Fax',[shapes([inputmatch(['170']),features([integer]),tokens(['170'])]),punc([inputmatch([-]),tokens([])]),shapes([inputmatch(['574']),features([integer]),tokens(['574'])]),punc([inputmatch([-]),tokens([])]),shapes([inputmatch(['2276']),features([integer]),tokens(['2276'])]),head([lexmatch([fax]),inputmatch(['Fax']),tag(noun),tokens([fax])])],89/18,[]).candidates(3,0,0,3,[]).mappings([map(-812,[ev(-812,'C1880669','Fax','Facsimile Machine',[fax],[mnob],[[[4,4],[1,1],0]],yes,no,['MTH','NCI'],[104/3],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],107/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('966-221-9723',[shapes([inputmatch(['966']),features([integer]),tokens(['966'])]),punc([inputmatch([-]),tokens([])]),shapes([inputmatch(['221']),features([integer]),tokens(['221'])]),punc([inputmatch([-]),tokens([])]),shapes([inputmatch(['9723']),features([integer]),tokens(['9723'])])],109/12,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"PCP:",0/4,[]).phrase('PCP',[head([lexmatch([pcp]),inputmatch(['PCP']),tag(noun),tokens([pcp])])],0/3,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C1535939','PCP','Pneumocystis jiroveci pneumonia',[pcp],[dsyn],[[[1,1],[1,1],0]],yes,no,['CHV','COSTAR','CSP','DXP','ICD10CM','ICD9CM','LCH','LCH_NW','MSH','MTH','MTHICD9','NCI','NDFRT','NLMSubSyn','QMR','SNM','SNMI','SNOMEDCT_US'],[0/3],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],3/1,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Nursing Assessment:   WT:    Temp:    P:     BP:",0/48,[]).phrase('Nursing Assessment',[mod([lexmatch([nursing]),inputmatch(['Nursing']),tag(adj),tokens([nursing])]),head([lexmatch([assessment]),inputmatch(['Assessment']),tag(noun),tokens([assessment])])],0/18,[]).candidates(7,1,0,6,[]).mappings([map(-1000,[ev(-1000,'C0028680','Nursing Assessment','Nursing Assessment',[nursing,assessment],[hlca],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV','LCH_NW','MSH','NLMSubSyn'],[0/18],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],18/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('WT',[head([lexmatch([wt]),inputmatch(['WT']),tag(noun),tokens([wt])])],22/2,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C2700323','WT','Wild Type Unspecified - zebrafish',[wt],[fish],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','NCI_ZFin'],[22/2],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],24/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('Temp',[head([lexmatch([temp]),inputmatch(['Temp']),tag(noun),tokens([temp])])],29/4,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0039476','TEMP','Temperature',[temp],[qnco],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','CSP','HL7V2.5','ICF','ICF-CY','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CDISC','NCI_NCPDP','NCI_NICHD','SNMI','SNOMEDCT_US'],[29/4],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],33/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('P',[head([lexmatch([p]),inputmatch(['P']),tag(noun),tokens([p])])],38/1,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C2603361','P\'','P prime',[p],[clna],[[[1,1],[1,1],0]],yes,no,['LNC','MTH'],[38/1],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],39/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('BP',[head([lexmatch([bp]),inputmatch(['BP']),tag(noun),tokens([bp])])],45/2,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C1708288','BP','HP wt Allele',[bp],[gngm],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[45/2],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],47/1,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Reason for visit: chest pain",0/28,[]).phrase('Reason for visit',[head([lexmatch([reason]),inputmatch(['Reason']),tag(noun),tokens([reason])]),prep([lexmatch([for]),inputmatch([for]),tag(prep),tokens([for])]),mod([lexmatch([visit]),inputmatch([visit]),tag(noun),tokens([visit])])],0/16,[]).candidates(5,0,0,5,[]).mappings([map(-1000,[ev(-1000,'C1704447','Reason for visit','Reason for patient visit',[reason,for,visit],[fndg],[[[1,1],[1,1],0],[[2,2],[2,2],0],[[3,3],[3,3],0]],yes,no,['LNC','MTH','NLMSubSyn'],[0/16],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],16/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('chest pain',[head([lexmatch(['chest pain']),inputmatch([chest,pain]),tag(noun),tokens([chest,pain])])],18/10,[]).candidates(13,7,0,6,[]).mappings([map(-1000,[ev(-1000,'C0008031','CHEST PAIN','Chest Pain',[chest,pain],[sosy],[[[1,2],[1,2],0]],yes,no,['CCS','CHV','COSTAR','CST','DXP','HPO','ICD10CM','ICD9CM','ICF','ICF-CY','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','NCI','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[18/10],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Lab Data :",0/10,[]).phrase('Lab Data',[mod([lexmatch([lab]),inputmatch(['Lab']),tag(noun),tokens([lab])]),head([lexmatch([data]),inputmatch(['Data']),tag(noun),tokens([data])])],0/8,[]).candidates(7,2,0,5,[]).mappings([map(-1000,[ev(-1000,'C0745590','lab data','lab data',[lab,data],[cnce],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV'],[0/8],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],9/1,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Allergies:       nka",0/20,[]).phrase('Allergies',[head([lexmatch([allergies]),inputmatch(['Allergies']),tag(noun),tokens([allergies])])],0/9,[]).candidates(7,6,0,1,[]).mappings([map(-1000,[ev(-1000,'C0020517','Allergies','Hypersensitivity',[allergies],[patf],[[[1,1],[1,1],0]],yes,no,['AOD','CCS','CHV','COSTAR','CSP','CST','GO','HL7V2.5','HL7V3.0','ICD10CM','ICF','ICF-CY','ICPC','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','MTHICD9','NCI','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[0/9],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],9/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase(nka,[head([lexmatch([nka]),inputmatch([nka]),tag(noun),tokens([nka])])],17/3,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C1705924','NKA','TAC1 wt Allele',[nka],[gngm],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[17/3],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Medication:  ASA",0/16,[]).phrase('Medication',[head([lexmatch([medication]),inputmatch(['Medication']),tag(noun),tokens([medication])])],0/10,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0013227','Medication','Pharmaceutical Preparations',[medication],[phsu],[[[1,1],[1,1],0]],yes,no,['CHV','CSP','HL7V2.5','ICF','ICF-CY','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','NCI','NCI_NCI-GLOSS','NDFRT','NLMSubSyn','SNM','SNMI','SNOMEDCT_US'],[0/10],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],10/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('ASA',[head([lexmatch([asa]),inputmatch(['ASA']),tag(noun),tokens([asa])])],13/3,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C0004057','ASA','Aspirin',[asa],[orch,phsu],[[[1,1],[1,1],0]],yes,no,['AOD','ATC','CHV','CSP','LCH','LCH_NW','MSH','MTH','MTHSPL','NCI','NCI_DCP','NCI_DTP','NCI_FDA','NCI_NCI-GLOSS','NDFRT','PDQ','RXNORM','SNM','SNMI','SNOMEDCT_US','VANDF'],[13/3],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([negation(nega,without,[256/7],['C0008031':'CHEST PAIN'],[264/10]),negation(nega,no,[371/2],['C0700590':'DIAPHORESIS'],[387/11]),negation(nega,no,[403/2],['C0030252':'PALPITATIONS'],[406/12])]).utterance('00000000.ti.1',"History of the Present Illness:                                 67 yo male with history of CAD (known LAD lesion) with chest pain last night and today.  typically, patient able to exercise 25 minutes on an inclinced tread mill.  ",0/229,[]).phrase('History of the Present Illness',[head([lexmatch([history]),inputmatch(['History']),tag(noun),tokens([history])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([present]),inputmatch(['Present']),tag(adj),tokens([present])]),mod([lexmatch([illness]),inputmatch(['Illness']),tag(noun),tokens([illness])])],0/30,[]).candidates(18,7,0,11,[]).mappings([map(-891,[ev(-891,'C0488508','History of present illness','History of present illness:Finding:Point in time:^Patient:Nominal:Reported',[history,of,present,illness],[clna],[[[1,1],[1,1],0],[[2,2],[2,2],0],[[4,4],[3,3],0],[[5,5],[4,4],0]],yes,no,['LNC','MTH'],[0/10,15/15],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],30/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('67 yo male with history of CAD',[shapes([inputmatch(['67']),features([integer]),tokens(['67'])]),mod([lexmatch([yo]),inputmatch([yo]),tag(noun),tokens([yo])]),head([lexmatch([male]),inputmatch([male]),tag(noun),tokens([male])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([history]),inputmatch([history]),tag(noun),tokens([history])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([cad]),inputmatch(['CAD']),tag(noun),tokens([cad])])],64/30,[]).candidates(14,2,0,12,[]).mappings([map(-664,[ev(-581,'C1413296','Yo','CDR2 gene',[yo],[gngm],[[[2,2],[1,1],0]],no,no,['HGNC','MTH','OMIM'],[67/2],0,0),ev(-748,'C1706180','Male','Male Gender, Self Report',[male],[qlco],[[[3,3],[1,1],0]],yes,no,['MTH','NCI'],[70/4],0,0),ev(-581,'C0262512','History, NOS','History of present illness',[history],[orga],[[[5,5],[1,1],0]],no,no,['CHV','COSTAR','LNC','MTH','SNMI','SNOMEDCT_US'],[80/7],0,0),ev(-581,'C3813548','CAD','CALD1 wt Allele',[cad],[gngm],[[[7,7],[1,1],0]],no,no,['MTH','NCI'],[91/3],0,0)])]).phrase('(known LAD lesion',[punc([inputmatch(['(']),tokens([])]),mod([lexmatch([known]),inputmatch([known]),tag(adj),tokens([known])]),mod([lexmatch([lad]),inputmatch(['LAD']),tag(noun),tokens([lad])]),head([lexmatch([lesion]),inputmatch([lesion]),tag(noun),tokens([lesion])])],95/17,[]).candidates(3,0,0,3,[]).mappings([map(-802,[ev(-660,'C0205309','Known','Known',[known],[qlco],[[[1,1],[1,1],0]],no,no,['CHV','MTH','NCI','SNMI','SNOMEDCT_US'],[96/5],0,0),ev(-827,'C0221198','Lesion','Lesion',[lesion],[fndg],[[[3,3],[1,1],0]],yes,no,['AOD','CHV','MTH','NCI','NCI_CDISC','NCI_NCI-GLOSS','NLMSubSyn','SNM','SNMI','SNOMEDCT_US'],[106/6],0,0)])]).phrase(')',[punc([inputmatch([')']),tokens([])])],112/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('with chest pain last night',[prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch(['chest pain']),inputmatch([chest,pain]),tag(noun),tokens([chest,pain])]),mod([lexmatch([last]),inputmatch([last]),tag(adj),tokens([last])]),head([lexmatch([night]),inputmatch([night]),tag(noun),tokens([night])])],114/26,[]).candidates(15,7,0,8,[]).mappings([map(-824,[ev(-694,'C0008031','CHEST PAIN','Chest Pain',[chest,pain],[sosy],[[[1,2],[1,2],0]],no,no,['CCS','CHV','COSTAR','CST','DXP','HPO','ICD10CM','ICD9CM','ICF','ICF-CY','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','NCI','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[119/10],0,0),ev(-812,'C0240526','Night','Night time',[night],[tmco],[[[4,4],[1,1],0]],yes,no,['AOD','CHV','DXP','MTH','NCI','SNMI','SNOMEDCT_US'],[135/5],0,0)]),map(-824,[ev(-645,'C1527391','Chest','Anterior thoracic region',[chest],[blor],[[[1,1],[1,1],0]],no,no,['MTH','NLMSubSyn','UWDA'],[119/5],0,0),ev(-875,'C0234255','pain night','Night pain',[pain,night],[sosy],[[[2,2],[1,1],0],[[4,4],[2,2],0]],yes,no,['CHV','SNMI','SNOMEDCT_US'],[125/4,135/5],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],141/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('today.  typically,',[mod([lexmatch([today]),inputmatch([today]),tag(noun),tokens([today])]),punc([inputmatch(['.']),tokens([])]),adv([lexmatch([typically]),inputmatch([typically]),tag(adv),tokens([typically])]),punc([inputmatch([',']),tokens([])])],145/18,[]).candidates(2,0,0,2,[]).mappings([map(-861,[ev(-861,'C0750526','Today','Today (temporal qualifier)',[today],[tmco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[145/5],0,0)])]).phrase(patient,[head([lexmatch([patient]),inputmatch([patient]),tag(noun),tokens([patient])])],164/7,[]).candidates(4,0,0,4,[]).mappings([map(-1000,[ev(-1000,'C0030705','*^patient','Patients',[patient],[podg],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','HL7V3.0','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CDISC','NCI_DICOM','NCI_FDA','SNOMEDCT_US'],[164/7],0,0)])]).phrase(able,[head([lexmatch([able]),inputmatch([able]),tag(adj),tokens([able])])],172/4,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0085732','Able','Ability',[able],[orga],[[[1,1],[1,1],0]],yes,no,['CHV','LCH','LCH_NW','MSH','MTH','NCI'],[172/4],0,0)])]).phrase(to,[adv([lexmatch([to]),inputmatch([to]),tag(adv),tokens([to])])],177/2,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C0041260','TO','Tryptophanase',[to],[aapp,enzy],[[[1,1],[1,1],0]],yes,no,['CSP','MSH','MTH','NCI','NDFRT','NLMSubSyn','PDQ','SNMI','SNOMEDCT_US'],[177/2],0,0)])]).phrase(exercise,[verb([lexmatch([exercise]),inputmatch([exercise]),tag(verb),tokens([exercise])])],180/8,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C1522704','Exercise','Exercise Pain Management',[exercise],[topp],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','NLMSubSyn'],[180/8],0,0)])]).phrase('25 minutes on an inclinced tread mill.',[shapes([inputmatch(['25']),features([integer]),tokens(['25'])]),head([lexmatch([minutes]),inputmatch([minutes]),tag(noun),tokens([minutes])]),prep([lexmatch([on]),inputmatch([on]),tag(prep),tokens([on])]),det([lexmatch([an]),inputmatch([an]),tag(det),tokens([an])]),mod([inputmatch([inclinced]),tag(noun),tokens([inclinced])]),mod([lexmatch(['tread mill']),inputmatch([tread,mill]),tag(noun),tokens([tread,mill])]),punc([inputmatch(['.']),tokens([])])],189/38,[]).candidates(8,0,0,8,[]).mappings([map(-693,[ev(-748,'C0702093','/minute','Per Minute',[minute],[tmco],[[[2,2],[1,1],0]],yes,no,['CHV','MTH','NCI','NCI_CDISC','NCI_UCUM','SNOMEDCT_US'],[192/7],0,0),ev(-612,'C2712999','Treadmill','Treadmill (physical activity)',[treadmill],[dora],[[[6,7],[1,1],0]],no,no,['MTH','MTHICD9'],[216/10],0,0)])]).'EOU'.utterance('00000000.ti.2',"Able to exercise yesterday without chest pain.  ",229/48,[]).phrase('Able',[head([lexmatch([able]),inputmatch(['Able']),tag(adj),tokens([able])])],229/4,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0085732','Able','Ability',[able],[orga],[[[1,1],[1,1],0]],yes,no,['CHV','LCH','LCH_NW','MSH','MTH','NCI'],[229/4],0,0)])]).phrase(to,[adv([lexmatch([to]),inputmatch([to]),tag(adv),tokens([to])])],234/2,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C0041260','TO','Tryptophanase',[to],[aapp,enzy],[[[1,1],[1,1],0]],yes,no,['CSP','MSH','MTH','NCI','NDFRT','NLMSubSyn','PDQ','SNMI','SNOMEDCT_US'],[234/2],0,0)])]).phrase(exercise,[verb([lexmatch([exercise]),inputmatch([exercise]),tag(verb),tokens([exercise])])],237/8,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C1522704','Exercise','Exercise Pain Management',[exercise],[topp],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','NLMSubSyn'],[237/8],0,0)])]).phrase('yesterday without chest pain.',[head([lexmatch([yesterday]),inputmatch([yesterday]),tag(noun),tokens([yesterday])]),prep([lexmatch([without]),inputmatch([without]),tag(prep),tokens([without])]),mod([lexmatch(['chest pain']),inputmatch([chest,pain]),tag(noun),tokens([chest,pain])]),punc([inputmatch(['.']),tokens([])])],246/29,[]).candidates(13,7,0,6,[]).mappings([map(-666,[ev(-666,'C0008031','CHEST PAIN','Chest Pain',[chest,pain],[sosy],[[[3,4],[1,2],0]],no,no,['CCS','CHV','COSTAR','CST','DXP','HPO','ICD10CM','ICD9CM','ICF','ICF-CY','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','NCI','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[264/10],0,1)])]).'EOU'.utterance('00000000.ti.3',"Last night, has onset of Chest pressure at rest with associated nausea and light headedness.  ",277/94,[]).phrase('Last night,',[mod([lexmatch([last]),inputmatch(['Last']),tag(adj),tokens([last])]),head([lexmatch([night]),inputmatch([night]),tag(noun),tokens([night])]),punc([inputmatch([',']),tokens([])])],277/11,[]).candidates(2,0,0,2,[]).mappings([map(-888,[ev(-694,'C1517741','Last','Last',[last],[qlco],[[[1,1],[1,1],0]],no,no,['NCI'],[277/4],0,0),ev(-861,'C0240526','Night','Night time',[night],[tmco],[[[2,2],[1,1],0]],yes,no,['AOD','CHV','DXP','MTH','NCI','SNMI','SNOMEDCT_US'],[282/5],0,0)])]).phrase(has,[aux([lexmatch([has]),inputmatch([has]),tag(aux),tokens([has])])],289/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('onset of Chest pressure',[head([lexmatch([onset]),inputmatch([onset]),tag(noun),tokens([onset])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([chest]),inputmatch(['Chest']),tag(noun),tokens([chest])]),mod([lexmatch([pressure]),inputmatch([pressure]),tag(noun),tokens([pressure])])],293/23,[]).candidates(14,6,0,8,[]).mappings([map(-783,[ev(-770,'C0206132','Onset','Age of Onset',[onset],[qnco],[[[1,1],[1,1],0]],yes,no,['CHV','CSP','HPO','MSH','MTH'],[293/5],0,0),ev(-666,'C0438716','Chest pressure','Chest pressure',[chest,pressure],[sosy],[[[3,3],[1,1],0],[[4,4],[2,2],0]],no,no,['CHV','CST','MTH','MTHICD9','SNM','SNMI','SNOMEDCT_US'],[302/14],0,0)])]).phrase('at rest with associated nausea',[prep([lexmatch([at]),inputmatch([at]),tag(prep),tokens([at])]),head([lexmatch([rest]),inputmatch([rest]),tag(noun),tokens([rest])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([associated]),inputmatch([associated]),tag(adj),tokens([associated])]),mod([lexmatch([nausea]),inputmatch([nausea]),tag(noun),tokens([nausea])])],317/30,[]).candidates(10,2,0,8,[]).mappings([map(-857,[ev(-806,'C0443144','At Rest','At rest (qualifier value)',[at,rest],[ftcn],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV','LNC','MTH','NCI','SNOMEDCT_US'],[317/7],0,0),ev(-631,'C0332281','Associated with','Associated with',[associated,with],[qlco],[[[4,4],[1,1],0],[[3,3],[2,2],0]],no,no,['CHV','LNC','MTH','NCI','SNMI','SNOMEDCT_US'],[325/15],0,0),ev(-593,'C0027497','NAUSEA','Nausea',[nausea],[sosy],[[[5,5],[1,1],0]],no,no,['AOD','CHV','COSTAR','CSP','CST','DXP','HPO','ICD10CM','ICPC','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CTCAE','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','OMIM','SNM','SNMI','SNOMEDCT_US'],[341/6],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],348/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('light headedness.',[head([lexmatch(['light headedness']),inputmatch([light,headedness]),tag(noun),tokens([light,headedness])]),punc([inputmatch(['.']),tokens([])])],352/17,[]).candidates(9,1,0,8,[]).mappings([map(-1000,[ev(-1000,'C0220870','LIGHT HEADEDNESS','Lightheadedness',[light,headedness],[sosy],[[[1,2],[1,2],0]],yes,no,['AOD','CHV','COSTAR','CST','DXP','ICD10CM','MSH','MTH','MTHICD9','NCI','OMIM','SNM','SNMI','SNOMEDCT_US'],[352/16],0,0)])]).'EOU'.utterance('00000000.ti.4',"No radiation or diaphoresis and no palpitations.  ",371/50,[]).phrase('No radiation',[det([lexmatch([no]),inputmatch(['No']),tag(det),tokens([no])]),head([lexmatch([radiation]),inputmatch([radiation]),tag(noun),tokens([radiation])])],371/12,[]).candidates(6,0,0,6,[]).mappings([map(-1000,[ev(-1000,'C0851346','Radiation','Radiation',[radiation],[npop],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','CSP','LCH','LCH_NW','LNC','MSH','MTH','NLMSubSyn','SNM','SNMI','SNOMEDCT_US'],[374/9],0,0)])]).phrase(or,[conj([lexmatch([or]),inputmatch([or]),tag(conj),tokens([or])])],384/2,[]).candidates(0,0,0,0,[]).mappings([]).phrase(diaphoresis,[head([lexmatch([diaphoresis]),inputmatch([diaphoresis]),tag(noun),tokens([diaphoresis])])],387/11,[]).candidates(2,1,0,1,[]).mappings([map(-1000,[ev(-1000,'C0700590','DIAPHORESIS','Increased sweating',[diaphoresis],[sosy],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','COSTAR','CST','DXP','HPO','ICD10CM','MTH','MTHICD9','NCI','NCI_NICHD','NLMSubSyn','OMIM','SNMI','SNOMEDCT_US'],[387/11],0,1)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],399/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('no palpitations.',[det([lexmatch([no]),inputmatch([no]),tag(det),tokens([no])]),head([lexmatch([palpitations]),inputmatch([palpitations]),tag(noun),tokens([palpitations])]),punc([inputmatch(['.']),tokens([])])],403/16,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0030252','PALPITATIONS','Palpitations',[palpitations],[fndg],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','COSTAR','CST','DXP','HPO','ICD10CM','ICD9CM','LCH','LNC','MTH','NCI','NCI_CTCAE','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[406/12],0,1)])]).'EOU'.utterance('00000000.ti.5',"Took a nitro and releived.",421/26,[]).phrase('Took',[verb([lexmatch([took]),inputmatch(['Took']),tag(verb),tokens([took])])],421/4,[]).candidates(1,0,0,1,[]).mappings([map(-966,[ev(-966,'C1515187','Take','Take',[take],[hlca],[[[1,1],[1,1],1]],yes,no,['NCI','SNOMEDCT_US'],[421/4],0,0)])]).phrase('a nitro',[det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),head([lexmatch([nitro]),inputmatch([nitro]),tag(adj),tokens([nitro])])],426/7,[]).candidates(0,0,0,0,[]).mappings([]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],434/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('releived.',[head([inputmatch([releived]),tag(noun),tokens([releived])]),punc([inputmatch(['.']),tokens([])])],438/9,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([negation(nega,no,[241/2],['C0700590':'DIAPHORESIS'],[244/11]),negation(nega,no,[241/2],['C0030252':'PALPITATIONS'],[259/12])]).utterance('00000000.ti.1',"Today, did not exercise.  ",0/26,[]).phrase('Today,',[head([lexmatch([today]),inputmatch(['Today']),tag(noun),tokens([today])]),punc([inputmatch([',']),tokens([])])],0/6,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0750526','Today','Today (temporal qualifier)',[today],[tmco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[0/5],0,0)])]).phrase(did,[aux([lexmatch([did]),inputmatch([did]),tag(aux),tokens([did])])],7/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase(not,[adv([lexmatch([not]),inputmatch([not]),tag(adv),tokens([not])])],11/3,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C1518422','Not','Negation',[not],[ftcn],[[[1,1],[1,1],0]],yes,no,['LNC','MTH','NCI'],[11/3],0,0)])]).phrase('exercise.',[verb([lexmatch([exercise]),inputmatch([exercise]),tag(verb),tokens([exercise])]),punc([inputmatch(['.']),tokens([])])],15/9,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0015259','Exercise','Exercise',[exercise],[dora],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','CSP','LCH_NW','LNC','MSH','MTH','NCI','NLMSubSyn','SNMI','SNOMEDCT_US'],[15/8],0,0)])]).'EOU'.utterance('00000000.ti.2',"This afternoon, had onset of similar chest pressure at rest.  the pressure waxed and waned for some time and then patient took a nitro and had releif.  ",26/152,[]).phrase('This afternoon,',[det([lexmatch([this]),inputmatch(['This']),tag(det),tokens([this])]),head([lexmatch([afternoon]),inputmatch([afternoon]),tag(noun),tokens([afternoon])]),punc([inputmatch([',']),tokens([])])],26/15,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C0439550','Afternoon','Afternoon',[afternoon],[tmco],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','LNC','NCI','SNOMEDCT_US'],[31/9],0,0)])]).phrase(had,[aux([lexmatch([had]),inputmatch([had]),tag(aux),tokens([had])])],42/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('onset of similar chest pressure',[head([lexmatch([onset]),inputmatch([onset]),tag(noun),tokens([onset])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([similar]),inputmatch([similar]),tag(adj),tokens([similar])]),mod([lexmatch([chest]),inputmatch([chest]),tag(noun),tokens([chest])]),mod([lexmatch([pressure]),inputmatch([pressure]),tag(noun),tokens([pressure])])],46/31,[]).candidates(15,6,0,9,[]).mappings([map(-761,[ev(-760,'C0206132','Onset','Age of Onset',[onset],[qnco],[[[1,1],[1,1],0]],yes,no,['CHV','CSP','HPO','MSH','MTH'],[46/5],0,0),ev(-593,'C2348205','Similar','Similarity',[similar],[qlco],[[[3,3],[1,1],0]],no,no,['NCI'],[55/7],0,0),ev(-640,'C0438716','Chest pressure','Chest pressure',[chest,pressure],[sosy],[[[4,4],[1,1],0],[[5,5],[2,2],0]],no,no,['CHV','CST','MTH','MTHICD9','SNM','SNMI','SNOMEDCT_US'],[63/14],0,0)])]).phrase('at rest.',[prep([lexmatch([at]),inputmatch([at]),tag(prep),tokens([at])]),head([lexmatch([rest]),inputmatch([rest]),tag(noun),tokens([rest])]),punc([inputmatch(['.']),tokens([])])],78/8,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C1622890','ResT','site-specific telomere resolvase activity',[rest],[moft],[[[1,1],[1,1],0]],yes,no,['GO','MTH'],[81/4],0,0)])]).phrase('the pressure waxed',[det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([pressure]),inputmatch([pressure]),tag(noun),tokens([pressure])]),head([lexmatch([waxed]),inputmatch([waxed]),tag(noun),tokens([waxed])])],88/18,[]).candidates(5,0,0,5,[]).mappings([map(-872,[ev(-694,'C0460139','Pressure','Pressure (finding)',[pressure],[fndg],[[[1,1],[1,1],0]],no,no,['CHV','MTH','SNM','SNMI','SNOMEDCT_US'],[92/8],0,0),ev(-827,'C0043076','WAX','Waxes',[wax],[bodm],[[[2,2],[1,1],1]],yes,no,['CHV','CSP','LCH','LCH_NW','MSH','MTH','NDFRT','SNM','SNMI','SNOMEDCT_US','VANDF'],[101/5],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],107/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('waned for some time',[verb([lexmatch([waned]),inputmatch([waned]),tag(verb),tokens([waned])]),prep([lexmatch([for]),inputmatch([for]),tag(prep),tokens([for])]),det([lexmatch([some]),inputmatch([some]),tag(det),tokens([some])]),mod([lexmatch([time]),inputmatch([time]),tag(noun),tokens([time])])],111/19,[]).candidates(5,3,0,2,[]).mappings([map(-770,[ev(-770,'C0040223','TIME','Time',[time],[tmco],[[[4,4],[1,1],0]],yes,no,['CHV','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_NICHD','SNOMEDCT_US'],[126/4],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],131/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('then patient',[adv([lexmatch([then]),inputmatch([then]),tag(adv),tokens([then])]),head([lexmatch([patient]),inputmatch([patient]),tag(noun),tokens([patient])])],135/12,[]).candidates(5,0,0,5,[]).mappings([map(-888,[ev(-694,'C1883708','Then','Then',[then],[tmco],[[[1,1],[1,1],0]],no,no,['MTH','NCI'],[135/4],0,0),ev(-861,'C0030705','*^patient','Patients',[patient],[podg],[[[2,2],[1,1],0]],yes,no,['AOD','CHV','HL7V3.0','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CDISC','NCI_DICOM','NCI_FDA','SNOMEDCT_US'],[140/7],0,0)])]).phrase(took,[verb([lexmatch([took]),inputmatch([took]),tag(verb),tokens([took])])],148/4,[]).candidates(1,0,0,1,[]).mappings([map(-966,[ev(-966,'C1515187','Take','Take',[take],[hlca],[[[1,1],[1,1],1]],yes,no,['NCI','SNOMEDCT_US'],[148/4],0,0)])]).phrase('a nitro',[det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),head([lexmatch([nitro]),inputmatch([nitro]),tag(adj),tokens([nitro])])],153/7,[]).candidates(0,0,0,0,[]).mappings([]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],161/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase(had,[aux([lexmatch([had]),inputmatch([had]),tag(aux),tokens([had])])],165/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('releif.',[head([inputmatch([releif]),tag(noun),tokens([releif])]),punc([inputmatch(['.']),tokens([])])],169/7,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.utterance('00000000.ti.3',"Again, pressure associated with nausea and lightneadedness but no diaphoresis or palpitations.",178/94,[]).phrase('Again,',[adv([lexmatch([again]),inputmatch(['Again']),tag(adv),tokens([again])]),punc([inputmatch([',']),tokens([])])],178/6,[]).candidates(0,0,0,0,[]).mappings([]).phrase(pressure,[head([lexmatch([pressure]),inputmatch([pressure]),tag(noun),tokens([pressure])])],185/8,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C0460139','Pressure','Pressure (finding)',[pressure],[fndg],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNM','SNMI','SNOMEDCT_US'],[185/8],0,0)])]).phrase('associated with nausea',[verb([lexmatch([associated]),inputmatch([associated]),tag(verb),tokens([associated])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([nausea]),inputmatch([nausea]),tag(noun),tokens([nausea])])],194/22,[]).candidates(6,2,0,4,[]).mappings([map(-901,[ev(-882,'C0332281','Associated with','Associated with',[associated,with],[qlco],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV','LNC','MTH','NCI','SNMI','SNOMEDCT_US'],[194/15],0,0),ev(-790,'C0027497','NAUSEA','Nausea',[nausea],[sosy],[[[3,3],[1,1],0]],yes,no,['AOD','CHV','COSTAR','CSP','CST','DXP','HPO','ICD10CM','ICPC','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CTCAE','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','OMIM','SNM','SNMI','SNOMEDCT_US'],[210/6],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],217/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase(lightneadedness,[head([inputmatch([lightneadedness]),tag(noun),tokens([lightneadedness])])],221/15,[]).candidates(0,0,0,0,[]).mappings([]).phrase(but,[conj([lexmatch([but]),inputmatch([but]),tag(conj),tokens([but])])],237/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('no diaphoresis',[det([lexmatch([no]),inputmatch([no]),tag(det),tokens([no])]),head([lexmatch([diaphoresis]),inputmatch([diaphoresis]),tag(noun),tokens([diaphoresis])])],241/14,[]).candidates(2,1,0,1,[]).mappings([map(-1000,[ev(-1000,'C0700590','DIAPHORESIS','Increased sweating',[diaphoresis],[sosy],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','COSTAR','CST','DXP','HPO','ICD10CM','MTH','MTHICD9','NCI','NCI_NICHD','NLMSubSyn','OMIM','SNMI','SNOMEDCT_US'],[244/11],0,1)])]).phrase(or,[conj([lexmatch([or]),inputmatch([or]),tag(conj),tokens([or])])],256/2,[]).candidates(0,0,0,0,[]).mappings([]).phrase('palpitations.',[head([lexmatch([palpitations]),inputmatch([palpitations]),tag(noun),tokens([palpitations])]),punc([inputmatch(['.']),tokens([])])],259/13,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0030252','PALPITATIONS','Palpitations',[palpitations],[fndg],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','COSTAR','CST','DXP','HPO','ICD10CM','ICD9CM','LCH','LNC','MTH','NCI','NCI_CTCAE','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[259/12],0,1)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([negation(nega,cannot,[29/6],['C0679062':remember],[36/8])]).utterance('00000000.ti.1',"prior to last night, patient cannot remember that last time that he needed to take a nitro.",0/91,[]).phrase('prior to last night,',[prep([lexmatch(['prior to']),inputmatch([prior,to]),tag(prep),tokens([prior,to])]),mod([lexmatch([last]),inputmatch([last]),tag(adj),tokens([last])]),head([lexmatch([night]),inputmatch([night]),tag(noun),tokens([night])]),punc([inputmatch([',']),tokens([])])],0/20,[]).candidates(2,0,0,2,[]).mappings([map(-888,[ev(-694,'C1517741','Last','Last',[last],[qlco],[[[1,1],[1,1],0]],no,no,['NCI'],[9/4],0,0),ev(-861,'C0240526','Night','Night time',[night],[tmco],[[[2,2],[1,1],0]],yes,no,['AOD','CHV','DXP','MTH','NCI','SNMI','SNOMEDCT_US'],[14/5],0,0)])]).phrase(patient,[head([lexmatch([patient]),inputmatch([patient]),tag(noun),tokens([patient])])],21/7,[]).candidates(4,0,0,4,[]).mappings([map(-1000,[ev(-1000,'C0030705','*^patient','Patients',[patient],[podg],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','HL7V3.0','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CDISC','NCI_DICOM','NCI_FDA','SNOMEDCT_US'],[21/7],0,0)])]).phrase(cannot,[modal([lexmatch([cannot]),inputmatch([cannot]),tag(modal),tokens([cannot])])],29/6,[]).candidates(0,0,0,0,[]).mappings([]).phrase(remember,[verb([lexmatch([remember]),inputmatch([remember]),tag(verb),tokens([remember])])],36/8,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C0679062',remember,remembering,[remember],[menp],[[[1,1],[1,1],0]],yes,no,['AOD','CHV'],[36/8],0,1)])]).phrase('that last time',[compl([lexmatch([that]),inputmatch([that]),tag(compl),tokens([that])]),mod([lexmatch([last]),inputmatch([last]),tag(adj),tokens([last])]),head([lexmatch([time]),inputmatch([time]),tag(noun),tokens([time])])],45/14,[]).candidates(6,3,0,3,[]).mappings([map(-888,[ev(-694,'C1517741','Last','Last',[last],[qlco],[[[1,1],[1,1],0]],no,no,['NCI'],[50/4],0,0),ev(-861,'C0040223','TIME','Time',[time],[tmco],[[[2,2],[1,1],0]],yes,no,['CHV','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_NICHD','SNOMEDCT_US'],[55/4],0,0)])]).phrase(that,[compl([lexmatch([that]),inputmatch([that]),tag(compl),tokens([that])])],60/4,[]).candidates(0,0,0,0,[]).mappings([]).phrase(he,[pron([lexmatch([he]),inputmatch([he]),tag(pron),tokens([he])])],65/2,[]).candidates(0,0,0,0,[]).mappings([]).phrase(needed,[verb([lexmatch([needed]),inputmatch([needed]),tag(verb),tokens([needed])])],68/6,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0686904',needed,'Patient need for (contextual qualifier)',[needed],[ftcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[68/6],0,0)])]).phrase(to,[adv([lexmatch([to]),inputmatch([to]),tag(adv),tokens([to])])],75/2,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C0040363','TO','Togo',[to],[geoa],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','LCH','MSH','MTH','NCI','NCI_CDISC','SNOMEDCT_US'],[75/2],0,0)])]).phrase(take,[verb([lexmatch([take]),inputmatch([take]),tag(verb),tokens([take])])],78/4,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C1515187','Take','Take',[take],[hlca],[[[1,1],[1,1],0]],yes,no,['NCI','SNOMEDCT_US'],[78/4],0,0)])]).phrase('a nitro.',[det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),head([lexmatch([nitro]),inputmatch([nitro]),tag(adj),tokens([nitro])]),punc([inputmatch(['.']),tokens([])])],83/8,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Pertinent PMH:   CADsmoker GERD",0/31,[]).phrase('Pertinent PMH',[mod([lexmatch([pertinent]),inputmatch(['Pertinent']),tag(adj),tokens([pertinent])]),head([lexmatch([pmh]),inputmatch(['PMH']),tag(noun),tokens([pmh])])],0/13,[]).candidates(1,0,0,1,[]).mappings([map(-861,[ev(-861,'C0262926','PMH','Medical History',[pmh],[fndg],[[[2,2],[1,1],0]],yes,no,['AIR','AOD','CHV','LNC','MTH','NCI','NCI_NCI-GLOSS','NCI_NICHD','NLMSubSyn','SNOMEDCT_US'],[10/3],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],13/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('CADsmoker GERD',[mod([inputmatch(['CADsmoker']),tag(noun),tokens([cadsmoker])]),head([lexmatch([gerd]),inputmatch(['GERD']),tag(noun),tokens([gerd])])],17/14,[]).candidates(1,0,0,1,[]).mappings([map(-861,[ev(-861,'C0017168','GERD','Gastroesophageal reflux disease',[gerd],[dsyn],[[[2,2],[1,1],0]],yes,no,['CHV','COSTAR','CSP','CST','DXP','HPO','ICD10CM','ICD9CM','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','MTHICD9','MTHMST','NCI','NCI_CTCAE','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[27/4],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Physical Exam:",0/14,[]).phrase('Physical Exam',[mod([lexmatch([physical]),inputmatch(['Physical']),tag(adj),tokens([physical])]),head([lexmatch([exam]),inputmatch(['Exam']),tag(noun),tokens([exam])])],0/13,[]).candidates(6,0,0,6,[]).mappings([map(-1000,[ev(-1000,'C1744699','Physical Exam','Physical Exam Domain',[physical,exam],[inpr],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['MTH','NCI','NCI_CDISC','NLMSubSyn'],[0/13],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],13/1,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"JVP <10cm  Chest CTA RRR nl1 and s2 abdomen soft",0/48,[]).phrase('JVP',[head([lexmatch([jvp]),inputmatch(['JVP']),tag(noun),tokens([jvp])])],0/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('<10cm  Chest CTA RRR nl1',[punc([inputmatch([<]),tokens([])]),mod([inputmatch(['10cm']),tag(noun),tokens(['10cm'])]),mod([lexmatch([chest]),inputmatch(['Chest']),tag(noun),tokens([chest])]),mod([lexmatch([cta]),inputmatch(['CTA']),tag(noun),tokens([cta])]),mod([lexmatch([rrr]),inputmatch(['RRR']),tag(noun),tokens([rrr])]),head([inputmatch([nl1]),tag(noun),tokens([nl1])])],4/24,[]).candidates(11,5,0,6,[]).mappings([map(-740,[ev(-637,'C0817096','CHEST','Chest',[chest],[blor],[[[2,2],[1,1],0]],no,no,['AOD','CHV','CSP','CST','FMA','HL7V2.5','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CDISC','NCI_NICHD','OMIM','SNM','SNMI','SNOMEDCT_US','UWDA'],[11/5],0,0),ev(-637,'C3540513','CTA','PCYT1A wt Allele',[cta],[gngm],[[[3,3],[1,1],0]],no,no,['MTH','NCI'],[17/3],0,0),ev(-804,'C1422548','NL1','NLGN1 gene',[nl1],[gngm],[[[5,5],[1,1],0]],yes,no,['HGNC','MTH','OMIM'],[25/3],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],29/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('s2 abdomen',[mod([lexmatch([s2]),inputmatch([s2]),tag(noun),tokens([s2])]),head([lexmatch([abdomen]),inputmatch([abdomen]),tag(noun),tokens([abdomen])])],33/10,[]).candidates(8,0,0,8,[]).mappings([map(-888,[ev(-694,'C1419032','S2','PSMD2 gene',[s2],[gngm],[[[1,1],[1,1],0]],no,no,['HGNC','MTH','OMIM'],[33/2],0,0),ev(-861,'C0230168','Abdomen','Abdominal Cavity',[abdomen],[blor],[[[2,2],[1,1],0]],yes,no,['AOD','CHV','FMA','MSH','MTH','NCI','NCI_CDISC','NCI_NCI-GLOSS','NCI_NICHD','SNM','SNMI','SNOMEDCT_US','UWDA'],[36/7],0,0)])]).phrase(soft,[head([lexmatch([soft]),inputmatch([soft]),tag(adj),tokens([soft])])],44/4,[]).candidates(3,1,0,2,[]).mappings([map(-1000,[ev(-1000,'C0205358','Soft','Soft',[soft],[qlco],[[[1,1],[1,1],0]],yes,no,['CHV','LNC','MTH','NCI','SNMI','SNOMEDCT_US'],[44/4],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Assessment/Plan: Unstable angina - History suggested accelerated angina with possible studdering nature.  ",0/106,[]).phrase('Assessment/Plan',[mod([lexmatch([assessment]),inputmatch(['Assessment']),tag(noun),tokens([assessment])]),punc([inputmatch([/]),tokens([])]),head([lexmatch([plan]),inputmatch(['Plan']),tag(noun),tokens([plan])])],0/15,[]).candidates(5,0,0,5,[]).mappings([map(-888,[ev(-694,'C1516048','Assessment','Assessed',[assessment],[acty],[[[1,1],[1,1],0]],no,no,['MTH','NCI','NCI_NCI-GLOSS'],[0/10],0,0),ev(-861,'C1301732','Plan','Planned',[plan],[ftcn],[[[2,2],[1,1],0]],yes,no,['CHV','LNC','MTH','NCI','SNOMEDCT_US'],[11/4],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],15/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('Unstable angina - History',[mod([lexmatch(['unstable angina']),inputmatch(['Unstable',angina]),tag(noun),tokens([unstable,angina])]),punc([inputmatch([-]),tokens([])]),head([lexmatch([history]),inputmatch(['History']),tag(noun),tokens([history])])],17/25,[]).candidates(12,2,0,10,[]).mappings([map(-901,[ev(-734,'C0002965','Angina, Unstable','Angina, Unstable',[unstable,angina],[dsyn],[[[1,2],[1,2],0]],no,no,['CHV','DXP','ICD10CM','ICD9CM','MSH','MTH','MTHICD9','NCI','NCI_CDISC','NDFRT','NLMSubSyn','QMR','SNM','SNMI','SNOMEDCT_US'],[17/15],0,0),ev(-827,'C2004062','History','History of previous events',[history],[fndg],[[[3,3],[1,1],0]],yes,no,['CHV','LCH','MTH','NCI'],[35/7],0,0)])]).phrase(suggested,[verb([lexmatch([suggested]),inputmatch([suggested]),tag(verb),tokens([suggested])])],43/9,[]).candidates(1,0,0,1,[]).mappings([map(-966,[ev(-966,'C1705535','Suggest',suggestion,[suggest],[idcn],[[[1,1],[1,1],1]],yes,no,['MTH','NCI'],[43/9],0,0)])]).phrase('accelerated angina with possible studdering nature.',[mod([lexmatch([accelerated]),inputmatch([accelerated]),tag(adj),tokens([accelerated])]),head([lexmatch([angina]),inputmatch([angina]),tag(noun),tokens([angina])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([possible]),inputmatch([possible]),tag(adj),tokens([possible])]),mod([inputmatch([studdering]),tag(noun),tokens([studdering])]),mod([lexmatch([nature]),inputmatch([nature]),tag(noun),tokens([nature])]),punc([inputmatch(['.']),tokens([])])],53/51,[]).candidates(9,1,0,8,[]).mappings([map(-712,[ev(-790,'C2882087','Accelerated angina','Accelerated angina',[accelerated,angina],[dsyn],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['ICD10CM','NLMSubSyn'],[53/18],0,0),ev(-586,'C1705910','Possible','Possibly Related to Intervention',[possible],[qlco],[[[4,4],[1,1],0]],no,no,['MTH','NCI'],[77/8],0,0),ev(-586,'C1262865','Nature','Natures',[nature],[ftcn],[[[6,6],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[97/6],0,0)])]).'EOU'.utterance('00000000.ti.2',"Could be GERD, but releived with nitro.  ",106/41,[]).phrase('Could',[modal([lexmatch([could]),inputmatch(['Could']),tag(modal),tokens([could])])],106/5,[]).candidates(0,0,0,0,[]).mappings([]).phrase(be,[aux([lexmatch([be]),inputmatch([be]),tag(aux),tokens([be])])],112/2,[]).candidates(0,0,0,0,[]).mappings([]).phrase('GERD,',[head([lexmatch([gerd]),inputmatch(['GERD']),tag(noun),tokens([gerd])]),punc([inputmatch([',']),tokens([])])],115/5,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C0017168','GERD','Gastroesophageal reflux disease',[gerd],[dsyn],[[[1,1],[1,1],0]],yes,no,['CHV','COSTAR','CSP','CST','DXP','HPO','ICD10CM','ICD9CM','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','MTHICD9','MTHMST','NCI','NCI_CTCAE','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[115/4],0,0)])]).phrase(but,[conj([lexmatch([but]),inputmatch([but]),tag(conj),tokens([but])])],121/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('releived with nitro.',[head([inputmatch([releived]),tag(noun),tokens([releived])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([nitro]),inputmatch([nitro]),tag(adj),tokens([nitro])]),punc([inputmatch(['.']),tokens([])])],125/20,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.utterance('00000000.ti.3',"Need to r/o cardiac causes and risk strat.",147/42,[]).phrase('Need to r/o cardiac causes',[head([lexmatch([need]),inputmatch(['Need']),tag(noun),tokens([need])]),prep([lexmatch([to]),inputmatch([to]),tag(prep),tokens([to])]),mod([lexmatch([r]),inputmatch([r,/]),tag(adj),tokens([r])]),mod([lexmatch([o]),inputmatch([o]),tag(noun),tokens([o])]),mod([lexmatch([cardiac]),inputmatch([cardiac]),tag(adj),tokens([cardiac])]),mod([lexmatch([causes]),inputmatch([causes]),tag(noun),tokens([causes])])],147/26,[]).candidates(11,1,0,10,[]).mappings([map(-712,[ev(-753,'C0027552','Need','Needs',[need],[qlco],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','SNOMEDCT_US'],[147/4],0,0),ev(-586,'C0205090','R-','Right',[r],[spco],[[[3,3],[1,1],0]],no,no,['CHV','FMA','HL7V2.5','LNC','MTH','NCI','NCI_CDISC','SNMI','SNOMEDCT_US','UWDA'],[155/1],0,0),ev(-623,'C0741922','CARDIAC causes','CARDIAC causes',[cardiac,causes],[dsyn],[[[5,5],[1,1],0],[[6,6],[2,2],0]],no,no,['NLMSubSyn'],[159/14],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],174/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('risk strat.',[mod([lexmatch([risk]),inputmatch([risk]),tag(noun),tokens([risk])]),head([inputmatch([strat]),tag(noun),tokens([strat])]),punc([inputmatch(['.']),tokens([])])],178/11,[]).candidates(1,0,0,1,[]).mappings([map(-694,[ev(-694,'C0035647','Risk','Risk',[risk],[idcn],[[[1,1],[1,1],0]],no,no,['AOD','CHV','HL7V3.0','LCH','LCH_NW','LNC','MSH','NCI'],[178/4],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Plan: To ED - cycle enxymes and EKGs and plan MIBI",0/50,[]).phrase('Plan',[head([lexmatch([plan]),inputmatch(['Plan']),tag(noun),tokens([plan])])],0/4,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C1301732','Plan','Planned',[plan],[ftcn],[[[1,1],[1,1],0]],yes,no,['CHV','LNC','MTH','NCI','SNOMEDCT_US'],[0/4],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],4/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('To ED - cycle enxymes',[prep([lexmatch([to]),inputmatch(['To']),tag(prep),tokens([to])]),mod([lexmatch([ed]),inputmatch(['ED']),tag(noun),tokens([ed])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([cycle]),inputmatch([cycle]),tag(noun),tokens([cycle])]),head([inputmatch([enxymes]),tag(noun),tokens([enxymes])])],6/21,[]).candidates(4,2,0,2,[]).mappings([map(-623,[ev(-660,'C3538926','ED','Endocrine System Findings Domain',[ed],[idcn],[[[1,1],[1,1],0]],no,no,['MTH','NCI','NCI_CDISC','NLMSubSyn'],[9/2],0,0),ev(-660,'C1511572','Cycle','event cycle',[cycle],[tmco],[[[2,2],[1,1],0]],no,no,['LCH_NW','MTH','NCI','NCI_UCUM'],[14/5],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],28/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('EKGs',[head([lexmatch([ekgs]),inputmatch(['EKGs']),tag(noun),tokens([ekgs])])],32/4,[]).candidates(2,1,0,1,[]).mappings([map(-1000,[ev(-1000,'C0013798',ekgs,'Electrocardiogram',[ekgs],[fndg],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','SNM','SNOMEDCT_US'],[32/4],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],37/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('plan MIBI',[mod([lexmatch([plan]),inputmatch([plan]),tag(noun),tokens([plan])]),head([lexmatch([mibi]),inputmatch(['MIBI']),tag(noun),tokens([mibi])])],41/9,[]).candidates(3,0,0,3,[]).mappings([map(-694,[ev(-694,'C1301732','Plan','Planned',[plan],[ftcn],[[[1,1],[1,1],0]],no,no,['CHV','LNC','MTH','NCI','SNOMEDCT_US'],[41/4],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Follow-up: as above",0/19,[]).phrase('Follow-up',[head([lexmatch(['follow-up']),inputmatch(['Follow',-,up]),tag(adj),tokens([follow,up])])],0/9,[]).candidates(6,0,0,6,[]).mappings([map(-1000,[ev(-1000,'C1522577','Follow Up','follow-up',[follow,up],[hlca],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['MTH','NCI','NCI_CDISC','NCI_NCI-GLOSS'],[0/9],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],9/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase(as,[conj([lexmatch([as]),inputmatch([as]),tag(conj),tokens([as])])],11/2,[]).candidates(0,0,0,0,[]).mappings([]).phrase(above,[head([lexmatch([above]),inputmatch([above]),tag(adj),tokens([above])])],14/5,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C1282910','Above','Upper',[above],[spco],[[[1,1],[1,1],0]],yes,no,['CHV','FMA','HL7V2.5','LNC','MTH','NCI','NCI_CDISC','SNMI','SNOMEDCT_US','UWDA'],[14/5],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"_____________________________________________ Herman N. ",0/56,[]).phrase('_____________________________________________ Herman N.',[punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),mod([lexmatch([herman]),inputmatch(['Herman']),tag(noun),tokens([herman])]),head([lexmatch([n]),inputmatch(['N']),tag(noun),tokens([n])]),punc([inputmatch(['.']),tokens([])])],0/55,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.utterance('00000000.ti.2',"Weller, M.D.",56/12,[]).phrase('Weller,',[head([lexmatch([weller]),inputmatch(['Weller']),tag(noun),tokens([weller])]),punc([inputmatch([',']),tokens([])])],56/7,[]).candidates(0,0,0,0,[]).mappings([]).phrase('M.D.',[head([lexmatch(['m d']),inputmatch(['M','.','D']),tag(noun),tokens([m,d])]),punc([inputmatch(['.']),tokens([])])],64/4,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C1512018','M.D.','Doctor of Medicine',[m,d],[inpr],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['HL7V2.5','MTH','NCI'],[64/3],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1*
+-------------Tokens-----------------------
+<*?*xml*version*=*"*1 . 0*"*encoding*=*"*UTF*-*8*"*?*>*<*root*>*<*TEXT*>*<*!*punc*CDATA*punc*Record*date*:*2092*-*03*-*15*Medical*Walk In*Unit*Kelliher*Care*Center*81*Old*Mill*Lane*Devils*Lake*' '*NV*95196*Phone*:*170*-*574*-*2276*Fax*:*966*-*221*-*9723*PCP*:*Nursing*Assessment*:*WT*:*Temp*:*P*:*BP*:*Reason*for*visit*:*chest pain*Lab*Data*:*Allergies*:*nka*Medication*:*ASA*History*of*the*Present*Illness*:*67*yo*male*with*history*of*CAD*(*known*LAD*lesion*)*with*chest pain*last*night*and*today*.*typically*' '*patient*able*to*exercise*25*minutes*on*an*inclinced*tread mill*.*Able*to*exercise*yesterday*without*chest pain*.*Last*night*' '*has*onset*of*Chest*pressure*at*rest*with*associated*nausea*and*light headedness*.*No*radiation*or*diaphoresis*and*no*palpitations*.*Took*a*nitro*and*releived*.*Today*' '*did*not*exercise*.*This*afternoon*' '*had*onset*of*similar*chest*pressure*at*rest*.*the*pressure*waxed*and*waned*for*some*time*and*then*patient*took*a*nitro*and*had*releif*.*Again*' '*pressure*associated*with*nausea*and*lightneadedness*but*no*diaphoresis*or*palpitations*.*prior to*last*night*' '*patient*cannot*remember*that*last*time*that*he*needed*to*take*a*nitro*.*Pertinent*PMH*:*CADsmoker*GERD*Physical*Exam*:*JVP*<*10cm*Chest*CTA*RRR*nl1*and*s2*abdomen*soft*Assessment*/*Plan*:*Unstable angina*-*History*suggested*accelerated*angina*with*possible*studdering*nature*.*Could*be*GERD*' '*but*releived*with*nitro*.*Need*to*r /*o*cardiac*causes*and*risk*strat*.*Plan*:*To*ED*-*cycle*enxymes*and*EKGs*and*plan*MIBI*Follow - up*:*as*above*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*Herman*N*.*Weller*' '*M . D*.*'*'*>*<*/*TEXT*>*<*TAGS*>*<*/*TAGS*>*<*/*root*>*
+-------------Concepts-----------------------
+XML*
+Version*
+1+',*
+0%*
+Encoding*
+UTF-8*
+Root*
+Text*
+CDATA*
+Record*
+DATE*
+Medical center*Center*
+Walk-in, not otherwise specified',*
+Unit*
+Care*
+Old*
+Mill*
+Lane*
+devils*
+Lake*
+Medical care*
+NV*
+Phone*
+Fax*
+PCP*
+Nursing Assessment*
+WT*
+TEMP*
+P\'*
+BP*
+Reason for visit*
+CHEST PAIN*
+lab data*
+Allergies*
+NKA*
+Medication*
+ASA*
+History of present illness*
+Yo*
+Male',*
+History, NOS*
+CAD*
+Known*
+Lesion*
+CHEST PAIN*
+Night*
+Chest*
+pain night*
+Today*
+*^patient*
+Able*
+TO*
+Exercise*
+/minute*
+Treadmill*
+Able*
+TO*
+Exercise*
+CHEST PAIN*
+Last*
+Night*
+Onset*
+Chest pressure*
+At Rest*
+Associated with*
+NAUSEA*
+LIGHT HEADEDNESS*
+Radiation*
+DIAPHORESIS*
+PALPITATIONS*
+Take*
+Today*
+Not*
+Exercise*
+Afternoon*
+Onset*
+Similar*
+Chest pressure*
+ResT*
+Pressure*
+WAX*
+TIME*
+Then*
+*^patient*
+Take*
+Pressure*
+Associated with*
+NAUSEA*
+DIAPHORESIS*
+PALPITATIONS*
+Last*Night*
+*^patient*
+remember*
+Last*
+TIME*
+needed*
+TO*
+Take*
+PMH*
+GERD*
+Physical Exam*
+CHEST*
+CTA*
+NL1*
+S2*
+Abdomen*
+Soft*
+Assessment*
+Plan*
+Angina, Unstable',*
+History*
+Suggest*
+Accelerated angina*
+Possible*
+Nature*
+GERD*
+Need*
+R-*
+CARDIAC causes*
+Risk*
+Plan*
+ED*
+Cycle*
+ekgs*
+Plan*
+Follow Up*
+Above*
+M.D.*
+Text*
+tags*
+tags*
+Root*
+
+-------------Unique Concepts-----------------------
+Number of unique Concepts = 106
+C0851346 - Radiation
+C1704447 - Reason for visit
+C0221198 - Lesion
+C0262926 - PMH
+C1516048 - Assessment
+C0030705 - *^patient
+C1947933 - Care
+C0234255 - pain night
+C0745590 - lab data
+C1139855 - tags
+C0039476 - TEMP
+C1555005 - UTF-8
+C1708639 - Lane
+C1622890 - ResT
+C0488508 - History of present illness
+C1282910 - Above
+C0027497 - NAUSEA
+C0439550 - Afternoon
+C0030252 - PALPITATIONS
+C0043076 - WAX
+C0640049 - CDATA
+C0015259 - Exercise
+C0686904 - needed
+C2603361 - P\'
+C1706180 - Male',
+C0035647 - Risk
+C1527391 - Chest
+C1535939 - PCP
+C1705924 - NKA
+C0020517 - Allergies
+C0002965 - Angina, Unstable',
+C0333052 - Version
+C0205358 - Soft
+C3538926 - ED
+C0702093 - /minute
+C1547699 - Encoding
+C0220870 - LIGHT HEADEDNESS
+C0027552 - Need
+C3846681 - Walk-in, not otherwise specified',
+C1413296 - Yo
+C1515187 - Take
+C0262512 - History, NOS
+C2882087 - Accelerated angina
+C0460139 - Pressure
+C3810851 - Center
+C1511572 - Cycle
+C1707981 - XML
+C1522704 - Exercise
+C0017168 - GERD
+C2348205 - Similar
+C0750526 - Today
+C1301732 - Plan
+C0741922 - CARDIAC causes
+C1522577 - Follow Up
+C0599997 - Mill
+C0028422 - NV
+C3813548 - CAD
+C0240526 - Night
+C1883708 - Then
+C1705910 - Possible
+C1705535 - Suggest
+C1422548 - NL1
+C0438716 - Chest pressure
+C0040363 - TO
+C0205309 - Known
+C2981698 - 1+',
+C0700590 - DIAPHORESIS
+C2700323 - WT
+C3540513 - CTA
+C1705606 - Text
+C0580836 - Old
+C0004057 - ASA
+C1318154 - Root
+C0681185 - devils
+C0496675 - Medical care
+C0230168 - Abdomen
+C1262865 - Nature
+C1880669 - Fax
+C0028680 - Nursing Assessment
+C0013227 - Medication
+C0679062 - remember
+C0013798 - ekgs
+C0085732 - Able
+C1705541 - Phone
+C0206132 - Onset
+C0011008 - DATE
+C0443144 - At Rest
+C0337049 - Lake
+C1512018 - M.D.
+C0332281 - Associated with
+C0205090 - R-
+C1518422 - Not
+C0008031 - CHEST PAIN
+C0041260 - TO
+C1744699 - Physical Exam
+C1708288 - BP
+C1517741 - Last
+C1419032 - S2
+C2712999 - Treadmill
+C0565990 - Medical center
+C0439148 - Unit
+C2004062 - History
+C3842591 - 0%
+C0034869 - Record
+C0817096 - CHEST
+C0040223 - TIME
+--------------- Mappings ---------------------
+|*XML*Version|
+|*1+',*0%|
+|*Encoding|
+|*UTF-8|
+|*Root|
+|*Text|
+|*CDATA|
+|*Record*DATE|
+|*Medical center*Walk-in, not otherwise specified',*Unit*Care*Old*Mill*Lane*devils*Lake|
+|*Medical care*Walk-in, not otherwise specified',*Unit*Center*Old*Mill*Lane*devils*Lake|
+|*NV*Phone|
+|*Fax|
+|*PCP|
+|*Nursing Assessment|
+|*WT|
+|*TEMP|
+|*P\'|
+|*BP|
+|*Reason for visit|
+|*CHEST PAIN|
+|*lab data|
+|*Allergies|
+|*NKA|
+|*Medication|
+|*ASA|
+|*History of present illness|
+|*Yo*Male',*History, NOS*CAD|
+|*Known*Lesion|
+|*CHEST PAIN*Night|
+|*Chest*pain night|
+|*Today|
+|**^patient|
+|*Able|
+|*TO|
+|*Exercise|
+|*/minute*Treadmill|
+|*Able|
+|*TO|
+|*Exercise|
+|*CHEST PAIN|
+|*Last*Night|
+|*Onset*Chest pressure|
+|*At Rest*Associated with*NAUSEA|
+|*LIGHT HEADEDNESS|
+|*Radiation|
+|*DIAPHORESIS|
+|*PALPITATIONS|
+|*Take|
+|*Today|
+|*Not|
+|*Exercise|
+|*Afternoon|
+|*Onset*Similar*Chest pressure|
+|*ResT|
+|*Pressure*WAX|
+|*TIME|
+|*Then**^patient|
+|*Take|
+|*Pressure|
+|*Associated with*NAUSEA|
+|*DIAPHORESIS|
+|*PALPITATIONS|
+|*Last*Night|
+|**^patient|
+|*remember|
+|*Last*TIME|
+|*needed|
+|*TO|
+|*Take|
+|*PMH|
+|*GERD|
+|*Physical Exam|
+|*CHEST*CTA*NL1|
+|*S2*Abdomen|
+|*Soft|
+|*Assessment*Plan|
+|*Angina, Unstable',*History|
+|*Suggest|
+|*Accelerated angina*Possible*Nature|
+|*GERD|
+|*Need*R-*CARDIAC causes|
+|*Risk|
+|*Plan|
+|*ED*Cycle|
+|*ekgs|
+|*Plan|
+|*Follow Up|
+|*Above|
+|*M.D.|
+|*Text|
+|*tags|
+|*tags|
+|*Root|
+
+-------------Other-----------------------
+Citation has title? - 1
+Citation has abstract? - 0
+Citation Title: <*?*xml*version*=*"*1 . 0*"*encoding*=*"*UTF*-*8*"*?*>*<*root*>*<*TEXT*>*<*!*punc*CDATA*punc*Record*date*:*2092*-*03*-*15*Medical*Walk In*Unit*Kelliher*Care*Center*81*Old*Mill*Lane*Devils*Lake*' '*NV*95196*Phone*:*170*-*574*-*2276*Fax*:*966*-*221*-*9723*PCP*:*Nursing*Assessment*:*WT*:*Temp*:*P*:*BP*:*Reason*for*visit*:*chest pain*Lab*Data*:*Allergies*:*nka*Medication*:*ASA*History*of*the*Present*Illness*:*67*yo*male*with*history*of*CAD*(*known*LAD*lesion*)*with*chest pain*last*night*and*today*.*typically*' '*patient*able*to*exercise*25*minutes*on*an*inclinced*tread mill*.*Able*to*exercise*yesterday*without*chest pain*.*Last*night*' '*has*onset*of*Chest*pressure*at*rest*with*associated*nausea*and*light headedness*.*No*radiation*or*diaphoresis*and*no*palpitations*.*Took*a*nitro*and*releived*.*Today*' '*did*not*exercise*.*This*afternoon*' '*had*onset*of*similar*chest*pressure*at*rest*.*the*pressure*waxed*and*waned*for*some*time*and*then*patient*took*a*nitro*and*had*releif*.*Again*' '*pressure*associated*with*nausea*and*lightneadedness*but*no*diaphoresis*or*palpitations*.*prior to*last*night*' '*patient*cannot*remember*that*last*time*that*he*needed*to*take*a*nitro*.*Pertinent*PMH*:*CADsmoker*GERD*Physical*Exam*:*JVP*<*10cm*Chest*CTA*RRR*nl1*and*s2*abdomen*soft*Assessment*/*Plan*:*Unstable angina*-*History*suggested*accelerated*angina*with*possible*studdering*nature*.*Could*be*GERD*' '*but*releived*with*nitro*.*Need*to*r /*o*cardiac*causes*and*risk*strat*.*Plan*:*To*ED*-*cycle*enxymes*and*EKGs*and*plan*MIBI*Follow - up*:*as*above*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*Herman*N*.*Weller*' '*M . D*.*'*'*>*<*/*TEXT*>*<*TAGS*>*<*/*TAGS*>*<*/*root*>*
+Citation Abstract: 
+--------------  Final Other --------------------
+Citation equals itself?: 1
+Citation equals its title?: 1
+Citation equals its abstract?: 0
+Citation contains one of its own concepts?: 1
+Citation contains a concept that it doesn't contain?: 0
+
+Utterance toStrings
+utterance:
+   00000000.ti.1',"<?xml version=""1.0"" encoding=""UTF-8""?> <root>   <TEXT><![CDATA[",0/63,[]).phrase('<?xml version',[punc([inputmatch([<]),tokens([])]),punc([inputmatch([?]),tokens([])]),mod([lexmatch([xml]),inputmatch([xml]),tag(noun),tokens([xml])]),head([lexmatch([version]),inputmatch([version]),tag(noun),tokens([version])])],0/13,[]).candidates(3,0,0,3,[]).mappings([map(-888,[ev(-694,'C1707981','XML','Extensible Markup Language',[xml],[inpr],[[[1,1],[1,1],0]],no,no,['HL7V3.0','NCI'],[2/3],0,0),ev(-861,'C0333052','Version','Version',[version],[ftcn],[[[2,2],[1,1],0]],yes,no,['CHV','HL7V3.0','LNC','MTH','MTHICD9','NCI','NCI_CDISC'],[6/7],0,0)])]).phrase('="1.0"',[punc([inputmatch([=]),tokens([])]),punc([inputmatch(['"']),tokens([])]),shapes([inputmatch(['1','.','0']),features([real_number]),tokens(['1','0'])]),punc([inputmatch(['"']),tokens([])])],13/6,[]).candidates(4,0,0,4,[]).mappings([map(-888,[ev(-861,'C2981698','1+','1+ Score, WHO',['1'],[clas],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[15/1],0,0),ev(-861,'C3842591','0%','0%',['0'],[fndg],[[[2,2],[1,1],0]],yes,no,['LNC'],[17/1],0,0)])]).phrase(encoding,[verb([lexmatch([encoding]),inputmatch([encoding]),tag(verb),tokens([encoding])])],20/8,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C1547699','Encoding','MIME encoding',[encoding],[idcn],[[[1,1],[1,1],0]],yes,no,['HL7V2.5','MTH'],[20/8],0,0)])]).phrase('="UTF-8"?',[punc([inputmatch([=]),tokens([])]),punc([inputmatch(['"']),tokens([])]),mod([lexmatch([utf]),inputmatch(['UTF']),tag(noun),tokens([utf])]),punc([inputmatch([-]),tokens([])]),shapes([inputmatch(['8']),features([integer]),tokens(['8'])]),punc([inputmatch(['"']),tokens([])]),punc([inputmatch([?]),tokens([])])],28/9,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C1555005','UTF-8','UTF-8',[utf,'8'],[inpr],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['HL7V3.0'],[30/5],0,0)])]).phrase(>,[punc([inputmatch([>]),tokens([])])],37/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('<root',[punc([inputmatch([<]),tokens([])]),head([lexmatch([root]),inputmatch([root]),tag(noun),tokens([root])])],39/5,[]).candidates(4,0,0,4,[]).mappings([map(-1000,[ev(-1000,'C1318154','Root','Root body part',[root],[bpoc],[[[1,1],[1,1],0]],yes,no,['CHV','LNC','MTH'],[40/4],0,0)])]).phrase(>,[punc([inputmatch([>]),tokens([])])],44/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('<TEXT',[punc([inputmatch([<]),tokens([])]),head([lexmatch([text]),inputmatch(['TEXT']),tag(noun),tokens([text])])],48/5,[]).candidates(4,0,0,4,[]).mappings([map(-1000,[ev(-1000,'C1705606','Text','Text Line',[text],[inpr],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[49/4],0,0)])]).phrase(>,[punc([inputmatch([>]),tokens([])])],53/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('<!',[punc([inputmatch([<]),tokens([])]),punc([inputmatch([!]),tokens([])])],54/2,[]).candidates(0,0,0,0,[]).mappings([]).phrase('[CDATA',[punc([inputmatch(['[']),tokens([])]),head([inputmatch(['CDATA']),tag(noun),tokens([cdata])])],56/6,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C0640049','CDATA','3-chloro-4-dimethylaminothioangelicin',[cdata],[orch],[[[1,1],[1,1],0]],yes,no,['MSH'],[57/5],0,0)])]).phrase('[',[punc([inputmatch(['[']),tokens([])])],62/1,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Record date: 2092-03-15",0/23,[]).phrase('Record date',[mod([lexmatch([record]),inputmatch(['Record']),tag(noun),tokens([record])]),head([lexmatch([date]),inputmatch([date]),tag(noun),tokens([date])])],0/11,[]).candidates(4,0,0,4,[]).mappings([map(-888,[ev(-694,'C0034869','Record','Records',[record],[inpr],[[[1,1],[1,1],0]],no,no,['CHV','HL7V3.0','LCH','LCH_NW','MSH','MTH','NCI','NCI_FDA'],[0/6],0,0),ev(-861,'C0011008','DATE','Date in time',[date],[tmco],[[[2,2],[1,1],0]],yes,no,['CHV','LNC','MSH','MTH','NCI','NCI_CareLex','NCI_NICHD','SNOMEDCT_US'],[7/4],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],11/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('2092-03-15',[shapes([inputmatch(['2092']),features([integer]),tokens(['2092'])]),punc([inputmatch([-]),tokens([])]),shapes([inputmatch(['03']),features([integer]),tokens(['03'])]),punc([inputmatch([-]),tokens([])]),shapes([inputmatch(['15']),features([integer]),tokens(['15'])])],13/10,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Medical Walk In Unit Kelliher Care Center 81 Old Mill Lane  Devils Lake, NV 95196 Phone: 170-574-2276   Fax: 966-221-9723",0/121,[]).phrase('Medical Walk In Unit Kelliher Care Center 81 Old Mill Lane  Devils Lake,',[mod([lexmatch([medical]),inputmatch(['Medical']),tag(adj),tokens([medical])]),mod([lexmatch(['walk in']),inputmatch(['Walk','In']),tag(adj),tokens([walk,in])]),mod([lexmatch([unit]),inputmatch(['Unit']),tag(noun),tokens([unit])]),mod([inputmatch(['Kelliher']),tag(noun),tokens([kelliher])]),mod([lexmatch([care]),inputmatch(['Care']),tag(noun),tokens([care])]),mod([lexmatch([center]),inputmatch(['Center']),tag(noun),tokens([center])]),shapes([inputmatch(['81']),features([integer]),tokens(['81'])]),mod([lexmatch([old]),inputmatch(['Old']),tag(adj),tokens([old])]),mod([lexmatch([mill]),inputmatch(['Mill']),tag(noun),tokens([mill])]),mod([lexmatch([lane]),inputmatch(['Lane']),tag(noun),tokens([lane])]),mod([lexmatch([devils]),inputmatch(['Devils']),tag(noun),tokens([devils])]),head([lexmatch([lake]),inputmatch(['Lake']),tag(noun),tokens([lake])]),punc([inputmatch([',']),tokens([])])],0/72,[]).candidates(22,1,0,21,[]).mappings([map(-723,[ev(-672,'C0565990','Medical center','Medical center',[medical,center],[hcro,mnob],[[[1,1],[1,1],0],[[7,7],[2,2],0]],no,no,['AOD','CHV','LCH','MTH','NLMSubSyn','SNOMEDCT_US'],[0/7,35/6],0,0),ev(-630,'C3846681','Walk-in, not otherwise specified','Walk-in, not otherwise specified',[walk,in],[fndg],[[[2,2],[1,1],0],[[3,3],[2,2],0]],no,no,['LNC'],[8/7],0,0),ev(-620,'C0439148','Unit','Unit',[unit],[qnco],[[[4,4],[1,1],0]],no,no,['CHV','HL7V3.0','LNC','MTH','NCI','NCI_CDISC','NCI_FDA','NCI_NCPDP','SNOMEDCT_US'],[16/4],0,0),ev(-620,'C1947933','Care','care activity',[care],[acty],[[[6,6],[1,1],0]],no,no,['MTH','NCI'],[30/4],0,0),ev(-620,'C0580836','Old','Old',[old],[tmco],[[[9,9],[1,1],0]],no,no,['CHV','MTH','NCI','SNMI','SNOMEDCT_US'],[45/3],0,0),ev(-620,'C0599997','Mill','Mill',[mill],[mnob],[[[10,10],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[49/4],0,0),ev(-620,'C1708639','Lane','Lane',[lane],[spco],[[[11,11],[1,1],0]],no,no,['NCI'],[54/4],0,0),ev(-620,'C0681185',devils,'devil (idea)',[devils],[idcn],[[[12,12],[1,1],0]],no,no,['AOD','CHV','MTH'],[60/6],0,0),ev(-786,'C0337049','Lake','Lake (environment)',[lake],[geoa],[[[13,13],[1,1],0]],yes,no,['CHV','LCH_NW','MSH','MTH','SNM','SNMI','SNOMEDCT_US'],[67/4],0,0)]),map(-723,[ev(-663,'C0496675','Medical care','medical care',[medical,care],[fndg],[[[1,1],[1,1],0],[[6,6],[2,2],0]],no,no,['AOD','CHV','LCH','LCH_NW'],[0/7,30/4],0,0),ev(-630,'C3846681','Walk-in, not otherwise specified','Walk-in, not otherwise specified',[walk,in],[fndg],[[[2,2],[1,1],0],[[3,3],[2,2],0]],no,no,['LNC'],[8/7],0,0),ev(-620,'C0439148','Unit','Unit',[unit],[qnco],[[[4,4],[1,1],0]],no,no,['CHV','HL7V3.0','LNC','MTH','NCI','NCI_CDISC','NCI_FDA','NCI_NCPDP','SNOMEDCT_US'],[16/4],0,0),ev(-620,'C3810851','Center','Center of town',[center],[fndg],[[[7,7],[1,1],0]],no,no,['LNC','MTH'],[35/6],0,0),ev(-620,'C0580836','Old','Old',[old],[tmco],[[[9,9],[1,1],0]],no,no,['CHV','MTH','NCI','SNMI','SNOMEDCT_US'],[45/3],0,0),ev(-620,'C0599997','Mill','Mill',[mill],[mnob],[[[10,10],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[49/4],0,0),ev(-620,'C1708639','Lane','Lane',[lane],[spco],[[[11,11],[1,1],0]],no,no,['NCI'],[54/4],0,0),ev(-620,'C0681185',devils,'devil (idea)',[devils],[idcn],[[[12,12],[1,1],0]],no,no,['AOD','CHV','MTH'],[60/6],0,0),ev(-786,'C0337049','Lake','Lake (environment)',[lake],[geoa],[[[13,13],[1,1],0]],yes,no,['CHV','LCH_NW','MSH','MTH','SNM','SNMI','SNOMEDCT_US'],[67/4],0,0)])]).phrase('NV 95196 Phone',[mod([lexmatch([nv]),inputmatch(['NV']),tag(noun),tokens([nv])]),shapes([inputmatch(['95196']),features([integer]),tokens(['95196'])]),head([lexmatch([phone]),inputmatch(['Phone']),tag(noun),tokens([phone])])],73/14,[]).candidates(9,4,0,5,[]).mappings([map(-802,[ev(-660,'C0028422','NV','Norwalk virus',[nv],[virs],[[[1,1],[1,1],0]],no,no,['CHV','CSP','MSH','MTH','NCBI','NCI','NCI_CDISC','NLMSubSyn','SNMI','SNOMEDCT_US'],[73/2],0,0),ev(-827,'C1705541','Phone','Telephone Device Component',[phone],[mnob],[[[3,3],[1,1],0]],yes,no,['MTH','NCI','NCI_FDA'],[82/5],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],87/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('170-574-2276   Fax',[shapes([inputmatch(['170']),features([integer]),tokens(['170'])]),punc([inputmatch([-]),tokens([])]),shapes([inputmatch(['574']),features([integer]),tokens(['574'])]),punc([inputmatch([-]),tokens([])]),shapes([inputmatch(['2276']),features([integer]),tokens(['2276'])]),head([lexmatch([fax]),inputmatch(['Fax']),tag(noun),tokens([fax])])],89/18,[]).candidates(3,0,0,3,[]).mappings([map(-812,[ev(-812,'C1880669','Fax','Facsimile Machine',[fax],[mnob],[[[4,4],[1,1],0]],yes,no,['MTH','NCI'],[104/3],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],107/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('966-221-9723',[shapes([inputmatch(['966']),features([integer]),tokens(['966'])]),punc([inputmatch([-]),tokens([])]),shapes([inputmatch(['221']),features([integer]),tokens(['221'])]),punc([inputmatch([-]),tokens([])]),shapes([inputmatch(['9723']),features([integer]),tokens(['9723'])])],109/12,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"PCP:",0/4,[]).phrase('PCP',[head([lexmatch([pcp]),inputmatch(['PCP']),tag(noun),tokens([pcp])])],0/3,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C1535939','PCP','Pneumocystis jiroveci pneumonia',[pcp],[dsyn],[[[1,1],[1,1],0]],yes,no,['CHV','COSTAR','CSP','DXP','ICD10CM','ICD9CM','LCH','LCH_NW','MSH','MTH','MTHICD9','NCI','NDFRT','NLMSubSyn','QMR','SNM','SNMI','SNOMEDCT_US'],[0/3],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],3/1,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Nursing Assessment:   WT:    Temp:    P:     BP:",0/48,[]).phrase('Nursing Assessment',[mod([lexmatch([nursing]),inputmatch(['Nursing']),tag(adj),tokens([nursing])]),head([lexmatch([assessment]),inputmatch(['Assessment']),tag(noun),tokens([assessment])])],0/18,[]).candidates(7,1,0,6,[]).mappings([map(-1000,[ev(-1000,'C0028680','Nursing Assessment','Nursing Assessment',[nursing,assessment],[hlca],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV','LCH_NW','MSH','NLMSubSyn'],[0/18],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],18/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('WT',[head([lexmatch([wt]),inputmatch(['WT']),tag(noun),tokens([wt])])],22/2,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C2700323','WT','Wild Type Unspecified - zebrafish',[wt],[fish],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','NCI_ZFin'],[22/2],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],24/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('Temp',[head([lexmatch([temp]),inputmatch(['Temp']),tag(noun),tokens([temp])])],29/4,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0039476','TEMP','Temperature',[temp],[qnco],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','CSP','HL7V2.5','ICF','ICF-CY','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CDISC','NCI_NCPDP','NCI_NICHD','SNMI','SNOMEDCT_US'],[29/4],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],33/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('P',[head([lexmatch([p]),inputmatch(['P']),tag(noun),tokens([p])])],38/1,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C2603361','P\'','P prime',[p],[clna],[[[1,1],[1,1],0]],yes,no,['LNC','MTH'],[38/1],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],39/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('BP',[head([lexmatch([bp]),inputmatch(['BP']),tag(noun),tokens([bp])])],45/2,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C1708288','BP','HP wt Allele',[bp],[gngm],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[45/2],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],47/1,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Reason for visit: chest pain",0/28,[]).phrase('Reason for visit',[head([lexmatch([reason]),inputmatch(['Reason']),tag(noun),tokens([reason])]),prep([lexmatch([for]),inputmatch([for]),tag(prep),tokens([for])]),mod([lexmatch([visit]),inputmatch([visit]),tag(noun),tokens([visit])])],0/16,[]).candidates(5,0,0,5,[]).mappings([map(-1000,[ev(-1000,'C1704447','Reason for visit','Reason for patient visit',[reason,for,visit],[fndg],[[[1,1],[1,1],0],[[2,2],[2,2],0],[[3,3],[3,3],0]],yes,no,['LNC','MTH','NLMSubSyn'],[0/16],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],16/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('chest pain',[head([lexmatch(['chest pain']),inputmatch([chest,pain]),tag(noun),tokens([chest,pain])])],18/10,[]).candidates(13,7,0,6,[]).mappings([map(-1000,[ev(-1000,'C0008031','CHEST PAIN','Chest Pain',[chest,pain],[sosy],[[[1,2],[1,2],0]],yes,no,['CCS','CHV','COSTAR','CST','DXP','HPO','ICD10CM','ICD9CM','ICF','ICF-CY','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','NCI','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[18/10],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Lab Data :",0/10,[]).phrase('Lab Data',[mod([lexmatch([lab]),inputmatch(['Lab']),tag(noun),tokens([lab])]),head([lexmatch([data]),inputmatch(['Data']),tag(noun),tokens([data])])],0/8,[]).candidates(7,2,0,5,[]).mappings([map(-1000,[ev(-1000,'C0745590','lab data','lab data',[lab,data],[cnce],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV'],[0/8],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],9/1,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Allergies:       nka",0/20,[]).phrase('Allergies',[head([lexmatch([allergies]),inputmatch(['Allergies']),tag(noun),tokens([allergies])])],0/9,[]).candidates(7,6,0,1,[]).mappings([map(-1000,[ev(-1000,'C0020517','Allergies','Hypersensitivity',[allergies],[patf],[[[1,1],[1,1],0]],yes,no,['AOD','CCS','CHV','COSTAR','CSP','CST','GO','HL7V2.5','HL7V3.0','ICD10CM','ICF','ICF-CY','ICPC','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','MTHICD9','NCI','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[0/9],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],9/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase(nka,[head([lexmatch([nka]),inputmatch([nka]),tag(noun),tokens([nka])])],17/3,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C1705924','NKA','TAC1 wt Allele',[nka],[gngm],[[[1,1],[1,1],0]],yes,no,['MTH','NCI'],[17/3],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Medication:  ASA",0/16,[]).phrase('Medication',[head([lexmatch([medication]),inputmatch(['Medication']),tag(noun),tokens([medication])])],0/10,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0013227','Medication','Pharmaceutical Preparations',[medication],[phsu],[[[1,1],[1,1],0]],yes,no,['CHV','CSP','HL7V2.5','ICF','ICF-CY','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','NCI','NCI_NCI-GLOSS','NDFRT','NLMSubSyn','SNM','SNMI','SNOMEDCT_US'],[0/10],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],10/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('ASA',[head([lexmatch([asa]),inputmatch(['ASA']),tag(noun),tokens([asa])])],13/3,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C0004057','ASA','Aspirin',[asa],[orch,phsu],[[[1,1],[1,1],0]],yes,no,['AOD','ATC','CHV','CSP','LCH','LCH_NW','MSH','MTH','MTHSPL','NCI','NCI_DCP','NCI_DTP','NCI_FDA','NCI_NCI-GLOSS','NDFRT','PDQ','RXNORM','SNM','SNMI','SNOMEDCT_US','VANDF'],[13/3],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([negation(nega,without,[256/7],['C0008031':'CHEST PAIN'],[264/10]),negation(nega,no,[371/2],['C0700590':'DIAPHORESIS'],[387/11]),negation(nega,no,[403/2],['C0030252':'PALPITATIONS'],[406/12])]).utterance('00000000.ti.1',"History of the Present Illness:                                 67 yo male with history of CAD (known LAD lesion) with chest pain last night and today.  typically, patient able to exercise 25 minutes on an inclinced tread mill.  ",0/229,[]).phrase('History of the Present Illness',[head([lexmatch([history]),inputmatch(['History']),tag(noun),tokens([history])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([present]),inputmatch(['Present']),tag(adj),tokens([present])]),mod([lexmatch([illness]),inputmatch(['Illness']),tag(noun),tokens([illness])])],0/30,[]).candidates(18,7,0,11,[]).mappings([map(-891,[ev(-891,'C0488508','History of present illness','History of present illness:Finding:Point in time:^Patient:Nominal:Reported',[history,of,present,illness],[clna],[[[1,1],[1,1],0],[[2,2],[2,2],0],[[4,4],[3,3],0],[[5,5],[4,4],0]],yes,no,['LNC','MTH'],[0/10,15/15],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],30/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('67 yo male with history of CAD',[shapes([inputmatch(['67']),features([integer]),tokens(['67'])]),mod([lexmatch([yo]),inputmatch([yo]),tag(noun),tokens([yo])]),head([lexmatch([male]),inputmatch([male]),tag(noun),tokens([male])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([history]),inputmatch([history]),tag(noun),tokens([history])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([cad]),inputmatch(['CAD']),tag(noun),tokens([cad])])],64/30,[]).candidates(14,2,0,12,[]).mappings([map(-664,[ev(-581,'C1413296','Yo','CDR2 gene',[yo],[gngm],[[[2,2],[1,1],0]],no,no,['HGNC','MTH','OMIM'],[67/2],0,0),ev(-748,'C1706180','Male','Male Gender, Self Report',[male],[qlco],[[[3,3],[1,1],0]],yes,no,['MTH','NCI'],[70/4],0,0),ev(-581,'C0262512','History, NOS','History of present illness',[history],[orga],[[[5,5],[1,1],0]],no,no,['CHV','COSTAR','LNC','MTH','SNMI','SNOMEDCT_US'],[80/7],0,0),ev(-581,'C3813548','CAD','CALD1 wt Allele',[cad],[gngm],[[[7,7],[1,1],0]],no,no,['MTH','NCI'],[91/3],0,0)])]).phrase('(known LAD lesion',[punc([inputmatch(['(']),tokens([])]),mod([lexmatch([known]),inputmatch([known]),tag(adj),tokens([known])]),mod([lexmatch([lad]),inputmatch(['LAD']),tag(noun),tokens([lad])]),head([lexmatch([lesion]),inputmatch([lesion]),tag(noun),tokens([lesion])])],95/17,[]).candidates(3,0,0,3,[]).mappings([map(-802,[ev(-660,'C0205309','Known','Known',[known],[qlco],[[[1,1],[1,1],0]],no,no,['CHV','MTH','NCI','SNMI','SNOMEDCT_US'],[96/5],0,0),ev(-827,'C0221198','Lesion','Lesion',[lesion],[fndg],[[[3,3],[1,1],0]],yes,no,['AOD','CHV','MTH','NCI','NCI_CDISC','NCI_NCI-GLOSS','NLMSubSyn','SNM','SNMI','SNOMEDCT_US'],[106/6],0,0)])]).phrase(')',[punc([inputmatch([')']),tokens([])])],112/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('with chest pain last night',[prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch(['chest pain']),inputmatch([chest,pain]),tag(noun),tokens([chest,pain])]),mod([lexmatch([last]),inputmatch([last]),tag(adj),tokens([last])]),head([lexmatch([night]),inputmatch([night]),tag(noun),tokens([night])])],114/26,[]).candidates(15,7,0,8,[]).mappings([map(-824,[ev(-694,'C0008031','CHEST PAIN','Chest Pain',[chest,pain],[sosy],[[[1,2],[1,2],0]],no,no,['CCS','CHV','COSTAR','CST','DXP','HPO','ICD10CM','ICD9CM','ICF','ICF-CY','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','NCI','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[119/10],0,0),ev(-812,'C0240526','Night','Night time',[night],[tmco],[[[4,4],[1,1],0]],yes,no,['AOD','CHV','DXP','MTH','NCI','SNMI','SNOMEDCT_US'],[135/5],0,0)]),map(-824,[ev(-645,'C1527391','Chest','Anterior thoracic region',[chest],[blor],[[[1,1],[1,1],0]],no,no,['MTH','NLMSubSyn','UWDA'],[119/5],0,0),ev(-875,'C0234255','pain night','Night pain',[pain,night],[sosy],[[[2,2],[1,1],0],[[4,4],[2,2],0]],yes,no,['CHV','SNMI','SNOMEDCT_US'],[125/4,135/5],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],141/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('today.  typically,',[mod([lexmatch([today]),inputmatch([today]),tag(noun),tokens([today])]),punc([inputmatch(['.']),tokens([])]),adv([lexmatch([typically]),inputmatch([typically]),tag(adv),tokens([typically])]),punc([inputmatch([',']),tokens([])])],145/18,[]).candidates(2,0,0,2,[]).mappings([map(-861,[ev(-861,'C0750526','Today','Today (temporal qualifier)',[today],[tmco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[145/5],0,0)])]).phrase(patient,[head([lexmatch([patient]),inputmatch([patient]),tag(noun),tokens([patient])])],164/7,[]).candidates(4,0,0,4,[]).mappings([map(-1000,[ev(-1000,'C0030705','*^patient','Patients',[patient],[podg],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','HL7V3.0','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CDISC','NCI_DICOM','NCI_FDA','SNOMEDCT_US'],[164/7],0,0)])]).phrase(able,[head([lexmatch([able]),inputmatch([able]),tag(adj),tokens([able])])],172/4,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0085732','Able','Ability',[able],[orga],[[[1,1],[1,1],0]],yes,no,['CHV','LCH','LCH_NW','MSH','MTH','NCI'],[172/4],0,0)])]).phrase(to,[adv([lexmatch([to]),inputmatch([to]),tag(adv),tokens([to])])],177/2,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C0041260','TO','Tryptophanase',[to],[aapp,enzy],[[[1,1],[1,1],0]],yes,no,['CSP','MSH','MTH','NCI','NDFRT','NLMSubSyn','PDQ','SNMI','SNOMEDCT_US'],[177/2],0,0)])]).phrase(exercise,[verb([lexmatch([exercise]),inputmatch([exercise]),tag(verb),tokens([exercise])])],180/8,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C1522704','Exercise','Exercise Pain Management',[exercise],[topp],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','NLMSubSyn'],[180/8],0,0)])]).phrase('25 minutes on an inclinced tread mill.',[shapes([inputmatch(['25']),features([integer]),tokens(['25'])]),head([lexmatch([minutes]),inputmatch([minutes]),tag(noun),tokens([minutes])]),prep([lexmatch([on]),inputmatch([on]),tag(prep),tokens([on])]),det([lexmatch([an]),inputmatch([an]),tag(det),tokens([an])]),mod([inputmatch([inclinced]),tag(noun),tokens([inclinced])]),mod([lexmatch(['tread mill']),inputmatch([tread,mill]),tag(noun),tokens([tread,mill])]),punc([inputmatch(['.']),tokens([])])],189/38,[]).candidates(8,0,0,8,[]).mappings([map(-693,[ev(-748,'C0702093','/minute','Per Minute',[minute],[tmco],[[[2,2],[1,1],0]],yes,no,['CHV','MTH','NCI','NCI_CDISC','NCI_UCUM','SNOMEDCT_US'],[192/7],0,0),ev(-612,'C2712999','Treadmill','Treadmill (physical activity)',[treadmill],[dora],[[[6,7],[1,1],0]],no,no,['MTH','MTHICD9'],[216/10],0,0)])]).'EOU'.utterance('00000000.ti.2',"Able to exercise yesterday without chest pain.  ",229/48,[]).phrase('Able',[head([lexmatch([able]),inputmatch(['Able']),tag(adj),tokens([able])])],229/4,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0085732','Able','Ability',[able],[orga],[[[1,1],[1,1],0]],yes,no,['CHV','LCH','LCH_NW','MSH','MTH','NCI'],[229/4],0,0)])]).phrase(to,[adv([lexmatch([to]),inputmatch([to]),tag(adv),tokens([to])])],234/2,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C0041260','TO','Tryptophanase',[to],[aapp,enzy],[[[1,1],[1,1],0]],yes,no,['CSP','MSH','MTH','NCI','NDFRT','NLMSubSyn','PDQ','SNMI','SNOMEDCT_US'],[234/2],0,0)])]).phrase(exercise,[verb([lexmatch([exercise]),inputmatch([exercise]),tag(verb),tokens([exercise])])],237/8,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C1522704','Exercise','Exercise Pain Management',[exercise],[topp],[[[1,1],[1,1],0]],yes,no,['MTH','NCI','NLMSubSyn'],[237/8],0,0)])]).phrase('yesterday without chest pain.',[head([lexmatch([yesterday]),inputmatch([yesterday]),tag(noun),tokens([yesterday])]),prep([lexmatch([without]),inputmatch([without]),tag(prep),tokens([without])]),mod([lexmatch(['chest pain']),inputmatch([chest,pain]),tag(noun),tokens([chest,pain])]),punc([inputmatch(['.']),tokens([])])],246/29,[]).candidates(13,7,0,6,[]).mappings([map(-666,[ev(-666,'C0008031','CHEST PAIN','Chest Pain',[chest,pain],[sosy],[[[3,4],[1,2],0]],no,no,['CCS','CHV','COSTAR','CST','DXP','HPO','ICD10CM','ICD9CM','ICF','ICF-CY','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','NCI','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[264/10],0,1)])]).'EOU'.utterance('00000000.ti.3',"Last night, has onset of Chest pressure at rest with associated nausea and light headedness.  ",277/94,[]).phrase('Last night,',[mod([lexmatch([last]),inputmatch(['Last']),tag(adj),tokens([last])]),head([lexmatch([night]),inputmatch([night]),tag(noun),tokens([night])]),punc([inputmatch([',']),tokens([])])],277/11,[]).candidates(2,0,0,2,[]).mappings([map(-888,[ev(-694,'C1517741','Last','Last',[last],[qlco],[[[1,1],[1,1],0]],no,no,['NCI'],[277/4],0,0),ev(-861,'C0240526','Night','Night time',[night],[tmco],[[[2,2],[1,1],0]],yes,no,['AOD','CHV','DXP','MTH','NCI','SNMI','SNOMEDCT_US'],[282/5],0,0)])]).phrase(has,[aux([lexmatch([has]),inputmatch([has]),tag(aux),tokens([has])])],289/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('onset of Chest pressure',[head([lexmatch([onset]),inputmatch([onset]),tag(noun),tokens([onset])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([chest]),inputmatch(['Chest']),tag(noun),tokens([chest])]),mod([lexmatch([pressure]),inputmatch([pressure]),tag(noun),tokens([pressure])])],293/23,[]).candidates(14,6,0,8,[]).mappings([map(-783,[ev(-770,'C0206132','Onset','Age of Onset',[onset],[qnco],[[[1,1],[1,1],0]],yes,no,['CHV','CSP','HPO','MSH','MTH'],[293/5],0,0),ev(-666,'C0438716','Chest pressure','Chest pressure',[chest,pressure],[sosy],[[[3,3],[1,1],0],[[4,4],[2,2],0]],no,no,['CHV','CST','MTH','MTHICD9','SNM','SNMI','SNOMEDCT_US'],[302/14],0,0)])]).phrase('at rest with associated nausea',[prep([lexmatch([at]),inputmatch([at]),tag(prep),tokens([at])]),head([lexmatch([rest]),inputmatch([rest]),tag(noun),tokens([rest])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([associated]),inputmatch([associated]),tag(adj),tokens([associated])]),mod([lexmatch([nausea]),inputmatch([nausea]),tag(noun),tokens([nausea])])],317/30,[]).candidates(10,2,0,8,[]).mappings([map(-857,[ev(-806,'C0443144','At Rest','At rest (qualifier value)',[at,rest],[ftcn],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV','LNC','MTH','NCI','SNOMEDCT_US'],[317/7],0,0),ev(-631,'C0332281','Associated with','Associated with',[associated,with],[qlco],[[[4,4],[1,1],0],[[3,3],[2,2],0]],no,no,['CHV','LNC','MTH','NCI','SNMI','SNOMEDCT_US'],[325/15],0,0),ev(-593,'C0027497','NAUSEA','Nausea',[nausea],[sosy],[[[5,5],[1,1],0]],no,no,['AOD','CHV','COSTAR','CSP','CST','DXP','HPO','ICD10CM','ICPC','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CTCAE','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','OMIM','SNM','SNMI','SNOMEDCT_US'],[341/6],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],348/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('light headedness.',[head([lexmatch(['light headedness']),inputmatch([light,headedness]),tag(noun),tokens([light,headedness])]),punc([inputmatch(['.']),tokens([])])],352/17,[]).candidates(9,1,0,8,[]).mappings([map(-1000,[ev(-1000,'C0220870','LIGHT HEADEDNESS','Lightheadedness',[light,headedness],[sosy],[[[1,2],[1,2],0]],yes,no,['AOD','CHV','COSTAR','CST','DXP','ICD10CM','MSH','MTH','MTHICD9','NCI','OMIM','SNM','SNMI','SNOMEDCT_US'],[352/16],0,0)])]).'EOU'.utterance('00000000.ti.4',"No radiation or diaphoresis and no palpitations.  ",371/50,[]).phrase('No radiation',[det([lexmatch([no]),inputmatch(['No']),tag(det),tokens([no])]),head([lexmatch([radiation]),inputmatch([radiation]),tag(noun),tokens([radiation])])],371/12,[]).candidates(6,0,0,6,[]).mappings([map(-1000,[ev(-1000,'C0851346','Radiation','Radiation',[radiation],[npop],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','CSP','LCH','LCH_NW','LNC','MSH','MTH','NLMSubSyn','SNM','SNMI','SNOMEDCT_US'],[374/9],0,0)])]).phrase(or,[conj([lexmatch([or]),inputmatch([or]),tag(conj),tokens([or])])],384/2,[]).candidates(0,0,0,0,[]).mappings([]).phrase(diaphoresis,[head([lexmatch([diaphoresis]),inputmatch([diaphoresis]),tag(noun),tokens([diaphoresis])])],387/11,[]).candidates(2,1,0,1,[]).mappings([map(-1000,[ev(-1000,'C0700590','DIAPHORESIS','Increased sweating',[diaphoresis],[sosy],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','COSTAR','CST','DXP','HPO','ICD10CM','MTH','MTHICD9','NCI','NCI_NICHD','NLMSubSyn','OMIM','SNMI','SNOMEDCT_US'],[387/11],0,1)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],399/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('no palpitations.',[det([lexmatch([no]),inputmatch([no]),tag(det),tokens([no])]),head([lexmatch([palpitations]),inputmatch([palpitations]),tag(noun),tokens([palpitations])]),punc([inputmatch(['.']),tokens([])])],403/16,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0030252','PALPITATIONS','Palpitations',[palpitations],[fndg],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','COSTAR','CST','DXP','HPO','ICD10CM','ICD9CM','LCH','LNC','MTH','NCI','NCI_CTCAE','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[406/12],0,1)])]).'EOU'.utterance('00000000.ti.5',"Took a nitro and releived.",421/26,[]).phrase('Took',[verb([lexmatch([took]),inputmatch(['Took']),tag(verb),tokens([took])])],421/4,[]).candidates(1,0,0,1,[]).mappings([map(-966,[ev(-966,'C1515187','Take','Take',[take],[hlca],[[[1,1],[1,1],1]],yes,no,['NCI','SNOMEDCT_US'],[421/4],0,0)])]).phrase('a nitro',[det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),head([lexmatch([nitro]),inputmatch([nitro]),tag(adj),tokens([nitro])])],426/7,[]).candidates(0,0,0,0,[]).mappings([]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],434/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('releived.',[head([inputmatch([releived]),tag(noun),tokens([releived])]),punc([inputmatch(['.']),tokens([])])],438/9,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([negation(nega,no,[241/2],['C0700590':'DIAPHORESIS'],[244/11]),negation(nega,no,[241/2],['C0030252':'PALPITATIONS'],[259/12])]).utterance('00000000.ti.1',"Today, did not exercise.  ",0/26,[]).phrase('Today,',[head([lexmatch([today]),inputmatch(['Today']),tag(noun),tokens([today])]),punc([inputmatch([',']),tokens([])])],0/6,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0750526','Today','Today (temporal qualifier)',[today],[tmco],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','NCI'],[0/5],0,0)])]).phrase(did,[aux([lexmatch([did]),inputmatch([did]),tag(aux),tokens([did])])],7/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase(not,[adv([lexmatch([not]),inputmatch([not]),tag(adv),tokens([not])])],11/3,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C1518422','Not','Negation',[not],[ftcn],[[[1,1],[1,1],0]],yes,no,['LNC','MTH','NCI'],[11/3],0,0)])]).phrase('exercise.',[verb([lexmatch([exercise]),inputmatch([exercise]),tag(verb),tokens([exercise])]),punc([inputmatch(['.']),tokens([])])],15/9,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0015259','Exercise','Exercise',[exercise],[dora],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','CSP','LCH_NW','LNC','MSH','MTH','NCI','NLMSubSyn','SNMI','SNOMEDCT_US'],[15/8],0,0)])]).'EOU'.utterance('00000000.ti.2',"This afternoon, had onset of similar chest pressure at rest.  the pressure waxed and waned for some time and then patient took a nitro and had releif.  ",26/152,[]).phrase('This afternoon,',[det([lexmatch([this]),inputmatch(['This']),tag(det),tokens([this])]),head([lexmatch([afternoon]),inputmatch([afternoon]),tag(noun),tokens([afternoon])]),punc([inputmatch([',']),tokens([])])],26/15,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C0439550','Afternoon','Afternoon',[afternoon],[tmco],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','LNC','NCI','SNOMEDCT_US'],[31/9],0,0)])]).phrase(had,[aux([lexmatch([had]),inputmatch([had]),tag(aux),tokens([had])])],42/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('onset of similar chest pressure',[head([lexmatch([onset]),inputmatch([onset]),tag(noun),tokens([onset])]),prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([similar]),inputmatch([similar]),tag(adj),tokens([similar])]),mod([lexmatch([chest]),inputmatch([chest]),tag(noun),tokens([chest])]),mod([lexmatch([pressure]),inputmatch([pressure]),tag(noun),tokens([pressure])])],46/31,[]).candidates(15,6,0,9,[]).mappings([map(-761,[ev(-760,'C0206132','Onset','Age of Onset',[onset],[qnco],[[[1,1],[1,1],0]],yes,no,['CHV','CSP','HPO','MSH','MTH'],[46/5],0,0),ev(-593,'C2348205','Similar','Similarity',[similar],[qlco],[[[3,3],[1,1],0]],no,no,['NCI'],[55/7],0,0),ev(-640,'C0438716','Chest pressure','Chest pressure',[chest,pressure],[sosy],[[[4,4],[1,1],0],[[5,5],[2,2],0]],no,no,['CHV','CST','MTH','MTHICD9','SNM','SNMI','SNOMEDCT_US'],[63/14],0,0)])]).phrase('at rest.',[prep([lexmatch([at]),inputmatch([at]),tag(prep),tokens([at])]),head([lexmatch([rest]),inputmatch([rest]),tag(noun),tokens([rest])]),punc([inputmatch(['.']),tokens([])])],78/8,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C1622890','ResT','site-specific telomere resolvase activity',[rest],[moft],[[[1,1],[1,1],0]],yes,no,['GO','MTH'],[81/4],0,0)])]).phrase('the pressure waxed',[det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([pressure]),inputmatch([pressure]),tag(noun),tokens([pressure])]),head([lexmatch([waxed]),inputmatch([waxed]),tag(noun),tokens([waxed])])],88/18,[]).candidates(5,0,0,5,[]).mappings([map(-872,[ev(-694,'C0460139','Pressure','Pressure (finding)',[pressure],[fndg],[[[1,1],[1,1],0]],no,no,['CHV','MTH','SNM','SNMI','SNOMEDCT_US'],[92/8],0,0),ev(-827,'C0043076','WAX','Waxes',[wax],[bodm],[[[2,2],[1,1],1]],yes,no,['CHV','CSP','LCH','LCH_NW','MSH','MTH','NDFRT','SNM','SNMI','SNOMEDCT_US','VANDF'],[101/5],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],107/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('waned for some time',[verb([lexmatch([waned]),inputmatch([waned]),tag(verb),tokens([waned])]),prep([lexmatch([for]),inputmatch([for]),tag(prep),tokens([for])]),det([lexmatch([some]),inputmatch([some]),tag(det),tokens([some])]),mod([lexmatch([time]),inputmatch([time]),tag(noun),tokens([time])])],111/19,[]).candidates(5,3,0,2,[]).mappings([map(-770,[ev(-770,'C0040223','TIME','Time',[time],[tmco],[[[4,4],[1,1],0]],yes,no,['CHV','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_NICHD','SNOMEDCT_US'],[126/4],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],131/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('then patient',[adv([lexmatch([then]),inputmatch([then]),tag(adv),tokens([then])]),head([lexmatch([patient]),inputmatch([patient]),tag(noun),tokens([patient])])],135/12,[]).candidates(5,0,0,5,[]).mappings([map(-888,[ev(-694,'C1883708','Then','Then',[then],[tmco],[[[1,1],[1,1],0]],no,no,['MTH','NCI'],[135/4],0,0),ev(-861,'C0030705','*^patient','Patients',[patient],[podg],[[[2,2],[1,1],0]],yes,no,['AOD','CHV','HL7V3.0','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CDISC','NCI_DICOM','NCI_FDA','SNOMEDCT_US'],[140/7],0,0)])]).phrase(took,[verb([lexmatch([took]),inputmatch([took]),tag(verb),tokens([took])])],148/4,[]).candidates(1,0,0,1,[]).mappings([map(-966,[ev(-966,'C1515187','Take','Take',[take],[hlca],[[[1,1],[1,1],1]],yes,no,['NCI','SNOMEDCT_US'],[148/4],0,0)])]).phrase('a nitro',[det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),head([lexmatch([nitro]),inputmatch([nitro]),tag(adj),tokens([nitro])])],153/7,[]).candidates(0,0,0,0,[]).mappings([]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],161/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase(had,[aux([lexmatch([had]),inputmatch([had]),tag(aux),tokens([had])])],165/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('releif.',[head([inputmatch([releif]),tag(noun),tokens([releif])]),punc([inputmatch(['.']),tokens([])])],169/7,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.utterance('00000000.ti.3',"Again, pressure associated with nausea and lightneadedness but no diaphoresis or palpitations.",178/94,[]).phrase('Again,',[adv([lexmatch([again]),inputmatch(['Again']),tag(adv),tokens([again])]),punc([inputmatch([',']),tokens([])])],178/6,[]).candidates(0,0,0,0,[]).mappings([]).phrase(pressure,[head([lexmatch([pressure]),inputmatch([pressure]),tag(noun),tokens([pressure])])],185/8,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C0460139','Pressure','Pressure (finding)',[pressure],[fndg],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNM','SNMI','SNOMEDCT_US'],[185/8],0,0)])]).phrase('associated with nausea',[verb([lexmatch([associated]),inputmatch([associated]),tag(verb),tokens([associated])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([nausea]),inputmatch([nausea]),tag(noun),tokens([nausea])])],194/22,[]).candidates(6,2,0,4,[]).mappings([map(-901,[ev(-882,'C0332281','Associated with','Associated with',[associated,with],[qlco],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['CHV','LNC','MTH','NCI','SNMI','SNOMEDCT_US'],[194/15],0,0),ev(-790,'C0027497','NAUSEA','Nausea',[nausea],[sosy],[[[3,3],[1,1],0]],yes,no,['AOD','CHV','COSTAR','CSP','CST','DXP','HPO','ICD10CM','ICPC','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CTCAE','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','OMIM','SNM','SNMI','SNOMEDCT_US'],[210/6],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],217/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase(lightneadedness,[head([inputmatch([lightneadedness]),tag(noun),tokens([lightneadedness])])],221/15,[]).candidates(0,0,0,0,[]).mappings([]).phrase(but,[conj([lexmatch([but]),inputmatch([but]),tag(conj),tokens([but])])],237/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('no diaphoresis',[det([lexmatch([no]),inputmatch([no]),tag(det),tokens([no])]),head([lexmatch([diaphoresis]),inputmatch([diaphoresis]),tag(noun),tokens([diaphoresis])])],241/14,[]).candidates(2,1,0,1,[]).mappings([map(-1000,[ev(-1000,'C0700590','DIAPHORESIS','Increased sweating',[diaphoresis],[sosy],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','COSTAR','CST','DXP','HPO','ICD10CM','MTH','MTHICD9','NCI','NCI_NICHD','NLMSubSyn','OMIM','SNMI','SNOMEDCT_US'],[244/11],0,1)])]).phrase(or,[conj([lexmatch([or]),inputmatch([or]),tag(conj),tokens([or])])],256/2,[]).candidates(0,0,0,0,[]).mappings([]).phrase('palpitations.',[head([lexmatch([palpitations]),inputmatch([palpitations]),tag(noun),tokens([palpitations])]),punc([inputmatch(['.']),tokens([])])],259/13,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0030252','PALPITATIONS','Palpitations',[palpitations],[fndg],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','COSTAR','CST','DXP','HPO','ICD10CM','ICD9CM','LCH','LNC','MTH','NCI','NCI_CTCAE','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[259/12],0,1)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([negation(nega,cannot,[29/6],['C0679062':remember],[36/8])]).utterance('00000000.ti.1',"prior to last night, patient cannot remember that last time that he needed to take a nitro.",0/91,[]).phrase('prior to last night,',[prep([lexmatch(['prior to']),inputmatch([prior,to]),tag(prep),tokens([prior,to])]),mod([lexmatch([last]),inputmatch([last]),tag(adj),tokens([last])]),head([lexmatch([night]),inputmatch([night]),tag(noun),tokens([night])]),punc([inputmatch([',']),tokens([])])],0/20,[]).candidates(2,0,0,2,[]).mappings([map(-888,[ev(-694,'C1517741','Last','Last',[last],[qlco],[[[1,1],[1,1],0]],no,no,['NCI'],[9/4],0,0),ev(-861,'C0240526','Night','Night time',[night],[tmco],[[[2,2],[1,1],0]],yes,no,['AOD','CHV','DXP','MTH','NCI','SNMI','SNOMEDCT_US'],[14/5],0,0)])]).phrase(patient,[head([lexmatch([patient]),inputmatch([patient]),tag(noun),tokens([patient])])],21/7,[]).candidates(4,0,0,4,[]).mappings([map(-1000,[ev(-1000,'C0030705','*^patient','Patients',[patient],[podg],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','HL7V3.0','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CDISC','NCI_DICOM','NCI_FDA','SNOMEDCT_US'],[21/7],0,0)])]).phrase(cannot,[modal([lexmatch([cannot]),inputmatch([cannot]),tag(modal),tokens([cannot])])],29/6,[]).candidates(0,0,0,0,[]).mappings([]).phrase(remember,[verb([lexmatch([remember]),inputmatch([remember]),tag(verb),tokens([remember])])],36/8,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C0679062',remember,remembering,[remember],[menp],[[[1,1],[1,1],0]],yes,no,['AOD','CHV'],[36/8],0,1)])]).phrase('that last time',[compl([lexmatch([that]),inputmatch([that]),tag(compl),tokens([that])]),mod([lexmatch([last]),inputmatch([last]),tag(adj),tokens([last])]),head([lexmatch([time]),inputmatch([time]),tag(noun),tokens([time])])],45/14,[]).candidates(6,3,0,3,[]).mappings([map(-888,[ev(-694,'C1517741','Last','Last',[last],[qlco],[[[1,1],[1,1],0]],no,no,['NCI'],[50/4],0,0),ev(-861,'C0040223','TIME','Time',[time],[tmco],[[[2,2],[1,1],0]],yes,no,['CHV','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_NICHD','SNOMEDCT_US'],[55/4],0,0)])]).phrase(that,[compl([lexmatch([that]),inputmatch([that]),tag(compl),tokens([that])])],60/4,[]).candidates(0,0,0,0,[]).mappings([]).phrase(he,[pron([lexmatch([he]),inputmatch([he]),tag(pron),tokens([he])])],65/2,[]).candidates(0,0,0,0,[]).mappings([]).phrase(needed,[verb([lexmatch([needed]),inputmatch([needed]),tag(verb),tokens([needed])])],68/6,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C0686904',needed,'Patient need for (contextual qualifier)',[needed],[ftcn],[[[1,1],[1,1],0]],yes,no,['CHV','MTH','SNOMEDCT_US'],[68/6],0,0)])]).phrase(to,[adv([lexmatch([to]),inputmatch([to]),tag(adv),tokens([to])])],75/2,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C0040363','TO','Togo',[to],[geoa],[[[1,1],[1,1],0]],yes,no,['AOD','CHV','LCH','MSH','MTH','NCI','NCI_CDISC','SNOMEDCT_US'],[75/2],0,0)])]).phrase(take,[verb([lexmatch([take]),inputmatch([take]),tag(verb),tokens([take])])],78/4,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C1515187','Take','Take',[take],[hlca],[[[1,1],[1,1],0]],yes,no,['NCI','SNOMEDCT_US'],[78/4],0,0)])]).phrase('a nitro.',[det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),head([lexmatch([nitro]),inputmatch([nitro]),tag(adj),tokens([nitro])]),punc([inputmatch(['.']),tokens([])])],83/8,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Pertinent PMH:   CADsmoker GERD",0/31,[]).phrase('Pertinent PMH',[mod([lexmatch([pertinent]),inputmatch(['Pertinent']),tag(adj),tokens([pertinent])]),head([lexmatch([pmh]),inputmatch(['PMH']),tag(noun),tokens([pmh])])],0/13,[]).candidates(1,0,0,1,[]).mappings([map(-861,[ev(-861,'C0262926','PMH','Medical History',[pmh],[fndg],[[[2,2],[1,1],0]],yes,no,['AIR','AOD','CHV','LNC','MTH','NCI','NCI_NCI-GLOSS','NCI_NICHD','NLMSubSyn','SNOMEDCT_US'],[10/3],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],13/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('CADsmoker GERD',[mod([inputmatch(['CADsmoker']),tag(noun),tokens([cadsmoker])]),head([lexmatch([gerd]),inputmatch(['GERD']),tag(noun),tokens([gerd])])],17/14,[]).candidates(1,0,0,1,[]).mappings([map(-861,[ev(-861,'C0017168','GERD','Gastroesophageal reflux disease',[gerd],[dsyn],[[[2,2],[1,1],0]],yes,no,['CHV','COSTAR','CSP','CST','DXP','HPO','ICD10CM','ICD9CM','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','MTHICD9','MTHMST','NCI','NCI_CTCAE','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[27/4],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Physical Exam:",0/14,[]).phrase('Physical Exam',[mod([lexmatch([physical]),inputmatch(['Physical']),tag(adj),tokens([physical])]),head([lexmatch([exam]),inputmatch(['Exam']),tag(noun),tokens([exam])])],0/13,[]).candidates(6,0,0,6,[]).mappings([map(-1000,[ev(-1000,'C1744699','Physical Exam','Physical Exam Domain',[physical,exam],[inpr],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['MTH','NCI','NCI_CDISC','NLMSubSyn'],[0/13],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],13/1,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"JVP <10cm  Chest CTA RRR nl1 and s2 abdomen soft",0/48,[]).phrase('JVP',[head([lexmatch([jvp]),inputmatch(['JVP']),tag(noun),tokens([jvp])])],0/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('<10cm  Chest CTA RRR nl1',[punc([inputmatch([<]),tokens([])]),mod([inputmatch(['10cm']),tag(noun),tokens(['10cm'])]),mod([lexmatch([chest]),inputmatch(['Chest']),tag(noun),tokens([chest])]),mod([lexmatch([cta]),inputmatch(['CTA']),tag(noun),tokens([cta])]),mod([lexmatch([rrr]),inputmatch(['RRR']),tag(noun),tokens([rrr])]),head([inputmatch([nl1]),tag(noun),tokens([nl1])])],4/24,[]).candidates(11,5,0,6,[]).mappings([map(-740,[ev(-637,'C0817096','CHEST','Chest',[chest],[blor],[[[2,2],[1,1],0]],no,no,['AOD','CHV','CSP','CST','FMA','HL7V2.5','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CDISC','NCI_NICHD','OMIM','SNM','SNMI','SNOMEDCT_US','UWDA'],[11/5],0,0),ev(-637,'C3540513','CTA','PCYT1A wt Allele',[cta],[gngm],[[[3,3],[1,1],0]],no,no,['MTH','NCI'],[17/3],0,0),ev(-804,'C1422548','NL1','NLGN1 gene',[nl1],[gngm],[[[5,5],[1,1],0]],yes,no,['HGNC','MTH','OMIM'],[25/3],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],29/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('s2 abdomen',[mod([lexmatch([s2]),inputmatch([s2]),tag(noun),tokens([s2])]),head([lexmatch([abdomen]),inputmatch([abdomen]),tag(noun),tokens([abdomen])])],33/10,[]).candidates(8,0,0,8,[]).mappings([map(-888,[ev(-694,'C1419032','S2','PSMD2 gene',[s2],[gngm],[[[1,1],[1,1],0]],no,no,['HGNC','MTH','OMIM'],[33/2],0,0),ev(-861,'C0230168','Abdomen','Abdominal Cavity',[abdomen],[blor],[[[2,2],[1,1],0]],yes,no,['AOD','CHV','FMA','MSH','MTH','NCI','NCI_CDISC','NCI_NCI-GLOSS','NCI_NICHD','SNM','SNMI','SNOMEDCT_US','UWDA'],[36/7],0,0)])]).phrase(soft,[head([lexmatch([soft]),inputmatch([soft]),tag(adj),tokens([soft])])],44/4,[]).candidates(3,1,0,2,[]).mappings([map(-1000,[ev(-1000,'C0205358','Soft','Soft',[soft],[qlco],[[[1,1],[1,1],0]],yes,no,['CHV','LNC','MTH','NCI','SNMI','SNOMEDCT_US'],[44/4],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Assessment/Plan: Unstable angina - History suggested accelerated angina with possible studdering nature.  ",0/106,[]).phrase('Assessment/Plan',[mod([lexmatch([assessment]),inputmatch(['Assessment']),tag(noun),tokens([assessment])]),punc([inputmatch([/]),tokens([])]),head([lexmatch([plan]),inputmatch(['Plan']),tag(noun),tokens([plan])])],0/15,[]).candidates(5,0,0,5,[]).mappings([map(-888,[ev(-694,'C1516048','Assessment','Assessed',[assessment],[acty],[[[1,1],[1,1],0]],no,no,['MTH','NCI','NCI_NCI-GLOSS'],[0/10],0,0),ev(-861,'C1301732','Plan','Planned',[plan],[ftcn],[[[2,2],[1,1],0]],yes,no,['CHV','LNC','MTH','NCI','SNOMEDCT_US'],[11/4],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],15/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('Unstable angina - History',[mod([lexmatch(['unstable angina']),inputmatch(['Unstable',angina]),tag(noun),tokens([unstable,angina])]),punc([inputmatch([-]),tokens([])]),head([lexmatch([history]),inputmatch(['History']),tag(noun),tokens([history])])],17/25,[]).candidates(12,2,0,10,[]).mappings([map(-901,[ev(-734,'C0002965','Angina, Unstable','Angina, Unstable',[unstable,angina],[dsyn],[[[1,2],[1,2],0]],no,no,['CHV','DXP','ICD10CM','ICD9CM','MSH','MTH','MTHICD9','NCI','NCI_CDISC','NDFRT','NLMSubSyn','QMR','SNM','SNMI','SNOMEDCT_US'],[17/15],0,0),ev(-827,'C2004062','History','History of previous events',[history],[fndg],[[[3,3],[1,1],0]],yes,no,['CHV','LCH','MTH','NCI'],[35/7],0,0)])]).phrase(suggested,[verb([lexmatch([suggested]),inputmatch([suggested]),tag(verb),tokens([suggested])])],43/9,[]).candidates(1,0,0,1,[]).mappings([map(-966,[ev(-966,'C1705535','Suggest',suggestion,[suggest],[idcn],[[[1,1],[1,1],1]],yes,no,['MTH','NCI'],[43/9],0,0)])]).phrase('accelerated angina with possible studdering nature.',[mod([lexmatch([accelerated]),inputmatch([accelerated]),tag(adj),tokens([accelerated])]),head([lexmatch([angina]),inputmatch([angina]),tag(noun),tokens([angina])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([possible]),inputmatch([possible]),tag(adj),tokens([possible])]),mod([inputmatch([studdering]),tag(noun),tokens([studdering])]),mod([lexmatch([nature]),inputmatch([nature]),tag(noun),tokens([nature])]),punc([inputmatch(['.']),tokens([])])],53/51,[]).candidates(9,1,0,8,[]).mappings([map(-712,[ev(-790,'C2882087','Accelerated angina','Accelerated angina',[accelerated,angina],[dsyn],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['ICD10CM','NLMSubSyn'],[53/18],0,0),ev(-586,'C1705910','Possible','Possibly Related to Intervention',[possible],[qlco],[[[4,4],[1,1],0]],no,no,['MTH','NCI'],[77/8],0,0),ev(-586,'C1262865','Nature','Natures',[nature],[ftcn],[[[6,6],[1,1],0]],no,no,['CHV','MTH','SNOMEDCT_US'],[97/6],0,0)])]).'EOU'.utterance('00000000.ti.2',"Could be GERD, but releived with nitro.  ",106/41,[]).phrase('Could',[modal([lexmatch([could]),inputmatch(['Could']),tag(modal),tokens([could])])],106/5,[]).candidates(0,0,0,0,[]).mappings([]).phrase(be,[aux([lexmatch([be]),inputmatch([be]),tag(aux),tokens([be])])],112/2,[]).candidates(0,0,0,0,[]).mappings([]).phrase('GERD,',[head([lexmatch([gerd]),inputmatch(['GERD']),tag(noun),tokens([gerd])]),punc([inputmatch([',']),tokens([])])],115/5,[]).candidates(1,0,0,1,[]).mappings([map(-1000,[ev(-1000,'C0017168','GERD','Gastroesophageal reflux disease',[gerd],[dsyn],[[[1,1],[1,1],0]],yes,no,['CHV','COSTAR','CSP','CST','DXP','HPO','ICD10CM','ICD9CM','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','MTHICD9','MTHMST','NCI','NCI_CTCAE','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'],[115/4],0,0)])]).phrase(but,[conj([lexmatch([but]),inputmatch([but]),tag(conj),tokens([but])])],121/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('releived with nitro.',[head([inputmatch([releived]),tag(noun),tokens([releived])]),prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([nitro]),inputmatch([nitro]),tag(adj),tokens([nitro])]),punc([inputmatch(['.']),tokens([])])],125/20,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.utterance('00000000.ti.3',"Need to r/o cardiac causes and risk strat.",147/42,[]).phrase('Need to r/o cardiac causes',[head([lexmatch([need]),inputmatch(['Need']),tag(noun),tokens([need])]),prep([lexmatch([to]),inputmatch([to]),tag(prep),tokens([to])]),mod([lexmatch([r]),inputmatch([r,/]),tag(adj),tokens([r])]),mod([lexmatch([o]),inputmatch([o]),tag(noun),tokens([o])]),mod([lexmatch([cardiac]),inputmatch([cardiac]),tag(adj),tokens([cardiac])]),mod([lexmatch([causes]),inputmatch([causes]),tag(noun),tokens([causes])])],147/26,[]).candidates(11,1,0,10,[]).mappings([map(-712,[ev(-753,'C0027552','Need','Needs',[need],[qlco],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','NCI','SNOMEDCT_US'],[147/4],0,0),ev(-586,'C0205090','R-','Right',[r],[spco],[[[3,3],[1,1],0]],no,no,['CHV','FMA','HL7V2.5','LNC','MTH','NCI','NCI_CDISC','SNMI','SNOMEDCT_US','UWDA'],[155/1],0,0),ev(-623,'C0741922','CARDIAC causes','CARDIAC causes',[cardiac,causes],[dsyn],[[[5,5],[1,1],0],[[6,6],[2,2],0]],no,no,['NLMSubSyn'],[159/14],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],174/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('risk strat.',[mod([lexmatch([risk]),inputmatch([risk]),tag(noun),tokens([risk])]),head([inputmatch([strat]),tag(noun),tokens([strat])]),punc([inputmatch(['.']),tokens([])])],178/11,[]).candidates(1,0,0,1,[]).mappings([map(-694,[ev(-694,'C0035647','Risk','Risk',[risk],[idcn],[[[1,1],[1,1],0]],no,no,['AOD','CHV','HL7V3.0','LCH','LCH_NW','LNC','MSH','NCI'],[178/4],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Plan: To ED - cycle enxymes and EKGs and plan MIBI",0/50,[]).phrase('Plan',[head([lexmatch([plan]),inputmatch(['Plan']),tag(noun),tokens([plan])])],0/4,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C1301732','Plan','Planned',[plan],[ftcn],[[[1,1],[1,1],0]],yes,no,['CHV','LNC','MTH','NCI','SNOMEDCT_US'],[0/4],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],4/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase('To ED - cycle enxymes',[prep([lexmatch([to]),inputmatch(['To']),tag(prep),tokens([to])]),mod([lexmatch([ed]),inputmatch(['ED']),tag(noun),tokens([ed])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([cycle]),inputmatch([cycle]),tag(noun),tokens([cycle])]),head([inputmatch([enxymes]),tag(noun),tokens([enxymes])])],6/21,[]).candidates(4,2,0,2,[]).mappings([map(-623,[ev(-660,'C3538926','ED','Endocrine System Findings Domain',[ed],[idcn],[[[1,1],[1,1],0]],no,no,['MTH','NCI','NCI_CDISC','NLMSubSyn'],[9/2],0,0),ev(-660,'C1511572','Cycle','event cycle',[cycle],[tmco],[[[2,2],[1,1],0]],no,no,['LCH_NW','MTH','NCI','NCI_UCUM'],[14/5],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],28/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('EKGs',[head([lexmatch([ekgs]),inputmatch(['EKGs']),tag(noun),tokens([ekgs])])],32/4,[]).candidates(2,1,0,1,[]).mappings([map(-1000,[ev(-1000,'C0013798',ekgs,'Electrocardiogram',[ekgs],[fndg],[[[1,1],[1,1],0]],yes,no,['CHV','MSH','MTH','SNM','SNOMEDCT_US'],[32/4],0,0)])]).phrase(and,[conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])],37/3,[]).candidates(0,0,0,0,[]).mappings([]).phrase('plan MIBI',[mod([lexmatch([plan]),inputmatch([plan]),tag(noun),tokens([plan])]),head([lexmatch([mibi]),inputmatch(['MIBI']),tag(noun),tokens([mibi])])],41/9,[]).candidates(3,0,0,3,[]).mappings([map(-694,[ev(-694,'C1301732','Plan','Planned',[plan],[ftcn],[[[1,1],[1,1],0]],no,no,['CHV','LNC','MTH','NCI','SNOMEDCT_US'],[41/4],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"Follow-up: as above",0/19,[]).phrase('Follow-up',[head([lexmatch(['follow-up']),inputmatch(['Follow',-,up]),tag(adj),tokens([follow,up])])],0/9,[]).candidates(6,0,0,6,[]).mappings([map(-1000,[ev(-1000,'C1522577','Follow Up','follow-up',[follow,up],[hlca],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['MTH','NCI','NCI_CDISC','NCI_NCI-GLOSS'],[0/9],0,0)])]).phrase(:,[punc([inputmatch([:]),tokens([])])],9/1,[]).candidates(0,0,0,0,[]).mappings([]).phrase(as,[conj([lexmatch([as]),inputmatch([as]),tag(conj),tokens([as])])],11/2,[]).candidates(0,0,0,0,[]).mappings([]).phrase(above,[head([lexmatch([above]),inputmatch([above]),tag(adj),tokens([above])])],14/5,[]).candidates(2,0,0,2,[]).mappings([map(-1000,[ev(-1000,'C1282910','Above','Upper',[above],[spco],[[[1,1],[1,1],0]],yes,no,['CHV','FMA','HL7V2.5','LNC','MTH','NCI','NCI_CDISC','SNMI','SNOMEDCT_US','UWDA'],[14/5],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1',"_____________________________________________ Herman N. ",0/56,[]).phrase('_____________________________________________ Herman N.',[punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),punc([inputmatch(['_']),tokens([])]),mod([lexmatch([herman]),inputmatch(['Herman']),tag(noun),tokens([herman])]),head([lexmatch([n]),inputmatch(['N']),tag(noun),tokens([n])]),punc([inputmatch(['.']),tokens([])])],0/55,[]).candidates(0,0,0,0,[]).mappings([]).'EOU'.utterance('00000000.ti.2',"Weller, M.D.",56/12,[]).phrase('Weller,',[head([lexmatch([weller]),inputmatch(['Weller']),tag(noun),tokens([weller])]),punc([inputmatch([',']),tokens([])])],56/7,[]).candidates(0,0,0,0,[]).mappings([]).phrase('M.D.',[head([lexmatch(['m d']),inputmatch(['M','.','D']),tag(noun),tokens([m,d])]),punc([inputmatch(['.']),tokens([])])],64/4,[]).candidates(3,0,0,3,[]).mappings([map(-1000,[ev(-1000,'C1512018','M.D.','Doctor of Medicine',[m,d],[inpr],[[[1,1],[1,1],0],[[2,2],[2,2],0]],yes,no,['HL7V2.5','MTH','NCI'],[64/3],0,0)])]).'EOU'.args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y 221-04.xml outputs/221-04-output.xml',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-'221-04.xml',outfile-'outputs/221-04-output.xml']).aas([]).neg_list([]).utterance('00000000.ti.1
+   ]]></TEXT>   <TAGS></TAGS> </root>
+   Phrase:
+   <?xml version
+   tokens:*<*?*xml*version*
+   concepts:*XML*Version*
+   mappings:
+   mapping:
+   -888
+   concept:
+   C1707981, XML, Extensible Markup Language, -694
+   0, 0, 0
+   inpr
+   'HL7V3.0','NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   <, 
+   punc, , 1
+   concept:
+   C0333052, Version, Version, -861
+   1, 0, 0
+   ftcn
+   'CHV','HL7V3.0','LNC','MTH','MTHICD9','NCI','NCI_CDISC'
+   [[[2,2],[1,1],0]]
+   token: 
+   ?, 
+   punc, , 1
+
+
+   Phrase:
+   ="1.0"
+   tokens:*=*"*1 . 0*"*
+   concepts:*1+',*0%*
+   mappings:
+   mapping:
+   -888
+   concept:
+   C2981698, 1+',,  WHO', -861
+   1, 0, 0
+   clas
+   'MTH','NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   =, 
+   punc, , 1
+   concept:
+   C3842591, 0%, 0%, -861
+   1, 0, 0
+   fndg
+   'LNC'
+   [[[2,2],[1,1],0]]
+   token: 
+   ", 
+   punc, , 1
+
+
+   Phrase:
+   encoding
+   tokens:*encoding*
+   concepts:*Encoding*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1547699, Encoding, MIME encoding, -1000
+   1, 0, 0
+   idcn
+   'HL7V2.5','MTH'
+   [[[1,1],[1,1],0]]
+   token: 
+   encoding, encoding
+   verb, verb, 1
+
+
+   Phrase:
+   ="UTF-8"?
+   tokens:*=*"*UTF*-*8*"*?*
+   concepts:*UTF-8*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1555005, UTF-8, UTF-8, -1000
+   1, 0, 0
+   inpr
+   'HL7V3.0'
+   [[[1,1],[1,1],0],[[2,2],[2,2],0]]
+   token: 
+   =, 
+   punc, , 1
+   token: 
+   ", 
+   punc, , 1
+
+
+   Phrase:
+   >
+   tokens:*>*
+   concepts:*
+   mappings:
+
+   Phrase:
+   <root
+   tokens:*<*root*
+   concepts:*Root*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1318154, Root, Root body part, -1000
+   1, 0, 0
+   bpoc
+   'CHV','LNC','MTH'
+   [[[1,1],[1,1],0]]
+   token: 
+   <, 
+   punc, , 1
+
+
+   Phrase:
+   >
+   tokens:*>*
+   concepts:*
+   mappings:
+
+   Phrase:
+   <TEXT
+   tokens:*<*TEXT*
+   concepts:*Text*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1705606, Text, Text Line, -1000
+   1, 0, 0
+   inpr
+   'MTH','NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   <, 
+   punc, , 1
+
+
+   Phrase:
+   >
+   tokens:*>*
+   concepts:*
+   mappings:
+
+   Phrase:
+   <!
+   tokens:*<*!*
+   concepts:*
+   mappings:
+
+   Phrase:
+   [CDATA
+   tokens:*punc*CDATA*
+   concepts:*CDATA*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0640049, CDATA, 3-chloro-4-dimethylaminothioangelicin, -1000
+   1, 0, 0
+   orch
+   'MSH'
+   [[[1,1],[1,1],0]]
+   token: 
+   punc, 
+   punc, , 1
+
+
+   Phrase:
+   [
+   tokens:*punc*
+   concepts:*
+   mappings:
+
+   Phrase:
+   Record date
+   tokens:*Record*date*
+   concepts:*Record*DATE*
+   mappings:
+   mapping:
+   -888
+   concept:
+   C0034869, Record, Records, -694
+   0, 0, 0
+   inpr
+   'CHV','HL7V3.0','LCH','LCH_NW','MSH','MTH','NCI','NCI_FDA'
+   [[[1,1],[1,1],0]]
+   token: 
+   Record, record
+   mod, noun, 1
+   concept:
+   C0011008, DATE, Date in time, -861
+   1, 0, 0
+   tmco
+   'CHV','LNC','MSH','MTH','NCI','NCI_CareLex','NCI_NICHD','SNOMEDCT_US'
+   [[[2,2],[1,1],0]]
+   token: 
+   date, date
+   head, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   2092-03-15
+   tokens:*2092*-*03*-*15*
+   concepts:*
+   mappings:
+
+   Phrase:
+   Medical Walk In Unit Kelliher Care Center 81 Old Mill Lane  Devils Lake,
+   tokens:*Medical*Walk In*Unit*Kelliher*Care*Center*81*Old*Mill*Lane*Devils*Lake*' '*
+   concepts:*Medical center*Walk-in, not otherwise specified',*Unit*Care*Old*Mill*Lane*devils*Lake*Medical care*Center*
+   mappings:
+   mapping:
+   -723
+   concept:
+   C0565990, Medical center, Medical center, -672
+   0, 0, 0
+   hcro,mnob
+   'AOD','CHV','LCH','MTH','NLMSubSyn','SNOMEDCT_US'
+   [[[1,1],[1,1],0],[[7,7],[2,2],0]]
+   token: 
+   Medical, medical
+   mod, adj, 1
+   token: 
+   Center, center
+   mod, noun, 1
+   concept:
+   C3846681, Walk-in, not otherwise specified',,  not otherwise specified', -630
+   0, 0, 0
+   fndg
+   'LNC'
+   [[[2,2],[1,1],0],[[3,3],[2,2],0]]
+   token: 
+   Walk In, walk in
+   mod, adj, 2
+   token: 
+   Walk In, walk in
+   mod, adj, 2
+   concept:
+   C0439148, Unit, Unit, -620
+   0, 0, 0
+   qnco
+   'CHV','HL7V3.0','LNC','MTH','NCI','NCI_CDISC','NCI_FDA','NCI_NCPDP','SNOMEDCT_US'
+   [[[4,4],[1,1],0]]
+   token: 
+   Unit, unit
+   mod, noun, 1
+   concept:
+   C1947933, Care, care activity, -620
+   0, 0, 0
+   acty
+   'MTH','NCI'
+   [[[6,6],[1,1],0]]
+   token: 
+   Care, care
+   mod, noun, 1
+   concept:
+   C0580836, Old, Old, -620
+   0, 0, 0
+   tmco
+   'CHV','MTH','NCI','SNMI','SNOMEDCT_US'
+   [[[9,9],[1,1],0]]
+   token: 
+   Old, old
+   mod, adj, 1
+   concept:
+   C0599997, Mill, Mill, -620
+   0, 0, 0
+   mnob
+   'CHV','MTH','SNOMEDCT_US'
+   [[[10,10],[1,1],0]]
+   token: 
+   Mill, mill
+   mod, noun, 1
+   concept:
+   C1708639, Lane, Lane, -620
+   0, 0, 0
+   spco
+   'NCI'
+   [[[11,11],[1,1],0]]
+   token: 
+   Lane, lane
+   mod, noun, 1
+   concept:
+   C0681185, devils, devil (idea), -620
+   0, 0, 0
+   idcn
+   'AOD','CHV','MTH'
+   [[[12,12],[1,1],0]]
+   token: 
+   Devils, devils
+   mod, noun, 1
+   concept:
+   C0337049, Lake, Lake (environment), -786
+   1, 0, 0
+   geoa
+   'CHV','LCH_NW','MSH','MTH','SNM','SNMI','SNOMEDCT_US'
+   [[[13,13],[1,1],0]]
+   token: 
+   Lake, lake
+   head, noun, 1
+
+   mapping:
+   -723
+   concept:
+   C0496675, Medical care, medical care, -663
+   0, 0, 0
+   fndg
+   'AOD','CHV','LCH','LCH_NW'
+   [[[1,1],[1,1],0],[[6,6],[2,2],0]]
+   token: 
+   Medical, medical
+   mod, adj, 1
+   token: 
+   Care, care
+   mod, noun, 1
+   concept:
+   C3846681, Walk-in, not otherwise specified',,  not otherwise specified', -630
+   0, 0, 0
+   fndg
+   'LNC'
+   [[[2,2],[1,1],0],[[3,3],[2,2],0]]
+   token: 
+   Walk In, walk in
+   mod, adj, 2
+   token: 
+   Walk In, walk in
+   mod, adj, 2
+   concept:
+   C0439148, Unit, Unit, -620
+   0, 0, 0
+   qnco
+   'CHV','HL7V3.0','LNC','MTH','NCI','NCI_CDISC','NCI_FDA','NCI_NCPDP','SNOMEDCT_US'
+   [[[4,4],[1,1],0]]
+   token: 
+   Unit, unit
+   mod, noun, 1
+   concept:
+   C3810851, Center, Center of town, -620
+   0, 0, 0
+   fndg
+   'LNC','MTH'
+   [[[7,7],[1,1],0]]
+   token: 
+   Center, center
+   mod, noun, 1
+   concept:
+   C0580836, Old, Old, -620
+   0, 0, 0
+   tmco
+   'CHV','MTH','NCI','SNMI','SNOMEDCT_US'
+   [[[9,9],[1,1],0]]
+   token: 
+   Old, old
+   mod, adj, 1
+   concept:
+   C0599997, Mill, Mill, -620
+   0, 0, 0
+   mnob
+   'CHV','MTH','SNOMEDCT_US'
+   [[[10,10],[1,1],0]]
+   token: 
+   Mill, mill
+   mod, noun, 1
+   concept:
+   C1708639, Lane, Lane, -620
+   0, 0, 0
+   spco
+   'NCI'
+   [[[11,11],[1,1],0]]
+   token: 
+   Lane, lane
+   mod, noun, 1
+   concept:
+   C0681185, devils, devil (idea), -620
+   0, 0, 0
+   idcn
+   'AOD','CHV','MTH'
+   [[[12,12],[1,1],0]]
+   token: 
+   Devils, devils
+   mod, noun, 1
+   concept:
+   C0337049, Lake, Lake (environment), -786
+   1, 0, 0
+   geoa
+   'CHV','LCH_NW','MSH','MTH','SNM','SNMI','SNOMEDCT_US'
+   [[[13,13],[1,1],0]]
+   token: 
+   Lake, lake
+   head, noun, 1
+
+
+   Phrase:
+   NV 95196 Phone
+   tokens:*NV*95196*Phone*
+   concepts:*NV*Phone*
+   mappings:
+   mapping:
+   -802
+   concept:
+   C0028422, NV, Norwalk virus, -660
+   0, 0, 0
+   virs
+   'CHV','CSP','MSH','MTH','NCBI','NCI','NCI_CDISC','NLMSubSyn','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   NV, nv
+   mod, noun, 1
+   concept:
+   C1705541, Phone, Telephone Device Component, -827
+   1, 0, 0
+   mnob
+   'MTH','NCI','NCI_FDA'
+   [[[3,3],[1,1],0]]
+   token: 
+   Phone, phone
+   head, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   170-574-2276   Fax
+   tokens:*170*-*574*-*2276*Fax*
+   concepts:*Fax*
+   mappings:
+   mapping:
+   -812
+   concept:
+   C1880669, Fax, Facsimile Machine, -812
+   1, 0, 0
+   mnob
+   'MTH','NCI'
+   [[[4,4],[1,1],0]]
+   token: 
+   -, 
+   punc, , 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   966-221-9723
+   tokens:*966*-*221*-*9723*
+   concepts:*
+   mappings:
+
+   Phrase:
+   PCP
+   tokens:*PCP*
+   concepts:*PCP*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1535939, PCP, Pneumocystis jiroveci pneumonia, -1000
+   1, 0, 0
+   dsyn
+   'CHV','COSTAR','CSP','DXP','ICD10CM','ICD9CM','LCH','LCH_NW','MSH','MTH','MTHICD9','NCI','NDFRT','NLMSubSyn','QMR','SNM','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   PCP, pcp
+   head, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   Nursing Assessment
+   tokens:*Nursing*Assessment*
+   concepts:*Nursing Assessment*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0028680, Nursing Assessment, Nursing Assessment, -1000
+   1, 0, 0
+   hlca
+   'CHV','LCH_NW','MSH','NLMSubSyn'
+   [[[1,1],[1,1],0],[[2,2],[2,2],0]]
+   token: 
+   Nursing, nursing
+   mod, adj, 1
+   token: 
+   Assessment, assessment
+   head, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   WT
+   tokens:*WT*
+   concepts:*WT*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C2700323, WT, Wild Type Unspecified - zebrafish, -1000
+   1, 0, 0
+   fish
+   'MTH','NCI','NCI_ZFin'
+   [[[1,1],[1,1],0]]
+   token: 
+   WT, wt
+   head, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   Temp
+   tokens:*Temp*
+   concepts:*TEMP*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0039476, TEMP, Temperature, -1000
+   1, 0, 0
+   qnco
+   'AOD','CHV','CSP','HL7V2.5','ICF','ICF-CY','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CDISC','NCI_NCPDP','NCI_NICHD','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   Temp, temp
+   head, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   P
+   tokens:*P*
+   concepts:*P\'*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C2603361, P\', P prime, -1000
+   1, 0, 0
+   clna
+   'LNC','MTH'
+   [[[1,1],[1,1],0]]
+   token: 
+   P, p
+   head, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   BP
+   tokens:*BP*
+   concepts:*BP*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1708288, BP, HP wt Allele, -1000
+   1, 0, 0
+   gngm
+   'MTH','NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   BP, bp
+   head, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   Reason for visit
+   tokens:*Reason*for*visit*
+   concepts:*Reason for visit*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1704447, Reason for visit, Reason for patient visit, -1000
+   1, 0, 0
+   fndg
+   'LNC','MTH','NLMSubSyn'
+   [[[1,1],[1,1],0],[[2,2],[2,2],0],[[3,3],[3,3],0]]
+   token: 
+   Reason, reason
+   head, noun, 1
+   token: 
+   for, for
+   prep, prep, 1
+   token: 
+   visit, visit
+   mod, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   chest pain
+   tokens:*chest pain*
+   concepts:*CHEST PAIN*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0008031, CHEST PAIN, Chest Pain, -1000
+   1, 0, 1
+   sosy
+   'CCS','CHV','COSTAR','CST','DXP','HPO','ICD10CM','ICD9CM','ICF','ICF-CY','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','NCI','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'
+   [[[1,2],[1,2],0]]
+   token: 
+   chest pain, chest pain
+   head, noun, 2
+
+
+   Phrase:
+   Lab Data
+   tokens:*Lab*Data*
+   concepts:*lab data*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0745590, lab data, lab data, -1000
+   1, 0, 0
+   cnce
+   'CHV'
+   [[[1,1],[1,1],0],[[2,2],[2,2],0]]
+   token: 
+   Lab, lab
+   mod, noun, 1
+   token: 
+   Data, data
+   head, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   Allergies
+   tokens:*Allergies*
+   concepts:*Allergies*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0020517, Allergies, Hypersensitivity, -1000
+   1, 0, 0
+   patf
+   'AOD','CCS','CHV','COSTAR','CSP','CST','GO','HL7V2.5','HL7V3.0','ICD10CM','ICF','ICF-CY','ICPC','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','MTHICD9','NCI','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   Allergies, allergies
+   head, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   nka
+   tokens:*nka*
+   concepts:*NKA*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1705924, NKA, TAC1 wt Allele, -1000
+   1, 0, 0
+   gngm
+   'MTH','NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   nka, nka
+   head, noun, 1
+
+
+   Phrase:
+   Medication
+   tokens:*Medication*
+   concepts:*Medication*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0013227, Medication, Pharmaceutical Preparations, -1000
+   1, 0, 0
+   phsu
+   'CHV','CSP','HL7V2.5','ICF','ICF-CY','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','NCI','NCI_NCI-GLOSS','NDFRT','NLMSubSyn','SNM','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   Medication, medication
+   head, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   ASA
+   tokens:*ASA*
+   concepts:*ASA*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0004057, ASA, Aspirin, -1000
+   1, 0, 0
+   orch,phsu
+   'AOD','ATC','CHV','CSP','LCH','LCH_NW','MSH','MTH','MTHSPL','NCI','NCI_DCP','NCI_DTP','NCI_FDA','NCI_NCI-GLOSS','NDFRT','PDQ','RXNORM','SNM','SNMI','SNOMEDCT_US','VANDF'
+   [[[1,1],[1,1],0]]
+   token: 
+   ASA, asa
+   head, noun, 1
+
+
+   Phrase:
+   History of the Present Illness
+   tokens:*History*of*the*Present*Illness*
+   concepts:*History of present illness*
+   mappings:
+   mapping:
+   -891
+   concept:
+   C0488508, History of present illness, History of present illness:Finding:Point in time:^Patient:Nominal:Reported, -891
+   1, 0, 0
+   clna
+   'LNC','MTH'
+   [[[1,1],[1,1],0],[[2,2],[2,2],0],[[4,4],[3,3],0],[[5,5],[4,4],0]]
+   token: 
+   History, history
+   head, noun, 1
+   token: 
+   of, of
+   prep, prep, 1
+   token: 
+   Present, present
+   mod, adj, 1
+   token: 
+   Illness, illness
+   mod, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   67 yo male with history of CAD
+   tokens:*67*yo*male*with*history*of*CAD*
+   concepts:*Yo*Male',*History, NOS*CAD*
+   mappings:
+   mapping:
+   -664
+   concept:
+   C1413296, Yo, CDR2 gene, -581
+   0, 0, 0
+   gngm
+   'HGNC','MTH','OMIM'
+   [[[2,2],[1,1],0]]
+   token: 
+   yo, yo
+   mod, noun, 1
+   concept:
+   C1706180, Male',,  Self Report', -748
+   1, 0, 0
+   qlco
+   'MTH','NCI'
+   [[[3,3],[1,1],0]]
+   token: 
+   male, male
+   head, noun, 1
+   concept:
+   C0262512, History, NOS, History of present illness, -581
+   0, 0, 0
+   orga
+   'CHV','COSTAR','LNC','MTH','SNMI','SNOMEDCT_US'
+   [[[5,5],[1,1],0]]
+   token: 
+   history, history
+   mod, noun, 1
+   concept:
+   C3813548, CAD, CALD1 wt Allele, -581
+   0, 0, 0
+   gngm
+   'MTH','NCI'
+   [[[7,7],[1,1],0]]
+   token: 
+   CAD, cad
+   mod, noun, 1
+
+
+   Phrase:
+   (known LAD lesion
+   tokens:*(*known*LAD*lesion*
+   concepts:*Known*Lesion*
+   mappings:
+   mapping:
+   -802
+   concept:
+   C0205309, Known, Known, -660
+   0, 0, 0
+   qlco
+   'CHV','MTH','NCI','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   (, 
+   punc, , 1
+   concept:
+   C0221198, Lesion, Lesion, -827
+   1, 0, 0
+   fndg
+   'AOD','CHV','MTH','NCI','NCI_CDISC','NCI_NCI-GLOSS','NLMSubSyn','SNM','SNMI','SNOMEDCT_US'
+   [[[3,3],[1,1],0]]
+   token: 
+   LAD, lad
+   mod, noun, 1
+
+
+   Phrase:
+   )
+   tokens:*)*
+   concepts:*
+   mappings:
+
+   Phrase:
+   with chest pain last night
+   tokens:*with*chest pain*last*night*
+   concepts:*CHEST PAIN*Night*Chest*pain night*
+   mappings:
+   mapping:
+   -824
+   concept:
+   C0008031, CHEST PAIN, Chest Pain, -694
+   0, 0, 1
+   sosy
+   'CCS','CHV','COSTAR','CST','DXP','HPO','ICD10CM','ICD9CM','ICF','ICF-CY','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','NCI','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'
+   [[[1,2],[1,2],0]]
+   token: 
+   chest pain, chest pain
+   mod, noun, 2
+   concept:
+   C0240526, Night, Night time, -812
+   1, 0, 0
+   tmco
+   'AOD','CHV','DXP','MTH','NCI','SNMI','SNOMEDCT_US'
+   [[[4,4],[1,1],0]]
+   token: 
+   last, last
+   mod, adj, 1
+
+   mapping:
+   -824
+   concept:
+   C1527391, Chest, Anterior thoracic region, -645
+   0, 0, 0
+   blor
+   'MTH','NLMSubSyn','UWDA'
+   [[[1,1],[1,1],0]]
+   token: 
+   with, with
+   prep, prep, 1
+   concept:
+   C0234255, pain night, Night pain, -875
+   1, 0, 0
+   sosy
+   'CHV','SNMI','SNOMEDCT_US'
+   [[[2,2],[1,1],0],[[4,4],[2,2],0]]
+   token: 
+   chest pain, chest pain
+   mod, noun, 2
+   token: 
+   last, last
+   mod, adj, 1
+
+
+   Phrase:
+   and
+   tokens:*and*
+   concepts:*
+   mappings:
+
+   Phrase:
+   today.  typically,
+   tokens:*today*.*typically*' '*
+   concepts:*Today*
+   mappings:
+   mapping:
+   -861
+   concept:
+   C0750526, Today, Today (temporal qualifier), -861
+   1, 0, 0
+   tmco
+   'CHV','MTH','NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   today, today
+   mod, noun, 1
+
+
+   Phrase:
+   patient
+   tokens:*patient*
+   concepts:**^patient*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0030705, *^patient, Patients, -1000
+   1, 0, 0
+   podg
+   'AOD','CHV','HL7V3.0','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CDISC','NCI_DICOM','NCI_FDA','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   patient, patient
+   head, noun, 1
+
+
+   Phrase:
+   able
+   tokens:*able*
+   concepts:*Able*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0085732, Able, Ability, -1000
+   1, 0, 0
+   orga
+   'CHV','LCH','LCH_NW','MSH','MTH','NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   able, able
+   head, adj, 1
+
+
+   Phrase:
+   to
+   tokens:*to*
+   concepts:*TO*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0041260, TO, Tryptophanase, -1000
+   1, 0, 0
+   aapp,enzy
+   'CSP','MSH','MTH','NCI','NDFRT','NLMSubSyn','PDQ','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   to, to
+   adv, adv, 1
+
+
+   Phrase:
+   exercise
+   tokens:*exercise*
+   concepts:*Exercise*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1522704, Exercise, Exercise Pain Management, -1000
+   1, 0, 0
+   topp
+   'MTH','NCI','NLMSubSyn'
+   [[[1,1],[1,1],0]]
+   token: 
+   exercise, exercise
+   verb, verb, 1
+
+
+   Phrase:
+   25 minutes on an inclinced tread mill.
+   tokens:*25*minutes*on*an*inclinced*tread mill*.*
+   concepts:*/minute*Treadmill*
+   mappings:
+   mapping:
+   -693
+   concept:
+   C0702093, /minute, Per Minute, -748
+   1, 0, 0
+   tmco
+   'CHV','MTH','NCI','NCI_CDISC','NCI_UCUM','SNOMEDCT_US'
+   [[[2,2],[1,1],0]]
+   token: 
+   minutes, minutes
+   head, noun, 1
+   concept:
+   C2712999, Treadmill, Treadmill (physical activity), -612
+   0, 0, 0
+   dora
+   'MTH','MTHICD9'
+   [[[6,7],[1,1],0]]
+   token: 
+   tread mill, tread mill
+   mod, noun, 2
+
+
+   Phrase:
+   Able
+   tokens:*Able*
+   concepts:*Able*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0085732, Able, Ability, -1000
+   1, 0, 0
+   orga
+   'CHV','LCH','LCH_NW','MSH','MTH','NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   Able, able
+   head, adj, 1
+
+
+   Phrase:
+   to
+   tokens:*to*
+   concepts:*TO*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0041260, TO, Tryptophanase, -1000
+   1, 0, 0
+   aapp,enzy
+   'CSP','MSH','MTH','NCI','NDFRT','NLMSubSyn','PDQ','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   to, to
+   adv, adv, 1
+
+
+   Phrase:
+   exercise
+   tokens:*exercise*
+   concepts:*Exercise*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1522704, Exercise, Exercise Pain Management, -1000
+   1, 0, 0
+   topp
+   'MTH','NCI','NLMSubSyn'
+   [[[1,1],[1,1],0]]
+   token: 
+   exercise, exercise
+   verb, verb, 1
+
+
+   Phrase:
+   yesterday without chest pain.
+   tokens:*yesterday*without*chest pain*.*
+   concepts:*CHEST PAIN*
+   mappings:
+   mapping:
+   -666
+   concept:
+   C0008031, CHEST PAIN, Chest Pain, -666
+   0, 0, 1
+   sosy
+   'CCS','CHV','COSTAR','CST','DXP','HPO','ICD10CM','ICD9CM','ICF','ICF-CY','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','NCI','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'
+   [[[3,4],[1,2],0]]
+   token: 
+   chest pain, chest pain
+   mod, noun, 2
+
+
+   Phrase:
+   Last night,
+   tokens:*Last*night*' '*
+   concepts:*Last*Night*
+   mappings:
+   mapping:
+   -888
+   concept:
+   C1517741, Last, Last, -694
+   0, 0, 0
+   qlco
+   'NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   Last, last
+   mod, adj, 1
+   concept:
+   C0240526, Night, Night time, -861
+   1, 0, 0
+   tmco
+   'AOD','CHV','DXP','MTH','NCI','SNMI','SNOMEDCT_US'
+   [[[2,2],[1,1],0]]
+   token: 
+   night, night
+   head, noun, 1
+
+
+   Phrase:
+   has
+   tokens:*has*
+   concepts:*
+   mappings:
+
+   Phrase:
+   onset of Chest pressure
+   tokens:*onset*of*Chest*pressure*
+   concepts:*Onset*Chest pressure*
+   mappings:
+   mapping:
+   -783
+   concept:
+   C0206132, Onset, Age of Onset, -770
+   1, 0, 0
+   qnco
+   'CHV','CSP','HPO','MSH','MTH'
+   [[[1,1],[1,1],0]]
+   token: 
+   onset, onset
+   head, noun, 1
+   concept:
+   C0438716, Chest pressure, Chest pressure, -666
+   0, 0, 0
+   sosy
+   'CHV','CST','MTH','MTHICD9','SNM','SNMI','SNOMEDCT_US'
+   [[[3,3],[1,1],0],[[4,4],[2,2],0]]
+   token: 
+   Chest, chest
+   mod, noun, 1
+   token: 
+   pressure, pressure
+   mod, noun, 1
+
+
+   Phrase:
+   at rest with associated nausea
+   tokens:*at*rest*with*associated*nausea*
+   concepts:*At Rest*Associated with*NAUSEA*
+   mappings:
+   mapping:
+   -857
+   concept:
+   C0443144, At Rest, At rest (qualifier value), -806
+   1, 0, 0
+   ftcn
+   'CHV','LNC','MTH','NCI','SNOMEDCT_US'
+   [[[1,1],[1,1],0],[[2,2],[2,2],0]]
+   token: 
+   at, at
+   prep, prep, 1
+   token: 
+   rest, rest
+   head, noun, 1
+   concept:
+   C0332281, Associated with, Associated with, -631
+   0, 0, 0
+   qlco
+   'CHV','LNC','MTH','NCI','SNMI','SNOMEDCT_US'
+   [[[4,4],[1,1],0],[[3,3],[2,2],0]]
+   token: 
+   associated, associated
+   mod, adj, 1
+   token: 
+   with, with
+   prep, prep, 1
+   concept:
+   C0027497, NAUSEA, Nausea, -593
+   0, 0, 0
+   sosy
+   'AOD','CHV','COSTAR','CSP','CST','DXP','HPO','ICD10CM','ICPC','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CTCAE','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','OMIM','SNM','SNMI','SNOMEDCT_US'
+   [[[5,5],[1,1],0]]
+   token: 
+   nausea, nausea
+   mod, noun, 1
+
+
+   Phrase:
+   and
+   tokens:*and*
+   concepts:*
+   mappings:
+
+   Phrase:
+   light headedness.
+   tokens:*light headedness*.*
+   concepts:*LIGHT HEADEDNESS*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0220870, LIGHT HEADEDNESS, Lightheadedness, -1000
+   1, 0, 0
+   sosy
+   'AOD','CHV','COSTAR','CST','DXP','ICD10CM','MSH','MTH','MTHICD9','NCI','OMIM','SNM','SNMI','SNOMEDCT_US'
+   [[[1,2],[1,2],0]]
+   token: 
+   light headedness, light headedness
+   head, noun, 2
+
+
+   Phrase:
+   No radiation
+   tokens:*No*radiation*
+   concepts:*Radiation*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0851346, Radiation, Radiation, -1000
+   1, 0, 0
+   npop
+   'AOD','CHV','CSP','LCH','LCH_NW','LNC','MSH','MTH','NLMSubSyn','SNM','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   No, no
+   det, det, 1
+
+
+   Phrase:
+   or
+   tokens:*or*
+   concepts:*
+   mappings:
+
+   Phrase:
+   diaphoresis
+   tokens:*diaphoresis*
+   concepts:*DIAPHORESIS*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0700590, DIAPHORESIS, Increased sweating, -1000
+   1, 0, 1
+   sosy
+   'AOD','CHV','COSTAR','CST','DXP','HPO','ICD10CM','MTH','MTHICD9','NCI','NCI_NICHD','NLMSubSyn','OMIM','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   diaphoresis, diaphoresis
+   head, noun, 1
+
+
+   Phrase:
+   and
+   tokens:*and*
+   concepts:*
+   mappings:
+
+   Phrase:
+   no palpitations.
+   tokens:*no*palpitations*.*
+   concepts:*PALPITATIONS*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0030252, PALPITATIONS, Palpitations, -1000
+   1, 0, 1
+   fndg
+   'AOD','CHV','COSTAR','CST','DXP','HPO','ICD10CM','ICD9CM','LCH','LNC','MTH','NCI','NCI_CTCAE','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   no, no
+   det, det, 1
+
+
+   Phrase:
+   Took
+   tokens:*Took*
+   concepts:*Take*
+   mappings:
+   mapping:
+   -966
+   concept:
+   C1515187, Take, Take, -966
+   1, 0, 0
+   hlca
+   'NCI','SNOMEDCT_US'
+   [[[1,1],[1,1],1]]
+   token: 
+   Took, took
+   verb, verb, 1
+
+
+   Phrase:
+   a nitro
+   tokens:*a*nitro*
+   concepts:*
+   mappings:
+
+   Phrase:
+   and
+   tokens:*and*
+   concepts:*
+   mappings:
+
+   Phrase:
+   releived.
+   tokens:*releived*.*
+   concepts:*
+   mappings:
+
+   Phrase:
+   Today,
+   tokens:*Today*' '*
+   concepts:*Today*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0750526, Today, Today (temporal qualifier), -1000
+   1, 0, 0
+   tmco
+   'CHV','MTH','NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   Today, today
+   head, noun, 1
+
+
+   Phrase:
+   did
+   tokens:*did*
+   concepts:*
+   mappings:
+
+   Phrase:
+   not
+   tokens:*not*
+   concepts:*Not*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1518422, Not, Negation, -1000
+   1, 0, 0
+   ftcn
+   'LNC','MTH','NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   not, not
+   adv, adv, 1
+
+
+   Phrase:
+   exercise.
+   tokens:*exercise*.*
+   concepts:*Exercise*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0015259, Exercise, Exercise, -1000
+   1, 0, 0
+   dora
+   'AOD','CHV','CSP','LCH_NW','LNC','MSH','MTH','NCI','NLMSubSyn','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   exercise, exercise
+   verb, verb, 1
+
+
+   Phrase:
+   This afternoon,
+   tokens:*This*afternoon*' '*
+   concepts:*Afternoon*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0439550, Afternoon, Afternoon, -1000
+   1, 0, 0
+   tmco
+   'AOD','CHV','LNC','NCI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   This, this
+   det, det, 1
+
+
+   Phrase:
+   had
+   tokens:*had*
+   concepts:*
+   mappings:
+
+   Phrase:
+   onset of similar chest pressure
+   tokens:*onset*of*similar*chest*pressure*
+   concepts:*Onset*Similar*Chest pressure*
+   mappings:
+   mapping:
+   -761
+   concept:
+   C0206132, Onset, Age of Onset, -760
+   1, 0, 0
+   qnco
+   'CHV','CSP','HPO','MSH','MTH'
+   [[[1,1],[1,1],0]]
+   token: 
+   onset, onset
+   head, noun, 1
+   concept:
+   C2348205, Similar, Similarity, -593
+   0, 0, 0
+   qlco
+   'NCI'
+   [[[3,3],[1,1],0]]
+   token: 
+   similar, similar
+   mod, adj, 1
+   concept:
+   C0438716, Chest pressure, Chest pressure, -640
+   0, 0, 0
+   sosy
+   'CHV','CST','MTH','MTHICD9','SNM','SNMI','SNOMEDCT_US'
+   [[[4,4],[1,1],0],[[5,5],[2,2],0]]
+   token: 
+   chest, chest
+   mod, noun, 1
+   token: 
+   pressure, pressure
+   mod, noun, 1
+
+
+   Phrase:
+   at rest.
+   tokens:*at*rest*.*
+   concepts:*ResT*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1622890, ResT, site-specific telomere resolvase activity, -1000
+   1, 0, 0
+   moft
+   'GO','MTH'
+   [[[1,1],[1,1],0]]
+   token: 
+   at, at
+   prep, prep, 1
+
+
+   Phrase:
+   the pressure waxed
+   tokens:*the*pressure*waxed*
+   concepts:*Pressure*WAX*
+   mappings:
+   mapping:
+   -872
+   concept:
+   C0460139, Pressure, Pressure (finding), -694
+   0, 0, 0
+   fndg
+   'CHV','MTH','SNM','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   the, the
+   det, det, 1
+   concept:
+   C0043076, WAX, Waxes, -827
+   1, 0, 0
+   bodm
+   'CHV','CSP','LCH','LCH_NW','MSH','MTH','NDFRT','SNM','SNMI','SNOMEDCT_US','VANDF'
+   [[[2,2],[1,1],1]]
+   token: 
+   pressure, pressure
+   mod, noun, 1
+
+
+   Phrase:
+   and
+   tokens:*and*
+   concepts:*
+   mappings:
+
+   Phrase:
+   waned for some time
+   tokens:*waned*for*some*time*
+   concepts:*TIME*
+   mappings:
+   mapping:
+   -770
+   concept:
+   C0040223, TIME, Time, -770
+   1, 0, 0
+   tmco
+   'CHV','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_NICHD','SNOMEDCT_US'
+   [[[4,4],[1,1],0]]
+   token: 
+   time, time
+   mod, noun, 1
+
+
+   Phrase:
+   and
+   tokens:*and*
+   concepts:*
+   mappings:
+
+   Phrase:
+   then patient
+   tokens:*then*patient*
+   concepts:*Then**^patient*
+   mappings:
+   mapping:
+   -888
+   concept:
+   C1883708, Then, Then, -694
+   0, 0, 0
+   tmco
+   'MTH','NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   then, then
+   adv, adv, 1
+   concept:
+   C0030705, *^patient, Patients, -861
+   1, 0, 0
+   podg
+   'AOD','CHV','HL7V3.0','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CDISC','NCI_DICOM','NCI_FDA','SNOMEDCT_US'
+   [[[2,2],[1,1],0]]
+   token: 
+   patient, patient
+   head, noun, 1
+
+
+   Phrase:
+   took
+   tokens:*took*
+   concepts:*Take*
+   mappings:
+   mapping:
+   -966
+   concept:
+   C1515187, Take, Take, -966
+   1, 0, 0
+   hlca
+   'NCI','SNOMEDCT_US'
+   [[[1,1],[1,1],1]]
+   token: 
+   took, took
+   verb, verb, 1
+
+
+   Phrase:
+   a nitro
+   tokens:*a*nitro*
+   concepts:*
+   mappings:
+
+   Phrase:
+   and
+   tokens:*and*
+   concepts:*
+   mappings:
+
+   Phrase:
+   had
+   tokens:*had*
+   concepts:*
+   mappings:
+
+   Phrase:
+   releif.
+   tokens:*releif*.*
+   concepts:*
+   mappings:
+
+   Phrase:
+   Again,
+   tokens:*Again*' '*
+   concepts:*
+   mappings:
+
+   Phrase:
+   pressure
+   tokens:*pressure*
+   concepts:*Pressure*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0460139, Pressure, Pressure (finding), -1000
+   1, 0, 0
+   fndg
+   'CHV','MTH','SNM','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   pressure, pressure
+   head, noun, 1
+
+
+   Phrase:
+   associated with nausea
+   tokens:*associated*with*nausea*
+   concepts:*Associated with*NAUSEA*
+   mappings:
+   mapping:
+   -901
+   concept:
+   C0332281, Associated with, Associated with, -882
+   1, 0, 0
+   qlco
+   'CHV','LNC','MTH','NCI','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0],[[2,2],[2,2],0]]
+   token: 
+   associated, associated
+   verb, verb, 1
+   token: 
+   with, with
+   prep, prep, 1
+   concept:
+   C0027497, NAUSEA, Nausea, -790
+   1, 0, 0
+   sosy
+   'AOD','CHV','COSTAR','CSP','CST','DXP','HPO','ICD10CM','ICPC','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CTCAE','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','OMIM','SNM','SNMI','SNOMEDCT_US'
+   [[[3,3],[1,1],0]]
+   token: 
+   nausea, nausea
+   mod, noun, 1
+
+
+   Phrase:
+   and
+   tokens:*and*
+   concepts:*
+   mappings:
+
+   Phrase:
+   lightneadedness
+   tokens:*lightneadedness*
+   concepts:*
+   mappings:
+
+   Phrase:
+   but
+   tokens:*but*
+   concepts:*
+   mappings:
+
+   Phrase:
+   no diaphoresis
+   tokens:*no*diaphoresis*
+   concepts:*DIAPHORESIS*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0700590, DIAPHORESIS, Increased sweating, -1000
+   1, 0, 1
+   sosy
+   'AOD','CHV','COSTAR','CST','DXP','HPO','ICD10CM','MTH','MTHICD9','NCI','NCI_NICHD','NLMSubSyn','OMIM','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   no, no
+   det, det, 1
+
+
+   Phrase:
+   or
+   tokens:*or*
+   concepts:*
+   mappings:
+
+   Phrase:
+   palpitations.
+   tokens:*palpitations*.*
+   concepts:*PALPITATIONS*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0030252, PALPITATIONS, Palpitations, -1000
+   1, 0, 1
+   fndg
+   'AOD','CHV','COSTAR','CST','DXP','HPO','ICD10CM','ICD9CM','LCH','LNC','MTH','NCI','NCI_CTCAE','NCI_FDA','NCI_NCI-GLOSS','NCI_NICHD','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   palpitations, palpitations
+   head, noun, 1
+
+
+   Phrase:
+   prior to last night,
+   tokens:*prior to*last*night*' '*
+   concepts:*Last*Night*
+   mappings:
+   mapping:
+   -888
+   concept:
+   C1517741, Last, Last, -694
+   0, 0, 0
+   qlco
+   'NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   prior to, prior to
+   prep, prep, 2
+   concept:
+   C0240526, Night, Night time, -861
+   1, 0, 0
+   tmco
+   'AOD','CHV','DXP','MTH','NCI','SNMI','SNOMEDCT_US'
+   [[[2,2],[1,1],0]]
+   token: 
+   prior to, prior to
+   prep, prep, 2
+
+
+   Phrase:
+   patient
+   tokens:*patient*
+   concepts:**^patient*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0030705, *^patient, Patients, -1000
+   1, 0, 0
+   podg
+   'AOD','CHV','HL7V3.0','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CDISC','NCI_DICOM','NCI_FDA','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   patient, patient
+   head, noun, 1
+
+
+   Phrase:
+   cannot
+   tokens:*cannot*
+   concepts:*
+   mappings:
+
+   Phrase:
+   remember
+   tokens:*remember*
+   concepts:*remember*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0679062, remember, remembering, -1000
+   1, 0, 1
+   menp
+   'AOD','CHV'
+   [[[1,1],[1,1],0]]
+   token: 
+   remember, remember
+   verb, verb, 1
+
+
+   Phrase:
+   that last time
+   tokens:*that*last*time*
+   concepts:*Last*TIME*
+   mappings:
+   mapping:
+   -888
+   concept:
+   C1517741, Last, Last, -694
+   0, 0, 0
+   qlco
+   'NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   that, that
+   compl, compl, 1
+   concept:
+   C0040223, TIME, Time, -861
+   1, 0, 0
+   tmco
+   'CHV','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_NICHD','SNOMEDCT_US'
+   [[[2,2],[1,1],0]]
+   token: 
+   last, last
+   mod, adj, 1
+
+
+   Phrase:
+   that
+   tokens:*that*
+   concepts:*
+   mappings:
+
+   Phrase:
+   he
+   tokens:*he*
+   concepts:*
+   mappings:
+
+   Phrase:
+   needed
+   tokens:*needed*
+   concepts:*needed*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0686904, needed, Patient need for (contextual qualifier), -1000
+   1, 0, 0
+   ftcn
+   'CHV','MTH','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   needed, needed
+   verb, verb, 1
+
+
+   Phrase:
+   to
+   tokens:*to*
+   concepts:*TO*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0040363, TO, Togo, -1000
+   1, 0, 0
+   geoa
+   'AOD','CHV','LCH','MSH','MTH','NCI','NCI_CDISC','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   to, to
+   adv, adv, 1
+
+
+   Phrase:
+   take
+   tokens:*take*
+   concepts:*Take*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1515187, Take, Take, -1000
+   1, 0, 0
+   hlca
+   'NCI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   take, take
+   verb, verb, 1
+
+
+   Phrase:
+   a nitro.
+   tokens:*a*nitro*.*
+   concepts:*
+   mappings:
+
+   Phrase:
+   Pertinent PMH
+   tokens:*Pertinent*PMH*
+   concepts:*PMH*
+   mappings:
+   mapping:
+   -861
+   concept:
+   C0262926, PMH, Medical History, -861
+   1, 0, 0
+   fndg
+   'AIR','AOD','CHV','LNC','MTH','NCI','NCI_NCI-GLOSS','NCI_NICHD','NLMSubSyn','SNOMEDCT_US'
+   [[[2,2],[1,1],0]]
+   token: 
+   PMH, pmh
+   head, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   CADsmoker GERD
+   tokens:*CADsmoker*GERD*
+   concepts:*GERD*
+   mappings:
+   mapping:
+   -861
+   concept:
+   C0017168, GERD, Gastroesophageal reflux disease, -861
+   1, 0, 0
+   dsyn
+   'CHV','COSTAR','CSP','CST','DXP','HPO','ICD10CM','ICD9CM','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','MTHICD9','MTHMST','NCI','NCI_CTCAE','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'
+   [[[2,2],[1,1],0]]
+   token: 
+   GERD, gerd
+   head, noun, 1
+
+
+   Phrase:
+   Physical Exam
+   tokens:*Physical*Exam*
+   concepts:*Physical Exam*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1744699, Physical Exam, Physical Exam Domain, -1000
+   1, 0, 0
+   inpr
+   'MTH','NCI','NCI_CDISC','NLMSubSyn'
+   [[[1,1],[1,1],0],[[2,2],[2,2],0]]
+   token: 
+   Physical, physical
+   mod, adj, 1
+   token: 
+   Exam, exam
+   head, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   JVP
+   tokens:*JVP*
+   concepts:*
+   mappings:
+
+   Phrase:
+   <10cm  Chest CTA RRR nl1
+   tokens:*<*10cm*Chest*CTA*RRR*nl1*
+   concepts:*CHEST*CTA*NL1*
+   mappings:
+   mapping:
+   -740
+   concept:
+   C0817096, CHEST, Chest, -637
+   0, 0, 0
+   blor
+   'AOD','CHV','CSP','CST','FMA','HL7V2.5','LCH','LCH_NW','LNC','MSH','MTH','NCI','NCI_CDISC','NCI_NICHD','OMIM','SNM','SNMI','SNOMEDCT_US','UWDA'
+   [[[2,2],[1,1],0]]
+   token: 
+   10cm, 
+   mod, noun, 1
+   concept:
+   C3540513, CTA, PCYT1A wt Allele, -637
+   0, 0, 0
+   gngm
+   'MTH','NCI'
+   [[[3,3],[1,1],0]]
+   token: 
+   Chest, chest
+   mod, noun, 1
+   concept:
+   C1422548, NL1, NLGN1 gene, -804
+   1, 0, 0
+   gngm
+   'HGNC','MTH','OMIM'
+   [[[5,5],[1,1],0]]
+   token: 
+   RRR, rrr
+   mod, noun, 1
+
+
+   Phrase:
+   and
+   tokens:*and*
+   concepts:*
+   mappings:
+
+   Phrase:
+   s2 abdomen
+   tokens:*s2*abdomen*
+   concepts:*S2*Abdomen*
+   mappings:
+   mapping:
+   -888
+   concept:
+   C1419032, S2, PSMD2 gene, -694
+   0, 0, 0
+   gngm
+   'HGNC','MTH','OMIM'
+   [[[1,1],[1,1],0]]
+   token: 
+   s2, s2
+   mod, noun, 1
+   concept:
+   C0230168, Abdomen, Abdominal Cavity, -861
+   1, 0, 0
+   blor
+   'AOD','CHV','FMA','MSH','MTH','NCI','NCI_CDISC','NCI_NCI-GLOSS','NCI_NICHD','SNM','SNMI','SNOMEDCT_US','UWDA'
+   [[[2,2],[1,1],0]]
+   token: 
+   abdomen, abdomen
+   head, noun, 1
+
+
+   Phrase:
+   soft
+   tokens:*soft*
+   concepts:*Soft*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0205358, Soft, Soft, -1000
+   1, 0, 0
+   qlco
+   'CHV','LNC','MTH','NCI','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   soft, soft
+   head, adj, 1
+
+
+   Phrase:
+   Assessment/Plan
+   tokens:*Assessment*/*Plan*
+   concepts:*Assessment*Plan*
+   mappings:
+   mapping:
+   -888
+   concept:
+   C1516048, Assessment, Assessed, -694
+   0, 0, 0
+   acty
+   'MTH','NCI','NCI_NCI-GLOSS'
+   [[[1,1],[1,1],0]]
+   token: 
+   Assessment, assessment
+   mod, noun, 1
+   concept:
+   C1301732, Plan, Planned, -861
+   1, 0, 0
+   ftcn
+   'CHV','LNC','MTH','NCI','SNOMEDCT_US'
+   [[[2,2],[1,1],0]]
+   token: 
+   /, 
+   punc, , 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   Unstable angina - History
+   tokens:*Unstable angina*-*History*
+   concepts:*Angina, Unstable',*History*
+   mappings:
+   mapping:
+   -901
+   concept:
+   C0002965, Angina, Unstable',,  Unstable', -734
+   0, 0, 0
+   dsyn
+   'CHV','DXP','ICD10CM','ICD9CM','MSH','MTH','MTHICD9','NCI','NCI_CDISC','NDFRT','NLMSubSyn','QMR','SNM','SNMI','SNOMEDCT_US'
+   [[[1,2],[1,2],0]]
+   token: 
+   Unstable angina, unstable angina
+   mod, noun, 2
+   concept:
+   C2004062, History, History of previous events, -827
+   1, 0, 0
+   fndg
+   'CHV','LCH','MTH','NCI'
+   [[[3,3],[1,1],0]]
+   token: 
+   -, 
+   punc, , 1
+
+
+   Phrase:
+   suggested
+   tokens:*suggested*
+   concepts:*Suggest*
+   mappings:
+   mapping:
+   -966
+   concept:
+   C1705535, Suggest, suggestion, -966
+   1, 0, 0
+   idcn
+   'MTH','NCI'
+   [[[1,1],[1,1],1]]
+   token: 
+   suggested, suggested
+   verb, verb, 1
+
+
+   Phrase:
+   accelerated angina with possible studdering nature.
+   tokens:*accelerated*angina*with*possible*studdering*nature*.*
+   concepts:*Accelerated angina*Possible*Nature*
+   mappings:
+   mapping:
+   -712
+   concept:
+   C2882087, Accelerated angina, Accelerated angina, -790
+   1, 0, 0
+   dsyn
+   'ICD10CM','NLMSubSyn'
+   [[[1,1],[1,1],0],[[2,2],[2,2],0]]
+   token: 
+   accelerated, accelerated
+   mod, adj, 1
+   token: 
+   angina, angina
+   head, noun, 1
+   concept:
+   C1705910, Possible, Possibly Related to Intervention, -586
+   0, 0, 0
+   qlco
+   'MTH','NCI'
+   [[[4,4],[1,1],0]]
+   token: 
+   possible, possible
+   mod, adj, 1
+   concept:
+   C1262865, Nature, Natures, -586
+   0, 0, 0
+   ftcn
+   'CHV','MTH','SNOMEDCT_US'
+   [[[6,6],[1,1],0]]
+   token: 
+   nature, nature
+   mod, noun, 1
+
+
+   Phrase:
+   Could
+   tokens:*Could*
+   concepts:*
+   mappings:
+
+   Phrase:
+   be
+   tokens:*be*
+   concepts:*
+   mappings:
+
+   Phrase:
+   GERD,
+   tokens:*GERD*' '*
+   concepts:*GERD*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0017168, GERD, Gastroesophageal reflux disease, -1000
+   1, 0, 0
+   dsyn
+   'CHV','COSTAR','CSP','CST','DXP','HPO','ICD10CM','ICD9CM','LCH','LCH_NW','LNC','MEDLINEPLUS','MSH','MTH','MTHICD9','MTHMST','NCI','NCI_CTCAE','NCI_NCI-GLOSS','NCI_NICHD','NDFRT','NLMSubSyn','OMIM','SNM','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   GERD, gerd
+   head, noun, 1
+
+
+   Phrase:
+   but
+   tokens:*but*
+   concepts:*
+   mappings:
+
+   Phrase:
+   releived with nitro.
+   tokens:*releived*with*nitro*.*
+   concepts:*
+   mappings:
+
+   Phrase:
+   Need to r/o cardiac causes
+   tokens:*Need*to*r /*o*cardiac*causes*
+   concepts:*Need*R-*CARDIAC causes*
+   mappings:
+   mapping:
+   -712
+   concept:
+   C0027552, Need, Needs, -753
+   1, 0, 0
+   qlco
+   'CHV','MSH','MTH','NCI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   Need, need
+   head, noun, 1
+   concept:
+   C0205090, R-, Right, -586
+   0, 0, 0
+   spco
+   'CHV','FMA','HL7V2.5','LNC','MTH','NCI','NCI_CDISC','SNMI','SNOMEDCT_US','UWDA'
+   [[[3,3],[1,1],0]]
+   token: 
+   r /, r
+   mod, adj, 1
+   concept:
+   C0741922, CARDIAC causes, CARDIAC causes, -623
+   0, 0, 0
+   dsyn
+   'NLMSubSyn'
+   [[[5,5],[1,1],0],[[6,6],[2,2],0]]
+   token: 
+   cardiac, cardiac
+   mod, adj, 1
+   token: 
+   causes, causes
+   mod, noun, 1
+
+
+   Phrase:
+   and
+   tokens:*and*
+   concepts:*
+   mappings:
+
+   Phrase:
+   risk strat.
+   tokens:*risk*strat*.*
+   concepts:*Risk*
+   mappings:
+   mapping:
+   -694
+   concept:
+   C0035647, Risk, Risk, -694
+   0, 0, 0
+   idcn
+   'AOD','CHV','HL7V3.0','LCH','LCH_NW','LNC','MSH','NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   risk, risk
+   mod, noun, 1
+
+
+   Phrase:
+   Plan
+   tokens:*Plan*
+   concepts:*Plan*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1301732, Plan, Planned, -1000
+   1, 0, 0
+   ftcn
+   'CHV','LNC','MTH','NCI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   Plan, plan
+   head, noun, 1
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   To ED - cycle enxymes
+   tokens:*To*ED*-*cycle*enxymes*
+   concepts:*ED*Cycle*
+   mappings:
+   mapping:
+   -623
+   concept:
+   C3538926, ED, Endocrine System Findings Domain, -660
+   0, 0, 0
+   idcn
+   'MTH','NCI','NCI_CDISC','NLMSubSyn'
+   [[[1,1],[1,1],0]]
+   token: 
+   To, to
+   prep, prep, 1
+   concept:
+   C1511572, Cycle, event cycle, -660
+   0, 0, 0
+   tmco
+   'LCH_NW','MTH','NCI','NCI_UCUM'
+   [[[2,2],[1,1],0]]
+   token: 
+   ED, ed
+   mod, noun, 1
+
+
+   Phrase:
+   and
+   tokens:*and*
+   concepts:*
+   mappings:
+
+   Phrase:
+   EKGs
+   tokens:*EKGs*
+   concepts:*ekgs*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0013798, ekgs, Electrocardiogram, -1000
+   1, 0, 0
+   fndg
+   'CHV','MSH','MTH','SNM','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   EKGs, ekgs
+   head, noun, 1
+
+
+   Phrase:
+   and
+   tokens:*and*
+   concepts:*
+   mappings:
+
+   Phrase:
+   plan MIBI
+   tokens:*plan*MIBI*
+   concepts:*Plan*
+   mappings:
+   mapping:
+   -694
+   concept:
+   C1301732, Plan, Planned, -694
+   0, 0, 0
+   ftcn
+   'CHV','LNC','MTH','NCI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   plan, plan
+   mod, noun, 1
+
+
+   Phrase:
+   Follow-up
+   tokens:*Follow - up*
+   concepts:*Follow Up*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1522577, Follow Up, follow-up, -1000
+   1, 0, 0
+   hlca
+   'MTH','NCI','NCI_CDISC','NCI_NCI-GLOSS'
+   [[[1,1],[1,1],0],[[2,2],[2,2],0]]
+   token: 
+   Follow - up, follow-up
+   head, adj, 2
+   token: 
+   Follow - up, follow-up
+   head, adj, 2
+
+
+   Phrase:
+   :
+   tokens:*:*
+   concepts:*
+   mappings:
+
+   Phrase:
+   as
+   tokens:*as*
+   concepts:*
+   mappings:
+
+   Phrase:
+   above
+   tokens:*above*
+   concepts:*Above*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1282910, Above, Upper, -1000
+   1, 0, 0
+   spco
+   'CHV','FMA','HL7V2.5','LNC','MTH','NCI','NCI_CDISC','SNMI','SNOMEDCT_US','UWDA'
+   [[[1,1],[1,1],0]]
+   token: 
+   above, above
+   head, adj, 1
+
+
+   Phrase:
+   _____________________________________________ Herman N.
+   tokens:*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*Herman*N*.*
+   concepts:*
+   mappings:
+
+   Phrase:
+   Weller,
+   tokens:*Weller*' '*
+   concepts:*
+   mappings:
+
+   Phrase:
+   M.D.
+   tokens:*M . D*.*
+   concepts:*M.D.*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1512018, M.D., Doctor of Medicine, -1000
+   1, 0, 0
+   inpr
+   'HL7V2.5','MTH','NCI'
+   [[[1,1],[1,1],0],[[2,2],[2,2],0]]
+   token: 
+   M . D, m d
+   head, noun, 2
+   token: 
+   M . D, m d
+   head, noun, 2
+
+
+   Phrase:
+   ]
+   tokens:*'*
+   concepts:*
+   mappings:
+
+   Phrase:
+   ]
+   tokens:*'*
+   concepts:*
+   mappings:
+
+   Phrase:
+   >
+   tokens:*>*
+   concepts:*
+   mappings:
+
+   Phrase:
+   </TEXT
+   tokens:*<*/*TEXT*
+   concepts:*Text*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1705606, Text, Text Line, -1000
+   1, 0, 0
+   inpr
+   'MTH','NCI'
+   [[[1,1],[1,1],0]]
+   token: 
+   <, 
+   punc, , 1
+
+
+   Phrase:
+   >
+   tokens:*>*
+   concepts:*
+   mappings:
+
+   Phrase:
+   <TAGS
+   tokens:*<*TAGS*
+   concepts:*tags*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1139855, tags, Tags (device), -1000
+   1, 0, 0
+   medd
+   'CHV','MTH'
+   [[[1,1],[1,1],0]]
+   token: 
+   <, 
+   punc, , 1
+
+
+   Phrase:
+   >
+   tokens:*>*
+   concepts:*
+   mappings:
+
+   Phrase:
+   </TAGS
+   tokens:*<*/*TAGS*
+   concepts:*tags*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1139855, tags, Tags (device), -1000
+   1, 0, 0
+   medd
+   'CHV','MTH'
+   [[[1,1],[1,1],0]]
+   token: 
+   <, 
+   punc, , 1
+
+
+   Phrase:
+   >
+   tokens:*>*
+   concepts:*
+   mappings:
+
+   Phrase:
+   </root
+   tokens:*<*/*root*
+   concepts:*Root*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C1318154, Root, Root body part, -1000
+   1, 0, 0
+   bpoc
+   'CHV','LNC','MTH'
+   [[[1,1],[1,1],0]]
+   token: 
+   <, 
+   punc, , 1
+
+
+   Phrase:
+   >
+   tokens:*>*
+   concepts:*
+   mappings:
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+

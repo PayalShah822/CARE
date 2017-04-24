@@ -7,7 +7,14 @@ use XML::Twig;
 
 system "./bin/skrmedpostctl start";
 system "./bin/wsdserverctl start";
-chdir("routes/perl/xml");
+chdir("routes/perl");
+if (!-e "InclExcl"){
+	system "mkdir InclExcl";
+}
+if (!-e "xml"){
+	system "mkdir xml";
+}
+chdir("xml");
 system "ls > files.txt";
 if (!-e "outputs"){
 	system "mkdir outputs";
