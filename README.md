@@ -89,8 +89,6 @@ This next step is optional depending on if you changed the port above. Navigate 
 private url = 'http://localhost:4000/api/records'; <<<edit the port number if necessary
 ```
 
-Next, you should navigate to the perl directory under /server. Here you need to create two new folders. The first of which will be named "InclExcl". This will be where the inclusion and exclusion criteria will be stored and read from. The second of these folders is the "xml" folder. This will be where you have to manually store your raw data directories from which the records will be read and interpreted. Once on the webpage, you can head over to the manager tab and click the "Import Local Files" button which will initiated the processing of all the local records in the "xml" directory
-
 You should now be set and ready to run the system. 
 
 ## Running the System
@@ -113,7 +111,7 @@ At this point, the system should be up and running and ready to use. Navigate to
 
 ## Using the System
 
-The web interface is divided into four pages: input, about, records, and manager. 
+The web interface is divided into four pages: input, about, records, and manager. To place local records, navigate to /server/routes/perl/xml. You can place your records in this directory. These records will be loaded automatically once you access the app in your browser.
 
 ### Input
 
