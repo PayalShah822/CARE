@@ -28,7 +28,6 @@ for root, dirnames, files in os.walk('./routes/perl/xml'):
                 except AttributeError:
                     pass
             try:
-                print(elem.text)
                 collection.insert(
                     {
                         "name": dbName,

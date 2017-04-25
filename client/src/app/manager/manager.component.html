@@ -37,12 +37,38 @@
           </div>
         </form>
       </div>
-      <div class="row bottom">
+  <div class="row bottom">
 	<div class="middle" align="center" style="padding-top: 3px" >
-	<button type="button" class="blue" (click)="updateRecords()">Import Local Records</button>
-      	</div>
+	<button type="button" class="blue" (click)="updateRecords()">Update Records</button>
+  </div>
+  <div class="middle" align="center">
+    <span style="visibility: hidden; position: absolute; overflow: hidden; width: 0px; height:0px;border:none;margin:0; padding:0">
+        <input type="file" #fileInput ng2FileSelect [uploader]="uploader" multiple />
+    </span>
+  </div>
 	</div>
-    </div>
+  </div>
+  <h1>Upload Records</h1>
+    <p>Upload local files here. You can choose attach upto 10 files at a time!</p>
+  <div class="table" align= "center" style="padding-top: 10px">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                </tr>
+                </thead>
+                <tr *ngFor="let item of uploader.queue" align="center">
+                    <td>{{ item?.file?.name }}</td>
+                </tr>
+      <button (click)="fileInput.click()">Choose Files</button>
+    <div class="middle" align="center" style="padding-top: 3px">
+  <button type="button" class="blue"
+      (click)="uploader.uploadAll()" 
+      [disabled]="!uploader.getNotUploadedItems().length">
+      Upload All Files
+  </button>
+  </div>
+  </div>
+  
     <div class="form-container">
       <form [formGroup]="recordForm" (ngSubmit)="submit(recordForm.value)" class="recordForm">
         <div class="row">

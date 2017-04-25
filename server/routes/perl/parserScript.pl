@@ -41,7 +41,7 @@ while (my $line = <$fh>) {
 		$output = $line;
 		$output =~ s/\.xml/\-output\.xml/;
 		$output = "outputs/" . $output;
-		if(! -e $output) {
+		if(! -e $output || !-s $output) {
 			system "metamap -q -y $line $output";
 		}
 	}

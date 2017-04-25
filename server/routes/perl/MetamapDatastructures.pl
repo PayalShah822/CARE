@@ -27,7 +27,7 @@ while (my $inFileName = <$fh>) {
 		my $outFileName = $inFileName;
 		$outFileName =~ s/output\.xml/DSoutput\.xml/;
 		$outFileName = "datastructures_outputs/" . $outFileName;
-		if(!-e $outFileName){
+		if(!-e $outFileName || !-s $outFileName){
 			open (OUT, ">", $outFileName) ||  die "Could not open output file";
 
 			my $input = '';

@@ -1,9 +1,33 @@
 var exec = require('child_process').exec;
 var path = require('path');
+var fs = require('fs');
 const express = require('express');
-var sleep = require('sleep');
+var multer = require('multer');
+var DIR = './routes/perl/xml';
 const router = express.Router();
 const Record = require('../models/record');
+
+var storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, DIR)
+  },
+  filename: function (req, file, cb) {
+    console.log(file.mimetype);
+    cb(null, file.originalname) //Appending extension
+  }
+});
+
+var upload = multer({storage: storage}).array('file',10);
+
+router.post('/upload', function(req, res, next) {
+  upload(req, res, function(err) {
+    if (err){
+      console.log(err.toString());
+      return res.end("Error uploading file");
+    }
+    res.end("File uploaded!");
+  });
+});
 
 
 router.get('/update', function(req, res, next) {
@@ -102,8 +126,21 @@ router.put('/records/:name', function(req, res, next) {
 });
 
 router.delete('/records/:name', function(req, res, next) {
-    Record.findOneAndRemove({name: req.params.name}).then(function(record) {
-        res.send(record);
+    console.log(req.params.name);
+    var directory = DIR + "/";
+    var file = directory + req.params.name + ".xml";
+    fs.stat(file, function (err, stats) {
+    console.log(stats);//here we got all information of file in stats variable
+      if (err) {
+        console.log(err);
+      }
+      fs.unlink(file,function(err){
+        if(err) console.log(err);
+        console.log('file deleted successfully');
+        Record.findOneAndRemove({name: req.params.name}).then(function(record) {
+          res.send(record);
+        });
+      });  
     });
 });
 

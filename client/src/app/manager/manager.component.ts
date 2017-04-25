@@ -1,10 +1,11 @@
 import { Component, OnInit, ChangeDetectorRef, Pipe } from '@angular/core';
 import { ManageRecordsService, Record, EllipsisPipe } from '../services/manage-records.service';
 import { FormsModule, FormGroup, FormBuilder, Validators, ReactiveFormsModule } from '@angular/forms';
+import { FileUploader } from 'ng2-file-upload/ng2-file-upload';
 /*have to delete and edit each record individually -> in future you could fill each out or select multiple and
   then delete or edit. Also, right now you can't cancel once you start editing. Do something for that. Also need
   to fix that if you click edit for multiple rows, changes all the values. */
-
+const uploadURL = "http://localhost:4000/api/upload";
 
 @Component({
   selector: 'app-manager',
@@ -21,6 +22,7 @@ export class ManagerComponent implements OnInit {
   formerName: string;
   formerContent: string;
   formerGrade: number;
+  public uploader:FileUploader = new FileUploader({url:uploadURL});
 
   constructor(private manageRecordsService: ManageRecordsService, private fb: FormBuilder, private cdr: ChangeDetectorRef) {
     this.recordForm = fb.group({
@@ -47,6 +49,12 @@ export class ManagerComponent implements OnInit {
 
   ngOnInit() {
     this.getRecords();
+    this.uploader.onAfterAddingFile = (file)=> {
+      file.withCredentials = false; 
+    };
+    this.uploader.onCompleteAll = () => {
+       this.updateRecords();
+    };
   }
 
   getRecords() {
@@ -99,7 +107,7 @@ export class ManagerComponent implements OnInit {
 
   delete(record: Record) {
     this.manageRecordsService.deleteRecord(record).subscribe(data => {
-      alert('The record has been deleted');
+      console.log('The record has been deleted');
       location.reload();
     })
   }

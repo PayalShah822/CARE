@@ -10,6 +10,7 @@ import { InputComponent } from './input/input.component';
 import { ManageRecordsService, EllipsisPipe } from './services/manage-records.service';
 import { ManagerComponent } from './manager/manager.component';
 import { AppRouting } from './app.routing';
+import { FileSelectDirective } from 'ng2-file-upload';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AppRouting } from './app.routing';
     RecordsComponent,
     InputComponent,
     ManagerComponent,
-    EllipsisPipe
+    EllipsisPipe,
+    FileSelectDirective
   ],
   imports: [
     BrowserModule,
