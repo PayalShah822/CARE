@@ -45,11 +45,9 @@ router.get('/inclexcl', (req, res) => {
     });
     py.stdin.write(JSON.stringify(inclu +";"+ exclu));
     py.stdin.end();
-  py.stdout.on('data', function(data){
-    dataPrint = data.replace(/\r?\n|\r/g, "");
-        if(dataPrint == "done") {
-      var pt = path.resolve(path.join(__dirname, "/perl/InclExclParser.pl"));
-      var prun = exec("perl " + pt, function(err,stdout,stderr){
+  py.stdout.on('end', function(data){
+      var pt = path.resolve(path.join(__dirname, "/perl/inclExclParser.py"));
+      var prun = exec("python " + pt, function(err,stdout,stderr){
       });
       prun.stdout.on('end', function(data){
         var score = path.resolve(path.join(__dirname, "/perl/scorer.pl"));
@@ -64,16 +62,21 @@ router.get('/inclexcl', (req, res) => {
           updaterun.stderr.on('data', function(data){
             console.log(data.toString());
           });
+          updaterun.stdout.on("data", function(data) {
+            console.log(data.toString());
+          })
           
         });
         scorerun.stderr.on("data", function(data){
           console.log(data.toString());
         });
       });
+      prun.stdout.on("data", function(data){
+        console.log(data.toString());
+      })
       prun.stderr.on('data', function(data){
         console.log(data.toString());
       });
-    }
     });
 });
 

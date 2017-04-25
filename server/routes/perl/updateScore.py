@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-import xml.etree.ElementTree as ET
 import os, sys
 import pymongo
 
@@ -43,10 +42,9 @@ def updateScore(update, collection):
 
 def main():
 	update = {}
-	excl = getSyn("./routes/perl/InclExcl/outputs/excl.txt")
-	incl = getSyn("./routes/perl/InclExcl/outputs/incl.txt")
+	excl = getSyn("./routes/perl/InclExcl/excl.txt")
+	incl = getSyn("./routes/perl/InclExcl/incl.txt")
 	getAllScores(incl,excl,update)
-	print(update)
 	client = pymongo.MongoClient('localhost', 27017)
 	db = client.records
 	collection = db.records

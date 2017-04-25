@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use MetaMap::DataStructures;
 
-chdir("routes/perl/InclExcl/outputs");
+chdir("routes/perl/InclExcl");
 my %params = ();
 my $datastructures = MetaMap::DataStructures->new(\%params); 
 open(IN, "<", "inclusion-output.txt") or die "Can't open inclusion file: $!";
@@ -43,11 +43,11 @@ close(IN);
 close(OUT);
 
 ##########################################################################################
-
+my $new_datastructures = MetaMap::DataStructures->new(\%params); 
 open (IN, "<", "exclusion-output.txt") or die "Can't open exclusion file: $!";
 
-$outFileName = "ExclSyn.txt";
-open (OUT, ">", $outFileName) ||  die "Could not open output file for exclusion";
+my $exFileName = "ExclSyn.txt";
+open (OUT, ">", $exFileName) ||  die "Could not open output file for exclusion";
 
 $input = '';
 print STDERR "Reading Input\n";
@@ -57,24 +57,25 @@ while(<IN>) {
 	$input .= $_;
 	$input =~ s/00000000\.tx\./00000000\.ti\./gi;
 	if ($_ eq "\'EOU\'.") {
-		$datastructures->createFromText($input);
+		$new_datastructures->createFromText($input);
 	}
 }	
 
-$citations = $datastructures->getCitations();
+my $new_citations = $new_datastructures->getCitations();
 
-foreach my $key (keys %{$citations}) {
-	my $citation = ${$citations}{$key};
-	my $utterancesRef = $citation->getOrderedUtterances();
+foreach my $key (keys %{$new_citations}) {
+	my $new_citation = ${$new_citations}{$key};
+	my $new_utterancesRef = $new_citation->getOrderedUtterances();
 	print OUT  "\n";
 	print OUT  "\nUtterance toStrings\n";
-	$utterancesRef = $citation->getOrderedUtterances();
+	$new_utterancesRef = $new_citation->getOrderedUtterances();
 	
-	foreach my $utterance(@{$utterancesRef}) {
-		print OUT  $utterance->toString();
+	foreach my $new_utterance(@{$new_utterancesRef}) {
+		print STDERR $new_utterance;
+		print OUT  $new_utterance->toString();
 	}
 
-	print STDERR "DONE!, results written to $outFileName\n";
+	print STDERR "DONE!, results written to $exFileName\n";
 }
 close(IN);
 close(OUT);
