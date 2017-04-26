@@ -1,0 +1,9 @@
+/home/zubin/public_mm/bin/SKRrun.16 /home/zubin/public_mm/bin/metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y
+args('metamap16.BINARY.Linux --lexicon db -Z 2015AB -q -y',[lexicon-db,mm_data_year-'2015AB',machine_output-[],word_sense_disambiguation-[],infile-user_input,outfile-user_output]).
+aas([]).
+neg_list([]).
+utterance('00000000.tx.1',"stent",0/5,[]).
+phrase(stent,[head([lexmatch([stent]),inputmatch([stent]),tag(noun),tokens([stent])])],0/5,[]).
+candidates(2,0,0,2,[]).
+mappings([map(-1000,[ev(-1000,'C0038257','Stent','Stent, device',[stent],[medd],[[[1,1],[1,1],0]],yes,no,['CHV','CSP','MSH','MTH','SNMI','SNOMEDCT_US'],[0/5],0,0)])]).
+'EOU'.

@@ -40,23 +40,6 @@ router.get('/update', function(req, res, next) {
     py.stderr.on("data", function(data) {
         console.log(data.toString());
     });
-  var parse = path.resolve(path.join(__dirname, "perl/parserScript.pl"))
-  var parseRun = exec("perl " + parse, function(err,stdout,stderr){
-  });
-  parseRun.stdout.on("end", function(data) {
-        var meta = path.resolve(path.join(__dirname, "perl/MetamapDatastructures.pl"))
-        var metaRun = exec("perl " + meta, function(err,stdout,stderr){
-        });
-        metaRun.stdout.on("data", function(data) {
-          console.log(data.toString());
-        });
-        metaRun.stderr.on("data", function(data) {
-          console.log(data.toString());
-        });
-    });
-    parseRun.stderr.on("data", function(data) {
-        console.log(data.toString());
-    });
 	res.send({"work":"Success"});
 
 });

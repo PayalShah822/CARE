@@ -1,0 +1,24 @@
+
+
+Utterance toStrings
+utterance:
+   00000000.ti.1
+   stent
+   Phrase:
+   stent
+   tokens:*stent*
+   concepts:*Stent',*
+   mappings:
+   mapping:
+   -1000
+   concept:
+   C0038257, Stent',,  device', -1000
+   1, 0, 0
+   medd
+   'CHV','CSP','MSH','MTH','SNMI','SNOMEDCT_US'
+   [[[1,1],[1,1],0]]
+   token: 
+   stent, stent
+   head, noun, 1
+
+
