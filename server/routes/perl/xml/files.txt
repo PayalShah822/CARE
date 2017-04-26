@@ -1,3 +1,0 @@
-220-01.xml
-files.txt
-outputs

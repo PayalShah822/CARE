@@ -4,6 +4,7 @@ var fs = require('fs');
 const express = require('express');
 var multer = require('multer');
 var DIR = './routes/perl/xml';
+var DIR_IE = "./routes/perl/InclExcl"
 const router = express.Router();
 const Record = require('../models/record');
 
@@ -20,6 +21,9 @@ var storage = multer.diskStorage({
 var upload = multer({storage: storage}).array('file',50);
 
 router.post('/upload', function(req, res, next) {
+  if (!fs.existsSync(DIR)){
+    fs.mkdirSync(DIR);
+    }
   upload(req, res, function(err) {
     if (err){
       console.log(err.toString());
@@ -45,6 +49,9 @@ router.get('/update', function(req, res, next) {
 });
 
 router.get('/inclexcl', (req, res) => {
+  if (!fs.existsSync(DIR_IE)){
+    fs.mkdirSync(DIR_IE);
+    }
   var inclu = req.query['incl'];
   var exclu = req.query['excl'];
   var pa = path.resolve(path.join(__dirname, "/perl/inclexcl.py"));
